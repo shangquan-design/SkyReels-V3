@@ -1,0 +1,10 @@
+index: 33
+sample_id: 0033_influencer_09_tati_westbrook_frame1
+image: /workspace/100_benchmark_v2/influencer/influencer_09_tati_westbrook_frame1.jpg
+audio: /workspace/100_benchmark_v2/influencer/influencer_09_tati_westbrook.wav
+seed: 201
+bucket: 720P
+rank: 1
+status: failed
+error: None
+prompt: A woman with brown hair in a ponytail, blue-green eyes, minimal makeup, gold hoop earrings and layered necklaces wearing a white top is shown in close-up. She is in a warm-toned home interior with candles, beauty products, and blurred decorations visible in the background. She speaks directly to camera while reviewing a product in an honest, critical manner. This is a beauty product review scene.

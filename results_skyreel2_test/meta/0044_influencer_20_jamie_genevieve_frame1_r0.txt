@@ -1,0 +1,9 @@
+index: 44
+sample_id: 0044_influencer_20_jamie_genevieve_frame1
+image: /workspace/100_benchmark_v2/influencer/influencer_20_jamie_genevieve_frame1.jpg
+audio: /workspace/100_benchmark_v2/influencer/influencer_20_jamie_genevieve.wav
+seed: 201
+bucket: 720P
+rank: 0
+saved_video: /workspace/SkyReels-V3/results_skyreel2_test/final_with_audio/0044_influencer_20_jamie_genevieve_frame1_seed201_2026-02-04_15-23-07_r0.mp4
+prompt: A young woman with shoulder-length dark brown hair, green eyes, nose ring and lip ring, multiple gold hoop earrings and layered necklaces wearing a white top is shown in close-up. She is against a neutral beige backdrop in a studio setting. She speaks to camera while gesturing with one hand in an energetic, enthusiastic manner. This is a beauty glam makeup tutorial scene.

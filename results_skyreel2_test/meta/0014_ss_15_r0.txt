@@ -1,0 +1,9 @@
+index: 14
+sample_id: 0014_ss_15
+image: /workspace/100_benchmark_v2/fullbody/ss_15.png
+audio: /workspace/100_benchmark_v2/fullbody/ss_15.mp3
+seed: 201
+bucket: 720P
+rank: 0
+saved_video: /workspace/SkyReels-V3/results_skyreel2_test/final_with_audio/0014_ss_15_seed201_2026-02-04_12-22-43_r0.mp4
+prompt: Subject: A classroom teacher/instructor in a blue polo, holding a clipboard and pen, speaking directly to camera during an “English Class” roll call.\nComposition: Vertical 9:16, mostly medium-to-wide shot (sometimes closer), eye-level framing with the whiteboard filling the background.\nAction: Calling out student names and prompting them to respond “here,” gesturing with the pen while reading from the clipboard.\nLocation: A simple classroom in front of a whiteboard with “English Class” written on it (clean, minimal school setting).\nStyle: Natural smartphone realism with a light comedic/educational skit vibe; bold on-screen captions.\nCamera & Lighting: Static phone camera (wide-ish lens), bright even indoor overhead lighting, soft shadows, clear focus on the subject.

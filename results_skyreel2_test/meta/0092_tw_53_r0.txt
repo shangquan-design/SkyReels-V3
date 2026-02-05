@@ -1,0 +1,9 @@
+index: 92
+sample_id: 0092_tw_53
+image: /workspace/100_benchmark_v2/synthesised/tw_53.png
+audio: /workspace/100_benchmark_v2/synthesised/tw_53.mp3
+seed: 201
+bucket: 720P
+rank: 0
+saved_video: /workspace/SkyReels-V3/results_skyreel2_test/final_with_audio/0092_tw_53_seed201_2026-02-04_22-01-59_r0.mp4
+prompt: Plague Doctor A plague doctor in a waxed leather cloak and iconic beaked mask stands in a narrow medieval street, textures of stitched leather and aged metal highly detailed. Medium-to-wide cinematic shot, slightly low angle. The figure is paused mid-step, one hand lifting a lantern as fog curls around boots, implying dread and urgency. The environment is richly detailed—cobblestones, shuttered windows, damp walls, drifting smoke. Cinematic realism with dramatic contrast and immersive atmosphere. Shot on a 35mm cinema lens with strong directional key light from lantern fire, soft fill shadows, and rim lighting catching fog and rain mist.  

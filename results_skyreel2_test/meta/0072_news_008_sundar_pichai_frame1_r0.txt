@@ -1,0 +1,9 @@
+index: 72
+sample_id: 0072_news_008_sundar_pichai_frame1
+image: /workspace/100_benchmark_v2/news_official/news_008_sundar_pichai_frame1.jpg
+audio: /workspace/100_benchmark_v2/news_official/news_008_sundar_pichai.wav
+seed: 201
+bucket: 720P
+rank: 0
+saved_video: /workspace/SkyReels-V3/results_skyreel2_test/final_with_audio/0072_news_008_sundar_pichai_frame1_seed201_2026-02-04_18-37-56_r0.mp4
+prompt: A man with dark hair and beard wearing glasses and a dark zip-up jacket stands on a modern stage. The background shows a sleek gray interior with teal accent lighting and glass panels. He stands with hands clasped in front, looking focused. He is delivering a tech keynote in a calm, professional manner. This is a Google I/O developer conference keynote scene.

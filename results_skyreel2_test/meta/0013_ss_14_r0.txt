@@ -1,0 +1,9 @@
+index: 13
+sample_id: 0013_ss_14
+image: /workspace/100_benchmark_v2/fullbody/ss_14.png
+audio: /workspace/100_benchmark_v2/fullbody/ss_14.mp3
+seed: 201
+bucket: 720P
+rank: 0
+saved_video: /workspace/SkyReels-V3/results_skyreel2_test/final_with_audio/0013_ss_14_seed201_2026-02-04_12-15-32_r0.mp4
+prompt: Subject: A fit, energetic female fitness/health coach speaking directly to camera, wearing a white sports bra and bright pink shorts (wireless mic clipped on), friendly and expressive.\nComposition: Vertical 9:16 medium-to-medium-wide shot (waist to head / upper legs), centered framing, mostly eye-level.\nAction: Giving quick weight-loss tips, talking with hand gestures, then lifting a large water jug and taking a sip to demonstrate “drink a gallon / 4L of water.”\nLocation: Indoor home/studio corner with a light wood/brick-style wall backdrop and a chair off to the side.\nStyle: Casual social-media “fitness advice” video with simple on-screen text overlays.\nCamera & Lighting: Smartphone camera look, static shot, even soft front lighting with minimal shadows, clear background detail (little to no depth-of-field blur).

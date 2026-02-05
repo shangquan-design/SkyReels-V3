@@ -1,0 +1,10 @@
+index: 4
+sample_id: 0004_ss_05
+image: /workspace/100_benchmark_v2/fullbody/ss_05.png
+audio: /workspace/100_benchmark_v2/fullbody/ss_05.mp3
+seed: 201
+bucket: 720P
+rank: 4
+status: failed
+error: None
+prompt: Subject: A friendly fitness instructor in a white athletic outfit, full-body on camera, speaking directly to the viewer during a “walk at home” workout segment.\nComposition: Vertical 9:16 full-body shot, eye-level, centered framing with plenty of clean negative space and bold on-screen text overlays.\nAction: Talking while demonstrating a gentle in-place walking step, small hand gestures to cue the audience.\nLocation: Minimal indoor home-studio/living-room setup with a wall-mounted screen (blue sky/window graphic) and a sleek electric fireplace below.\nStyle: Clean, upbeat social-media fitness tutorial vibe—simple set design, readable typography, instructional tone.\nCamera & Lighting: Smartphone-style wide shot (~24–28mm equivalent), static/tripod stability; bright high-key lighting with soft shadows and even exposure.

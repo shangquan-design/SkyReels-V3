@@ -1,0 +1,9 @@
+index: 96
+sample_id: 0096_wenbo_97
+image: /workspace/100_benchmark_v2/synthesised/wenbo_97.png
+audio: /workspace/100_benchmark_v2/synthesised/wenbo_97.mp3
+seed: 201
+bucket: 720P
+rank: 0
+saved_video: /workspace/SkyReels-V3/results_skyreel2_test/final_with_audio/0096_wenbo_97_seed201_2026-02-04_22-35-12_r0.mp4
+prompt: A renegade orbital engineer woman, highly detailed and expressive, floats within the fractured interior of a damaged space station, her realistic facial features, scuffed pressure suit, exposed cables, and glowing interface elements revealing a life shaped by survival and ingenuity in orbit. The scene is captured in a medium to wide cinematic shot from a slightly low angle, enhancing her presence against the vast mechanical wreckage and star-filled void beyond. She pauses mid-moment, one hand reaching out to a sparking solar panel while micro-movements of her body and tethered gear suggest controlled zero-gravity motion, creating subtle but constant narrative tension. The setting is a richly detailed orbital environment with broken trusses, drifting debris, glowing instrument panels, and distant stars visible through torn hull sections, grounding the character in a perilous, high-stakes future. The visual style is cinematic realism with dramatic contrast, high detail, and an immersive, high-tension atmosphere that balances isolation with resilience. The clip is shot using a professional cinema lens equivalent to 35mm, with a strong directional key light from a distant sun or station floodlight illuminating her suit, soft fill shadows preserving texture, and atmospheric rim lighting tracing her silhouette against the darkness of space. The audio features a sparse sci-fi soundscape—low electrical hums, faint suit servos, subtle radio static, distant metallic creaks, and the muffled resonance of internal station vibrations—mixed to convey danger, focus, and controlled urgency, with no dialogue, narration, captions, or subtitles.

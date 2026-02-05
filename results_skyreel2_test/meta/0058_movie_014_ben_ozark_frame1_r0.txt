@@ -1,0 +1,9 @@
+index: 58
+sample_id: 0058_movie_014_ben_ozark_frame1
+image: /workspace/100_benchmark_v2/movie/movie_014_ben_ozark_frame1.jpg
+audio: /workspace/100_benchmark_v2/movie/movie_014_ben_ozark.wav
+seed: 201
+bucket: 720P
+rank: 0
+saved_video: /workspace/SkyReels-V3/results_skyreel2_test/final_with_audio/0058_movie_014_ben_ozark_frame1_seed201_2026-02-04_16-44-11_r0.mp4
+prompt: A man with short hair and full beard wearing a blue denim shirt is shown in close-up inside a car. The background shows blurred green trees visible through the windows with teal color grading. He has a tearful emotional expression and is speaking about mental health struggles in a raw, vulnerable, desperate manner. This is an intense emotional breakdown confession scene.

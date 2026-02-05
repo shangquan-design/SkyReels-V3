@@ -1,0 +1,9 @@
+index: 57
+sample_id: 0057_movie_013_frances_macbeth_frame1
+image: /workspace/100_benchmark_v2/movie/movie_013_frances_macbeth_frame1.jpg
+audio: /workspace/100_benchmark_v2/movie/movie_013_frances_macbeth.wav
+seed: 201
+bucket: 720P
+rank: 0
+saved_video: /workspace/SkyReels-V3/results_skyreel2_test/final_with_audio/0057_movie_013_frances_macbeth_frame1_seed201_2026-02-04_16-38-22_r0.mp4
+prompt: A middle-aged woman with short wavy hair pinned back is shown in close-up against a foggy, ethereal gray backdrop. The image is in black and white cinematography with soft diffused lighting and black bars on the sides in letterbox format. She wears a simple dark dress with a drop earring visible. Her gaze is intense as she speaks dramatically, invoking dark forces. This is a theatrical Shakespearean soliloquy scene.

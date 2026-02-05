@@ -1,0 +1,9 @@
+index: 81
+sample_id: 0081_ap_02
+image: /workspace/100_benchmark_v2/synthesised/ap_02.png
+audio: /workspace/100_benchmark_v2/synthesised/ap_02.mp3
+seed: 201
+bucket: 720P
+rank: 0
+saved_video: /workspace/SkyReels-V3/results_skyreel2_test/final_with_audio/0081_ap_02_seed201_2026-02-04_20-24-10_r0.mp4
+prompt: A storm witch clad in wind-torn robes stands atop a jagged cliff, her expression intense and focused, skin and fabrics rendered with realistic textures. Medium-to-wide cinematic shot from a slightly low angle to heighten dominance. She is frozen mid-gesture, fingers crackling faintly with electricity as dark clouds churn behind her, implying restrained power. The environment is a storm-lashed coastal highland, rain sweeping sideways through the frame. Cinematic realism with dramatic contrast and an immersive, charged atmosphere. Shot on a 35mm cinema lens with a strong directional key light cutting through storm clouds, soft fill shadows, and a cool rim light outlining her silhouette against lightning-lit skies.

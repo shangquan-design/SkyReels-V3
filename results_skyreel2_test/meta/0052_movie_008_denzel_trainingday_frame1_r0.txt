@@ -1,0 +1,9 @@
+index: 52
+sample_id: 0052_movie_008_denzel_trainingday_frame1
+image: /workspace/100_benchmark_v2/movie/movie_008_denzel_trainingday_frame1.jpg
+audio: /workspace/100_benchmark_v2/movie/movie_008_denzel_trainingday.wav
+seed: 201
+bucket: 720P
+rank: 0
+saved_video: /workspace/SkyReels-V3/results_skyreel2_test/final_with_audio/0052_movie_008_denzel_trainingday_frame1_seed201_2026-02-04_16-09-28_r0.mp4
+prompt: An African American man with short hair is shown in close-up with a sweaty face. The background is a dark urban setting with yellow-brown tones at nighttime. His mouth is open mid-shout with an intense angry expression. He is shouting aggressively, delivering a powerful, defiant monologue. This is an iconic intense confrontation scene.

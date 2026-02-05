@@ -1,0 +1,10 @@
+index: 12
+sample_id: 0012_ss_13
+image: /workspace/100_benchmark_v2/fullbody/ss_13.png
+audio: /workspace/100_benchmark_v2/fullbody/ss_13.mp3
+seed: 201
+bucket: 720P
+rank: 4
+status: failed
+error: None
+prompt: Subject: A middle-aged male presenter in a gray polo shirt, wearing a lavalier mic, speaking directly to camera with clear hand gestures.\nComposition: 16:9 medium shot (waist-to-chest up), centered framing, eye-level, static camera with plenty of clean negative space.\nAction: Delivering a short talk/explanation, gesturing with hands to emphasize key points, steady on-camera delivery.\nLocation: Minimal studio setup on a seamless white background (clean, distraction-free).\nStyle: Corporate/educational talking-head video—clean, straightforward, professional realism.\nCamera & Lighting: Soft high-key studio lighting with even exposure, minimal shadows, neutral color balance; standard prime/zoom look (roughly 35–50mm equivalent), sharp subject separation mainly from lighting rather than depth-of-field.

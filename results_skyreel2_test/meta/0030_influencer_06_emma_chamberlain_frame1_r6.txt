@@ -1,0 +1,10 @@
+index: 30
+sample_id: 0030_influencer_06_emma_chamberlain_frame1
+image: /workspace/100_benchmark_v2/influencer/influencer_06_emma_chamberlain_frame1.jpg
+audio: /workspace/100_benchmark_v2/influencer/influencer_06_emma_chamberlain.wav
+seed: 201
+bucket: 720P
+rank: 6
+status: failed
+error: None
+prompt: A young woman with short brown hair and glasses wearing a beige sweater and headphones is shown reclined on a couch. She is in a cozy living room with a white wall, colorful throw pillows, a Chamberlain Coffee tumbler with iced coffee, and a laptop visible. She speaks casually into a handheld microphone with expressive gestures in a relaxed, personal manner. This is a casual podcast vlog scene.

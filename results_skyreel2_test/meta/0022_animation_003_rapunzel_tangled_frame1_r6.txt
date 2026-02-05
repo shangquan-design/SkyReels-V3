@@ -1,0 +1,10 @@
+index: 22
+sample_id: 0022_animation_003_rapunzel_tangled_frame1
+image: /workspace/100_benchmark_v2/animation/animation_003_rapunzel_tangled_frame1.jpg
+audio: /workspace/100_benchmark_v2/animation/animation_003_rapunzel_tangled.wav
+seed: 201
+bucket: 720P
+rank: 6
+status: failed
+error: None
+prompt: A 3D animated young woman with extremely long golden blonde hair wearing a pink and purple dress stands in a lush green forest. Sunlight filters through the canopy of large trees behind her. She has big green eyes, rosy cheeks, and an excited expression with her hands clasped near her face. She is experiencing the outside world for the first time with wonder and nervous excitement. This is an emotional monologue scene from an animated film.

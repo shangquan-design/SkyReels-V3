@@ -1,0 +1,9 @@
+index: 93
+sample_id: 0093_tw_54
+image: /workspace/100_benchmark_v2/synthesised/tw_54.png
+audio: /workspace/100_benchmark_v2/synthesised/tw_54.mp3
+seed: 201
+bucket: 720P
+rank: 0
+saved_video: /workspace/SkyReels-V3/results_skyreel2_test/final_with_audio/0093_tw_54_seed201_2026-02-04_22-09-13_r0.mp4
+prompt: Fantasy Bard A fantasy bard in worn velvet and leather straps stands on a tavern table, realistic fabrics and accessories richly textured. Medium-to-wide cinematic shot, slightly low angle. The bard is paused mid-performance, fingers hovering above lute strings, mouth slightly parted as if about to sing, suggesting suspense before the next verse. The environment is a richly detailed medieval tavern with candlelight, smoke haze, and attentive silhouettes. Cinematic realism with dramatic contrast. Shot on a 35mm cinema lens with strong directional warm key light from candles and hearth, soft fill shadows, and rim lighting tracing hair and instrument edges through smoke.  

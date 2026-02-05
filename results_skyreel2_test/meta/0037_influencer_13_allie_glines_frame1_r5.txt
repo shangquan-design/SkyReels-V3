@@ -1,0 +1,10 @@
+index: 37
+sample_id: 0037_influencer_13_allie_glines_frame1
+image: /workspace/100_benchmark_v2/influencer/influencer_13_allie_glines_frame1.jpg
+audio: /workspace/100_benchmark_v2/influencer/influencer_13_allie_glines.wav
+seed: 201
+bucket: 720P
+rank: 5
+status: failed
+error: None
+prompt: A young woman with long brown hair, green eyes, purple hair clips, gold heart earrings, and a delicate necklace wearing a light blue and white striped button-up shirt is shown in medium close-up. She is against a soft cream-toned backdrop with blurred window light visible on the right. She speaks with expressive open hand gestures in a natural, approachable manner. This is a beauty everyday makeup tutorial scene.

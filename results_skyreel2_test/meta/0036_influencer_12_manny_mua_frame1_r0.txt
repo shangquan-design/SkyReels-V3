@@ -1,0 +1,9 @@
+index: 36
+sample_id: 0036_influencer_12_manny_mua_frame1
+image: /workspace/100_benchmark_v2/influencer/influencer_12_manny_mua_frame1.jpg
+audio: /workspace/100_benchmark_v2/influencer/influencer_12_manny_mua.wav
+seed: 201
+bucket: 720P
+rank: 0
+saved_video: /workspace/SkyReels-V3/results_skyreel2_test/final_with_audio/0036_influencer_12_manny_mua_frame1_seed201_2026-02-04_14-36-52_r0.mp4
+prompt: A young man with styled dark hair, subtle makeup, diamond stud earrings, and a silver necklace wearing a black t-shirt is shown in close-up. He is against a vibrant orange-red gradient backdrop with a hashtag watermark visible in the corner. He speaks directly to camera with a playful smirk in a bold, unapologetic manner. This is a beauty YouTube intro scene.

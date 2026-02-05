@@ -1,0 +1,9 @@
+index: 79
+sample_id: 0079_street_interview_005_f1_gasly_frame1
+image: /workspace/100_benchmark_v2/street_interview/street_interview_005_f1_gasly_frame1.jpg
+audio: /workspace/100_benchmark_v2/street_interview/street_interview_005_f1_gasly.wav
+seed: 201
+bucket: 720P
+rank: 0
+saved_video: /workspace/SkyReels-V3/results_skyreel2_test/final_with_audio/0079_street_interview_005_f1_gasly_frame1_seed201_2026-02-04_19-56-13_r0.mp4
+prompt: A young man with short brown hair and stubble wearing a black Alpine F1 team cap and dark racing suit is shown in close-up. He stands in front of a Formula 1 press conference backdrop with sponsor logos visible. He speaks to an interviewer with a thoughtful, reflective expression. This is a post-race interview scene.

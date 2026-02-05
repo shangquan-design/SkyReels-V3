@@ -1,0 +1,9 @@
+index: 6
+sample_id: 0006_ss_07
+image: /workspace/100_benchmark_v2/fullbody/ss_07.png
+audio: /workspace/100_benchmark_v2/fullbody/ss_07.mp3
+seed: 201
+bucket: 720P
+rank: 0
+saved_video: /workspace/SkyReels-V3/results_skyreel2_test/final_with_audio/0006_ss_07_seed201_2026-02-04_11-26-34_r0.mp4
+prompt: Subject: A confident young woman presenter (business/fashion influencer vibe), speaking directly to camera, wearing a brown draped sleeveless top and high-waisted black trousers, expressive gestures.\nComposition: Vertical 9:16 medium-to-full body shot, mostly eye-level, centered framing with lots of background depth through a glass partition.\nAction: Talking to the viewer as if giving quick interview/outfit advice, using frequent hand gestures and small shifts in posture.\nLocation: A modern office/coworking space—glass wall with black frames, desks and monitors, blue accent wall, polished floor, ceiling track lights.\nStyle: Clean, professional social-media realism (short-form advice video), minimal stylization, crisp corporate interior.\nCamera & Lighting: Smartphone-like wide lens (~24–28mm equivalent), static/tripod stability; bright indoor lighting with soft, even illumination and mild shadows (overhead + soft key feel).

@@ -1,0 +1,10 @@
+index: 7
+sample_id: 0007_ss_08
+image: /workspace/100_benchmark_v2/fullbody/ss_08.png
+audio: /workspace/100_benchmark_v2/fullbody/ss_08.mp3
+seed: 201
+bucket: 720P
+rank: 7
+status: failed
+error: None
+prompt: Subject: A friendly fitness instructor in sporty athleisure, full-body on camera, smiling and speaking while doing a light “walk-in-place” workout.\nComposition: Wide, centered full-body shot with lots of open sky and landscape in the background; stable, tripod-like framing.\nAction: Alternates between talking to the camera and stepping/marching in place with casual hand gestures.\nLocation: An outdoor wooden deck/boardwalk platform overlooking a grassy wetland/marsh with water and reeds.\nStyle: Clean, upbeat wellness/fitness video vibe; natural colors, simple on-screen title graphics.\nCamera & Lighting: Static wide lens look (~24–35mm equivalent), bright natural daylight with soft, even shadows; high exposure and deep focus for clear background detail.

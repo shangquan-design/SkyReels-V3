@@ -1,0 +1,9 @@
+index: 71
+sample_id: 0071_news_007_biden_wef_frame1
+image: /workspace/100_benchmark_v2/news_official/news_007_biden_wef_frame1.jpg
+audio: /workspace/100_benchmark_v2/news_official/news_007_biden_wef.wav
+seed: 201
+bucket: 720P
+rank: 0
+saved_video: /workspace/SkyReels-V3/results_skyreel2_test/final_with_audio/0071_news_007_biden_wef_frame1_seed201_2026-02-04_18-26-38_r0.mp4
+prompt: An elderly man with white hair wearing a dark blue suit with white shirt and light blue tie stands at a podium. The background shows blue World Economic Forum branding with the logo repeated. A small sign reads "Annual Meeting 2016" in front of the podium. He speaks with an earnest expression. He is delivering a formal address at an international business forum. This is a World Economic Forum speech scene.

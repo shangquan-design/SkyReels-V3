@@ -1,0 +1,9 @@
+index: 5
+sample_id: 0005_ss_06
+image: /workspace/100_benchmark_v2/fullbody/ss_06.png
+audio: /workspace/100_benchmark_v2/fullbody/ss_06.mp3
+seed: 201
+bucket: 720P
+rank: 0
+saved_video: /workspace/SkyReels-V3/results_skyreel2_test/final_with_audio/0005_ss_06_seed201_2026-02-04_11-20-47_r0.mp4
+prompt: Subject: A professional female keynote speaker on stage, wearing a blue suit, using a headset mic and holding a clicker.\nComposition: Vertical 9:16 medium shot (waist-up to mid-body), mostly eye-level, clean background framing.\nAction: Speaking to the audience, pausing between points, gesturing with her free hand while clicking through slides.\nLocation: A conference / auditorium stage with a warm-toned backdrop (TED-style talk setting).\nStyle: Natural live-event realism, polished broadcast look, minimal stylization.\nCamera & Lighting: Pro video camera (roughly 35–70mm equivalent), steady shot, soft frontal key light with gentle fill, warm ambient background lighting and subtle rim light separation.

@@ -1,0 +1,9 @@
+index: 53
+sample_id: 0053_movie_009_mia_pearl_frame1
+image: /workspace/100_benchmark_v2/movie/movie_009_mia_pearl_frame1.jpg
+audio: /workspace/100_benchmark_v2/movie/movie_009_mia_pearl.wav
+seed: 201
+bucket: 720P
+rank: 0
+saved_video: /workspace/SkyReels-V3/results_skyreel2_test/final_with_audio/0053_movie_009_mia_pearl_frame1_seed201_2026-02-04_16-15-13_r0.mp4
+prompt: A young woman with dark hair pinned up wearing a red period dress is shown in close-up. She has a tearful expression with freckled skin. The background is a rustic barn interior with blurred wooden beams and fabric, warm amber lighting. A dark circular shape is visible on the left. She is speaking emotionally while crying, appearing disturbed and distressed. This is a dramatic horror thriller confession scene.

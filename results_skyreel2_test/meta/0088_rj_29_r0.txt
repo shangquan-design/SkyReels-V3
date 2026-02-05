@@ -1,0 +1,9 @@
+index: 88
+sample_id: 0088_rj_29
+image: /workspace/100_benchmark_v2/synthesised/rj_29.png
+audio: /workspace/100_benchmark_v2/synthesised/rj_29.mp3
+seed: 201
+bucket: 720P
+rank: 0
+saved_video: /workspace/SkyReels-V3/results_skyreel2_test/final_with_audio/0088_rj_29_seed201_2026-02-04_21-35-59_r0.mp4
+prompt: A polar explorer stands in blowing snow. Frost clings to beard and coat. The explorer speaks through controlled breath, lips moving slowly. Wind pushes snow across the frame. Cold blue lighting with strong rim light from low sun. Camera remains fixed.

@@ -1,0 +1,9 @@
+index: 73
+sample_id: 0073_news_009_elon_musk_frame1
+image: /workspace/100_benchmark_v2/news_official/news_009_elon_musk_frame1.jpg
+audio: /workspace/100_benchmark_v2/news_official/news_009_elon_musk.wav
+seed: 201
+bucket: 720P
+rank: 0
+saved_video: /workspace/SkyReels-V3/results_skyreel2_test/final_with_audio/0073_news_009_elon_musk_frame1_seed201_2026-02-04_18-49-14_r0.mp4
+prompt: A man with brown hair wearing a dark suit and tie stands at a presidential podium with the official seal. The background shows blue patriotic decor with white stars and stripes. He gestures while speaking with an engaged expression. He is delivering a formal government address in an animated manner. This is an official government speech scene.

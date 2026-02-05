@@ -1,0 +1,9 @@
+index: 26
+sample_id: 0026_influencer_02_pick_up_limes_frame1
+image: /workspace/100_benchmark_v2/influencer/influencer_02_pick_up_limes_frame1.jpg
+audio: /workspace/100_benchmark_v2/influencer/influencer_02_pick_up_limes.wav
+seed: 201
+bucket: 720P
+rank: 0
+saved_video: /workspace/SkyReels-V3/results_skyreel2_test/final_with_audio/0026_influencer_02_pick_up_limes_frame1_seed201_2026-02-04_13-39-07_r0.mp4
+prompt: A woman with long dark hair and natural makeup wearing an olive green ribbed sweater is shown in close-up. She is in a bright indoor space surrounded by lush green hanging plants with soft natural lighting. She speaks directly to camera with gentle hand gestures in a calm, thoughtful manner. This is a lifestyle wellness vlog scene.

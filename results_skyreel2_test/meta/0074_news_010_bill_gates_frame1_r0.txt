@@ -1,0 +1,9 @@
+index: 74
+sample_id: 0074_news_010_bill_gates_frame1
+image: /workspace/100_benchmark_v2/news_official/news_010_bill_gates_frame1.jpg
+audio: /workspace/100_benchmark_v2/news_official/news_010_bill_gates.wav
+seed: 201
+bucket: 720P
+rank: 0
+saved_video: /workspace/SkyReels-V3/results_skyreel2_test/final_with_audio/0074_news_010_bill_gates_frame1_seed201_2026-02-04_19-00-28_r0.mp4
+prompt: A man with gray hair wearing glasses, a brown suit and pink striped tie stands at a podium with two microphones. The background shows a gradient of beige and blue teal tones. He gestures with his right hand while speaking. He is delivering a keynote speech in a thoughtful, measured manner. This is a conference keynote speech scene.

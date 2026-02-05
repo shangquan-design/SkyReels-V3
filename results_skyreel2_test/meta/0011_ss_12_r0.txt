@@ -1,0 +1,9 @@
+index: 11
+sample_id: 0011_ss_12
+image: /workspace/100_benchmark_v2/fullbody/ss_12.png
+audio: /workspace/100_benchmark_v2/fullbody/ss_12.mp3
+seed: 201
+bucket: 720P
+rank: 0
+saved_video: /workspace/SkyReels-V3/results_skyreel2_test/final_with_audio/0011_ss_12_seed201_2026-02-04_11-59-41_r0.mp4
+prompt: Subject: A confident female keynote speaker on a TED/TEDx-style stage, wearing a sleeveless striped top and black pants, headset mic on, holding a small clicker, expressive and engaged.\nComposition: Vertical 9:16 medium-to-full body shot, centered framing, mostly eye-level with a slight stage-angle feel.\nAction: Speaking directly to the audience, emphasizing points with open-hand gestures and occasional hand-to-chest emphasis.\nLocation: Indoor conference/event stage with large branded backdrop lettering and a red stage floor.\nStyle: Live event / documentary realism—clean, professional talk-footage with minimal stylization.\nCamera & Lighting: Likely a mid-range cinema/broadcast lens (~50–85mm equivalent feel), strong stage key lighting on the speaker, darker background, moderate contrast, crisp subject separation.

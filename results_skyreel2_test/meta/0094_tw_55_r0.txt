@@ -1,0 +1,9 @@
+index: 94
+sample_id: 0094_tw_55
+image: /workspace/100_benchmark_v2/synthesised/tw_55.png
+audio: /workspace/100_benchmark_v2/synthesised/tw_55.mp3
+seed: 201
+bucket: 720P
+rank: 0
+saved_video: /workspace/SkyReels-V3/results_skyreel2_test/final_with_audio/0094_tw_55_seed201_2026-02-04_22-19-19_r0.mp4
+prompt: Cosmic Entity A cosmic entity with semi-transparent skin revealing swirling nebulae and star-like particles stands in a fractured reality space, materials rendered with realistic “physical” lighting and volumetric depth. Medium-to-wide cinematic shot, slightly low angle to emphasize awe. The entity is paused mid-moment, one hand raised as the environment subtly warps—dust and shards suspended, implying immense power held in check. The location is a richly detailed cosmic void with floating stone fragments and luminous gases. Cinematic realism with dramatic contrast and immersive atmosphere. Shot on a 35mm cinema lens with strong directional key light from a distant stellar source, soft fill shadows, and radiant rim lighting defining the silhouette through volumetric haze.  

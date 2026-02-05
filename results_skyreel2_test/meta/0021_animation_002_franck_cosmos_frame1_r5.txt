@@ -1,0 +1,10 @@
+index: 21
+sample_id: 0021_animation_002_franck_cosmos_frame1
+image: /workspace/100_benchmark_v2/animation/animation_002_franck_cosmos_frame1.jpg
+audio: /workspace/100_benchmark_v2/animation/animation_002_franck_cosmos.wav
+seed: 201
+bucket: 720P
+rank: 5
+status: failed
+error: None
+prompt: A photorealistic 3D animated black sheep with curly brown wool is shown in close-up. The sheep has a dark face with expressive white eyes and stands on a grassy meadow with an orange blur visible on the right side. The lighting is natural and warm. The sheep has a contemplative expression as it speaks. This is a philosophical dialogue scene from an animated short film.

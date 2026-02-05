@@ -1,0 +1,9 @@
+index: 9
+sample_id: 0009_ss_10
+image: /workspace/100_benchmark_v2/fullbody/ss_10.png
+audio: /workspace/100_benchmark_v2/fullbody/ss_10.mp3
+seed: 201
+bucket: 720P
+rank: 0
+saved_video: /workspace/SkyReels-V3/results_skyreel2_test/final_with_audio/0009_ss_10_seed201_2026-02-04_11-45-19_r0.mp4
+prompt: Subject: A confident female stage performer/host in a bright pink feather-cuff blazer and purple sequined mini dress, holding a handheld microphone, expressive facial performance.\nComposition: Vertical 9:16 medium-to-full body shot, mostly centered framing, eye-level with a slight stage-perspective feel, clean subject separation against a bold set.\nAction: Speaking (or delivering a punchline/intro) into the mic, animated hand gestures and subtle weight shifts in place.\nLocation: Indoor TV/theater stage with glossy reflective floor, warm footlights, and a blue backdrop featuring large set pieces/light rings.\nStyle: Polished live-show / broadcast entertainment look—glamorous, high-energy, colorful stage aesthetic.\nCamera & Lighting: Broadcast-style camera (roughly 35–50mm equivalent), steady/tripod feel, strong frontal key with warm stage lighting and accent/rim from set lights, crisp exposure and minimal motion blur.

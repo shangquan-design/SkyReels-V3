@@ -1,0 +1,10 @@
+index: 43
+sample_id: 0043_influencer_19_rawbeautykristi_frame1
+image: /workspace/100_benchmark_v2/influencer/influencer_19_rawbeautykristi_frame1.jpg
+audio: /workspace/100_benchmark_v2/influencer/influencer_19_rawbeautykristi.wav
+seed: 201
+bucket: 720P
+rank: 3
+status: failed
+error: None
+prompt: A woman with wavy brown hair with blonde highlights, green eyes, nose ring, and a ring on her finger wearing a dusty pink t-shirt is shown in close-up. She is in a cozy room with dark green walls, wooden shelves, plants, candles, and decorative items visible in the background. She speaks with both hands raised in expressive gestures in an animated, personal manner. This is a lifestyle vlog update scene.

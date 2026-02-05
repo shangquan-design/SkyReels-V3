@@ -1,0 +1,9 @@
+index: 80
+sample_id: 0080_ap_01
+image: /workspace/100_benchmark_v2/synthesised/ap_01.png
+audio: /workspace/100_benchmark_v2/synthesised/ap_01.mp3
+seed: 201
+bucket: 720P
+rank: 0
+saved_video: /workspace/SkyReels-V3/results_skyreel2_test/final_with_audio/0080_ap_01_seed201_2026-02-04_20-09-59_r0.mp4
+prompt: A towering stone golem with cracked granite skin and moss-filled crevices stands in a ruined ancient courtyard, highly detailed and expressive with realistic stone textures. Medium-to-wide cinematic shot from a slightly low angle to emphasize scale and weight. The golem is paused mid-motion, one massive hand hovering inches above the ground, pebbles and dust subtly lifting as if drawn by its presence, suggesting imminent action. The environment is a weathered, overgrown ruin from a forgotten civilization, stone pillars and broken statues surrounding it. Cinematic realism with dramatic contrast, ultra-high detail, and a heavy, immersive atmosphere. Shot on a professional cinema lens (35mm equivalent) with a strong directional key light carving hard highlights into the stone, soft fill shadows preserving detail, and a faint atmospheric rim light separating the golem from drifting dust and fog.

@@ -1,0 +1,10 @@
+index: 18
+sample_id: 0018_ss_19
+image: /workspace/100_benchmark_v2/fullbody/ss_19.png
+audio: /workspace/100_benchmark_v2/fullbody/ss_19.mp3
+seed: 201
+bucket: 720P
+rank: 2
+status: failed
+error: None
+prompt: Subject: A stylized 3D-animated male teacher/professor character, expressive facial animation and clean, high-quality materials.\nComposition: Medium to medium-wide shot, mostly eye-level, centered framing with the chalkboard and classroom props as context.\nAction: Talks and reacts like delivering a lesson—leaning forward, gesturing, and later holding a tablet/clipboard while speaking.\nLocation: A classroom/lecture room with a chalkboard full of equations, a corkboard with notes, and a teacher’s desk (books, mug, glasses).\nStyle: Polished cinematic 3D animation (Pixar/feature-animation vibe), smooth shading, slightly exaggerated proportions, warm and friendly tone.\nCamera & Lighting: Static camera with a natural lens feel (~35–50mm equivalent); soft daylight key from the left, gentle fill, mild rim highlights, and soft indoor shadows for depth.

@@ -1,0 +1,9 @@
+index: 69
+sample_id: 0069_news_005_jackma_wef_frame1
+image: /workspace/100_benchmark_v2/news_official/news_005_jackma_wef_frame1.jpg
+audio: /workspace/100_benchmark_v2/news_official/news_005_jackma_wef.wav
+seed: 201
+bucket: 720P
+rank: 0
+saved_video: /workspace/SkyReels-V3/results_skyreel2_test/final_with_audio/0069_news_005_jackma_wef_frame1_seed201_2026-02-04_18-04-22_r0.mp4
+prompt: An Asian man with dark hair wearing a traditional dark blue Mandarin collar jacket stands in front of a seated audience. The background shows a light gray wall with business executives visible behind him. He gestures with his right hand making a counting gesture while speaking. He is delivering an engaging business speech in a thoughtful manner. This is a World Economic Forum panel discussion scene.

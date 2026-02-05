@@ -1,0 +1,9 @@
+index: 54
+sample_id: 0054_movie_010_rutger_bladerunner_frame1
+image: /workspace/100_benchmark_v2/movie/movie_010_rutger_bladerunner_frame1.jpg
+audio: /workspace/100_benchmark_v2/movie/movie_010_rutger_bladerunner.wav
+seed: 201
+bucket: 720P
+rank: 0
+saved_video: /workspace/SkyReels-V3/results_skyreel2_test/final_with_audio/0054_movie_010_rutger_bladerunner_frame1_seed201_2026-02-04_16-21-00_r0.mp4
+prompt: A man with short blonde hair and blood on his face is shown in close-up, wet from rain. The background is a rainy rooftop setting with teal cyan atmospheric lighting and rain falling heavily. He has an emotional but peaceful expression, speaking poetically. He is delivering a dying monologue in a melancholic, transcendent manner. This is the iconic Tears in Rain scene.

@@ -1,0 +1,9 @@
+index: 51
+sample_id: 0051_movie_007_villanelle_killingeve_frame1
+image: /workspace/100_benchmark_v2/movie/movie_007_villanelle_killingeve_frame1.jpg
+audio: /workspace/100_benchmark_v2/movie/movie_007_villanelle_killingeve.wav
+seed: 201
+bucket: 720P
+rank: 0
+saved_video: /workspace/SkyReels-V3/results_skyreel2_test/final_with_audio/0051_movie_007_villanelle_killingeve_frame1_seed201_2026-02-04_16-03-41_r0.mp4
+prompt: A young woman with long straight blonde hair wearing a red coat is shown in close-up. The background is a dark blurred indoor setting with cool blue-gray tones. She has an emotional expression with slightly parted lips, appearing vulnerable and conflicted. She is speaking emotionally, making a confession. This is a dramatic emotional confession scene.

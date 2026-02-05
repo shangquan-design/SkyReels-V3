@@ -1,0 +1,10 @@
+index: 55
+sample_id: 0055_movie_011_peter_network_frame1
+image: /workspace/100_benchmark_v2/movie/movie_011_peter_network_frame1.jpg
+audio: /workspace/100_benchmark_v2/movie/movie_011_peter_network.wav
+seed: 201
+bucket: 720P
+rank: 7
+status: failed
+error: None
+prompt: An older man with gray hair wearing a beige trench coat is leaning on a curved news desk in a retro 1970s TV studio newsroom. The background shows wood paneling with world clocks displaying different time zones for Tokyo, New Delhi, Los Angeles, and Saigon, along with rotary phones on the wall. Documents are scattered on the desk. He appears agitated and is speaking passionately about society with a frustrated, urgent, prophetic manner. This is an iconic news broadcast rant scene.

@@ -1,0 +1,9 @@
+index: 95
+sample_id: 0095_tw_56
+image: /workspace/100_benchmark_v2/synthesised/tw_56.png
+audio: /workspace/100_benchmark_v2/synthesised/tw_56.mp3
+seed: 201
+bucket: 720P
+rank: 0
+saved_video: /workspace/SkyReels-V3/results_skyreel2_test/final_with_audio/0095_tw_56_seed201_2026-02-04_22-26-34_r0.mp4
+prompt: Rebel Pilot A rebel pilot in a rugged flight suit with patched insignia stands in a hidden hangar, realistic fabric wear and grease stains visible. Medium-to-wide cinematic shot, slightly low angle. The pilot is paused mid-moment, helmet tucked under one arm while the other hand tightens a strap, implying a last decision before launch. The environment is a richly detailed underground base with exposed pipes, scattered tools, and a starship looming in shadow. Cinematic realism with dramatic contrast and immersive atmosphere. Shot on a 35mm cinema lens with strong directional key light from overhead industrial fixtures, soft fill shadows, and rim lighting catching drifting dust and engine vapor.  

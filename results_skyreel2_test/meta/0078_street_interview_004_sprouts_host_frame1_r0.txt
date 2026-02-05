@@ -1,0 +1,9 @@
+index: 78
+sample_id: 0078_street_interview_004_sprouts_host_frame1
+image: /workspace/100_benchmark_v2/street_interview/street_interview_004_sprouts_host_frame1.jpg
+audio: /workspace/100_benchmark_v2/street_interview/street_interview_004_sprouts_host.wav
+seed: 201
+bucket: 720P
+rank: 0
+saved_video: /workspace/SkyReels-V3/results_skyreel2_test/final_with_audio/0078_street_interview_004_sprouts_host_frame1_seed201_2026-02-04_19-45-07_r0.mp4
+prompt: A young man with dark hair wearing a black t-shirt and silver chain necklace is shown in medium shot. He stands outdoors on a sunny day with trees and greenery visible in the soft-focus background. He speaks to the camera with a relaxed, casual expression. This is a street vlog scene.

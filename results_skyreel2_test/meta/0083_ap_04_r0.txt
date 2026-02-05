@@ -1,0 +1,9 @@
+index: 83
+sample_id: 0083_ap_04
+image: /workspace/100_benchmark_v2/synthesised/ap_04.png
+audio: /workspace/100_benchmark_v2/synthesised/ap_04.mp3
+seed: 201
+bucket: 720P
+rank: 0
+saved_video: /workspace/SkyReels-V3/results_skyreel2_test/final_with_audio/0083_ap_04_seed201_2026-02-04_20-51-46_r0.mp4
+prompt: An elder wizard with a long silver beard and deeply lined face stands within a candle-lit stone hall, robes rich with embroidered symbols. Medium-to-wide cinematic shot, slightly low angle for gravitas. He is paused mid-incantation, staff glowing faintly as dust motes swirl, implying restrained magic. The environment is an ancient arcane library carved from stone. Cinematic realism with dramatic contrast and a mystical atmosphere. Shot on a 35mm cinema lens with strong directional key light from firelight, soft fill shadows, and a warm rim light outlining his silhouette through smoke and haze.

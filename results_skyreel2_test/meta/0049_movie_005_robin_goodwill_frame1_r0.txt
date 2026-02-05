@@ -1,0 +1,9 @@
+index: 49
+sample_id: 0049_movie_005_robin_goodwill_frame1
+image: /workspace/100_benchmark_v2/movie/movie_005_robin_goodwill_frame1.jpg
+audio: /workspace/100_benchmark_v2/movie/movie_005_robin_goodwill.wav
+seed: 201
+bucket: 720P
+rank: 0
+saved_video: /workspace/SkyReels-V3/results_skyreel2_test/final_with_audio/0049_movie_005_robin_goodwill_frame1_seed201_2026-02-04_15-52-11_r0.mp4
+prompt: A middle-aged bearded man wearing a gray flat cap and olive knit cardigan over a light shirt is shown outdoors. His full beard has gray streaks. The background shows a park setting with green trees and blurred natural scenery. He is speaking casually while looking to the side with a thoughtful, mentoring demeanor. This is an intimate outdoor counseling dialogue scene.

@@ -1,0 +1,9 @@
+index: 3
+sample_id: 0003_ss_04
+image: /workspace/100_benchmark_v2/fullbody/ss_04.png
+audio: /workspace/100_benchmark_v2/fullbody/ss_04.mp3
+seed: 201
+bucket: 720P
+rank: 0
+saved_video: /workspace/SkyReels-V3/results_skyreel2_test/final_with_audio/0003_ss_04_seed201_2026-02-04_11-06-22_r0.mp4
+prompt: Subject: A fit middle-aged man in a red athletic T-shirt, speaking directly to the viewer in a “health tips” social video, with an on-screen headline reading “HEALTH BENEFITS OF WALKING” and subtitle-style captions.\nComposition: Vertical 9:16 selfie-style medium shot (head + upper torso), centered framing, arm’s-length camera distance, mostly eye-level with slight handheld drift.\nAction: Walking and talking to camera, using small hand/arm gestures for emphasis; steady, conversational delivery throughout with subtle bobbing from movement.\nLocation: An outdoor walking path/park setting—paved trail, green trees and shrubs, a dark fence/rail along the side, and a cloudy/overcast sky with a utility pole visible in the background.\nStyle: Natural smartphone realism—informational “fitness/health advice” vibe typical of short-form social content, with bold title overlay and readable captions.\nCamera & Lighting: Smartphone wide lens (≈24–28mm equivalent), handheld/selfie capture with mild motion, soft diffused daylight from an overcast sky (minimal harsh shadows), high clarity with a mostly sharp background (limited depth-of-field blur).

@@ -1,0 +1,9 @@
+index: 17
+sample_id: 0017_ss_18
+image: /workspace/100_benchmark_v2/fullbody/ss_18.png
+audio: /workspace/100_benchmark_v2/fullbody/ss_18.mp3
+seed: 201
+bucket: 720P
+rank: 0
+saved_video: /workspace/SkyReels-V3/results_skyreel2_test/final_with_audio/0017_ss_18_seed201_2026-02-04_12-44-20_r0.mp4
+prompt: Subject: A stylized 3D animated woman with a short bob haircut and big expressive eyes, wearing a white blouse, working at a kitchen counter with seafood and dishes.\nComposition: Medium shot across a kitchen island, mostly eye-level, the character centered with hanging copper pots framing the background.\nAction: Talking and gesturing while holding a sponge and plate, then shifting into food prep—reaching for a knife and moving the seafood onto a cutting board.\nLocation: A cozy modern kitchen with green cabinetry, a stove area, and copper cookware hanging overhead.\nStyle: Polished cinematic 3D animation (Pixar/feature-animation vibe), clean materials, soft realism with slightly exaggerated facial performance.\nCamera & Lighting: Static “film lens” feel (~35mm equivalent), shallow depth of field, soft directional key light with warm reflections on copper, gentle fill and subtle rim for separation.

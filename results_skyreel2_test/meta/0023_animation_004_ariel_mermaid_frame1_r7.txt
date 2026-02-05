@@ -1,0 +1,10 @@
+index: 23
+sample_id: 0023_animation_004_ariel_mermaid_frame1
+image: /workspace/100_benchmark_v2/animation/animation_004_ariel_mermaid_frame1.jpg
+audio: /workspace/100_benchmark_v2/animation/animation_004_ariel_mermaid.wav
+seed: 201
+bucket: 720P
+rank: 7
+status: failed
+error: None
+prompt: A 2D animated young mermaid with flowing bright red hair and large blue eyes is shown in extreme close-up. She wears a blue seashell top and has fair skin with red lips. The background is dark blue underwater tones. Her expression is dreamy and yearning as she sings with her mouth open. She is performing a solo musical number expressing her longing for adventure. This is an iconic animated musical scene.

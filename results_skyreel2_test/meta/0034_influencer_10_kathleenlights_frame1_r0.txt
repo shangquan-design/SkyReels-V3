@@ -1,0 +1,9 @@
+index: 34
+sample_id: 0034_influencer_10_kathleenlights_frame1
+image: /workspace/100_benchmark_v2/influencer/influencer_10_kathleenlights_frame1.jpg
+audio: /workspace/100_benchmark_v2/influencer/influencer_10_kathleenlights.wav
+seed: 201
+bucket: 720P
+rank: 0
+saved_video: /workspace/SkyReels-V3/results_skyreel2_test/final_with_audio/0034_influencer_10_kathleenlights_frame1_seed201_2026-02-04_14-25-20_r0.mp4
+prompt: A young woman with long auburn hair, green eyes, gold earrings, and bright coral nails wearing a white top is shown in close-up. She is in a bright home vanity area with a dresser, makeup brushes, perfumes, books, and framed art visible in the background. She speaks with animated hand gestures and a warm smile in a friendly, nostalgic manner. This is a beauty makeup tutorial vlog scene.

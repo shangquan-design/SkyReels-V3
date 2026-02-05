@@ -1,0 +1,10 @@
+index: 45
+sample_id: 0045_movie_001_andor_luthen_frame1
+image: /workspace/100_benchmark_v2/movie/movie_001_andor_luthen_frame1.jpg
+audio: /workspace/100_benchmark_v2/movie/movie_001_andor_luthen.wav
+seed: 201
+bucket: 720P
+rank: 5
+status: failed
+error: None
+prompt: A middle-aged man with slicked-back gray hair is shown in close-up, wearing dark clothing. The background is a dark sci-fi interior with futuristic corridor, dim blue-green lighting and metallic architecture. A small orange light is visible on the left side. He is speaking passionately, delivering a dramatic monologue with an intense and serious expression. This is a cinematic dialogue scene from a sci-fi drama.

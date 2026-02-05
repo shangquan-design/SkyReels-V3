@@ -1,0 +1,9 @@
+index: 42
+sample_id: 0042_influencer_18_angelica_nyqvist_frame1
+image: /workspace/100_benchmark_v2/influencer/influencer_18_angelica_nyqvist_frame1.jpg
+audio: /workspace/100_benchmark_v2/influencer/influencer_18_angelica_nyqvist.wav
+seed: 201
+bucket: 720P
+rank: 0
+saved_video: /workspace/SkyReels-V3/results_skyreel2_test/final_with_audio/0042_influencer_18_angelica_nyqvist_frame1_seed201_2026-02-04_15-11-33_r0.mp4
+prompt: A woman with reddish-brown hair in an updo, green eyes, nose ring, gold cross earring, and pink nails wearing a colorful floral print top is shown in medium close-up. She is in a cozy room with a wooden dresser, framed art, a lamp, plants, and decorative items visible in the background. She holds a makeup bottle and beauty blender while speaking to camera in an animated, enthusiastic manner. This is a beauty product discussion scene.

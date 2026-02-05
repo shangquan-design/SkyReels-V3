@@ -1,0 +1,9 @@
+index: 0
+sample_id: 0000_ss_01
+image: /workspace/100_benchmark_v2/fullbody/ss_01.png
+audio: /workspace/100_benchmark_v2/fullbody/ss_01.mp3
+seed: 201
+bucket: 720P
+rank: 0
+saved_video: /workspace/SkyReels-V3/results_skyreel2_test/final_with_audio/0000_ss_01_seed201_2026-02-04_10-44-46_r0.mp4
+prompt: Subject: A studio presenter/guest speaker, mid-aged Asian man in a burgundy velvet blazer and glasses, wearing a lavalier mic, speaking directly to camera with clear, natural facial expression.\nComposition: Medium (waist-up) broadcast shot, subject centered with clean headroom, shallow depth of field separating him from a soft, blue-toned video-wall background.\nAction: Delivering a monologue/talk, subtle hand gestures and occasional side glance as if addressing an audience or co-host off-camera, conveying confident, explanatory energy.\nLocation: Professional TV studio/news set with a large multi-panel screen wall in cool blues, minimal visible props, controlled indoor environment.\nStyle: High-fidelity broadcast realism—crisp subject, smooth skin tones, clean edges, and a polished studio look with cool-toned background contrast.\nCamera & Lighting: Shot on a professional studio camera with a moderate telephoto feel (≈50–85mm equivalent), gentle background blur; soft frontal key light, balanced fill to reduce harsh shadows, and a subtle rim/back light to lift the subject from the background, with cooler ambient spill from the screen wall for depth.

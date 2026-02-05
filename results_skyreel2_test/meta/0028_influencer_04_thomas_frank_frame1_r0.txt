@@ -1,0 +1,9 @@
+index: 28
+sample_id: 0028_influencer_04_thomas_frank_frame1
+image: /workspace/100_benchmark_v2/influencer/influencer_04_thomas_frank_frame1.jpg
+audio: /workspace/100_benchmark_v2/influencer/influencer_04_thomas_frank.wav
+seed: 201
+bucket: 720P
+rank: 0
+saved_video: /workspace/SkyReels-V3/results_skyreel2_test/final_with_audio/0028_influencer_04_thomas_frank_frame1_seed201_2026-02-04_13-50-41_r0.mp4
+prompt: A man with short dark hair and beard wearing a purple and white checkered button-up shirt is shown in medium close-up. He is in a gaming and tech studio with dual monitors showing forest wallpaper, anime posters, a globe, and audio equipment visible. He speaks directly to camera while explaining a concept in an informative, enthusiastic manner. This is an educational productivity YouTube video scene.

@@ -1,0 +1,9 @@
+index: 50
+sample_id: 0050_movie_006_phoebe_fleabag_frame1
+image: /workspace/100_benchmark_v2/movie/movie_006_phoebe_fleabag_frame1.jpg
+audio: /workspace/100_benchmark_v2/movie/movie_006_phoebe_fleabag.wav
+seed: 201
+bucket: 720P
+rank: 0
+saved_video: /workspace/SkyReels-V3/results_skyreel2_test/final_with_audio/0050_movie_006_phoebe_fleabag_frame1_seed201_2026-02-04_15-57-56_r0.mp4
+prompt: A young woman with dark hair wearing a striped top is shown in a dark interior setting. She holds a glass in her hand and has a slight smile with a contemplative expression. The background appears to be a confessional booth with a mesh screen visible on the right, warm brown tones throughout. She is speaking casually in a witty, slightly melancholic manner. This is an intimate confession scene with dry comedic tone.

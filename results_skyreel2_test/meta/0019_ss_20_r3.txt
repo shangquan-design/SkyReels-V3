@@ -1,0 +1,10 @@
+index: 19
+sample_id: 0019_ss_20
+image: /workspace/100_benchmark_v2/fullbody/ss_20.png
+audio: /workspace/100_benchmark_v2/fullbody/ss_20.mp3
+seed: 201
+bucket: 720P
+rank: 3
+status: failed
+error: None
+prompt: Subject: A stylized 3D animated pirate/sailor girl with short red hair and a green cap, expressive face and hand gestures, leaning on a ship cannon.\nComposition: Medium shot (waist-up), eye-level to slightly low angle, character framed slightly off-center with strong depth-of-field and ship rigging/stairs as background layers.\nAction: Talking/performing to someone off-camera, shifting expressions (smirk → smile → thoughtful), gesturing with one hand while resting the other on the cannon.\nLocation: Wooden sailing ship deck in daylight, with ropes/rigging, railings, stairs, and the ocean/sky visible behind.\nStyle: High-quality 3D animation / cinematic character shot—clean textures, soft realism, warm tone, polished “animation school demo” look.\nCamera & Lighting: Cinema-style lens with shallow DOF (around 35–50mm equivalent), stable shot; warm sun key light with soft sky fill and gentle rim highlights for separation.\n

@@ -1,0 +1,9 @@
+index: 48
+sample_id: 0048_movie_004_pacino_scent_frame1
+image: /workspace/100_benchmark_v2/movie/movie_004_pacino_scent_frame1.jpg
+audio: /workspace/100_benchmark_v2/movie/movie_004_pacino_scent.wav
+seed: 201
+bucket: 720P
+rank: 0
+saved_video: /workspace/SkyReels-V3/results_skyreel2_test/final_with_audio/0048_movie_004_pacino_scent_frame1_seed201_2026-02-04_15-46-22_r0.mp4
+prompt: A distinguished older man with slicked-back dark hair is shown in close-up portrait. He wears a dark pinstripe suit with white shirt and tie. The background is a blurred indoor setting with warm brown tones, appearing to be a courtroom or formal space. He is speaking philosophically, delivering a profound statement with a serious, reflective, and dignified expression. This is a classic movie courtroom speech scene.

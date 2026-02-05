@@ -1,0 +1,10 @@
+index: 20
+sample_id: 0020_animation_001_elsa_frozen_frame1
+image: /workspace/100_benchmark_v2/animation/animation_001_elsa_frozen_frame1.jpg
+audio: /workspace/100_benchmark_v2/animation/animation_001_elsa_frozen.wav
+seed: 201
+bucket: 720P
+rank: 4
+status: failed
+error: None
+prompt: A 3D animated young woman with platinum blonde hair styled in an elegant updo, wearing a small golden tiara and a dark dress with a magenta cape. She stands against a dark blue night sky with snowflakes falling and snowy mountains in the background. Her expression is pensive and emotional as she touches her chest with one gloved hand. She is singing a heartfelt solo in a dramatic musical scene from an animated film.

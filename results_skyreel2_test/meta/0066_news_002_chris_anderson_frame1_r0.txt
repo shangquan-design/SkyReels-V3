@@ -1,0 +1,9 @@
+index: 66
+sample_id: 0066_news_002_chris_anderson_frame1
+image: /workspace/100_benchmark_v2/news_official/news_002_chris_anderson_frame1.jpg
+audio: /workspace/100_benchmark_v2/news_official/news_002_chris_anderson.wav
+seed: 201
+bucket: 720P
+rank: 0
+saved_video: /workspace/SkyReels-V3/results_skyreel2_test/final_with_audio/0066_news_002_chris_anderson_frame1_seed201_2026-02-04_17-36-12_r0.mp4
+prompt: A middle-aged man with reddish-brown hair wearing a blue shirt and dark vest sits in a red chair on a red circular rug. The background shows wooden paneled walls creating a warm, intimate setting. He appears relaxed with his legs crossed while speaking. He is delivering thoughtful commentary in an engaging conversational tone. This is a TED interview format scene.

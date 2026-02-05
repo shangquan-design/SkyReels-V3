@@ -1,0 +1,9 @@
+index: 77
+sample_id: 0077_street_interview_003_nyc_host_frame1
+image: /workspace/100_benchmark_v2/street_interview/street_interview_003_nyc_host_frame1.jpg
+audio: /workspace/100_benchmark_v2/street_interview/street_interview_003_nyc_host.wav
+seed: 201
+bucket: 720P
+rank: 0
+saved_video: /workspace/SkyReels-V3/results_skyreel2_test/final_with_audio/0077_street_interview_003_nyc_host_frame1_seed201_2026-02-04_19-33-46_r0.mp4
+prompt: A young man with dark hair wearing a black jacket is shown in medium close-up. He stands on a New York City sidewalk with urban buildings and pedestrians in the background under overcast sky. He speaks directly to the camera in a conversational manner. This is a street interview introduction scene.

@@ -1,0 +1,9 @@
+index: 70
+sample_id: 0070_news_006_tim_cook_frame1
+image: /workspace/100_benchmark_v2/news_official/news_006_tim_cook_frame1.jpg
+audio: /workspace/100_benchmark_v2/news_official/news_006_tim_cook.wav
+seed: 201
+bucket: 720P
+rank: 0
+saved_video: /workspace/SkyReels-V3/results_skyreel2_test/final_with_audio/0070_news_006_tim_cook_frame1_seed201_2026-02-04_18-15-40_r0.mp4
+prompt: A tall man with gray hair and glasses wearing a dark blue suit with white shirt and dark tie stands at a podium. The background shows blue European Parliament signage with text in multiple languages. He speaks with a neutral, professional expression. He is delivering a formal address in a measured manner. This is a European Parliament speech scene.

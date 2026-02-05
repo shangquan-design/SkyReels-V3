@@ -1,0 +1,10 @@
+index: 46
+sample_id: 0046_movie_002_the_bear_carmy_frame1
+image: /workspace/100_benchmark_v2/movie/movie_002_the_bear_carmy_frame1.jpg
+audio: /workspace/100_benchmark_v2/movie/movie_002_the_bear_carmy.wav
+seed: 201
+bucket: 720P
+rank: 6
+status: failed
+error: None
+prompt: A young man with curly dark hair wearing a dark blue t-shirt is shown in close-up. He is in an indoor room with wooden paneling and a window with natural light behind him. His eyes are downcast in emotional reflection as he speaks. He is sharing personal memories in a vulnerable, introspective manner. This is an intimate emotional monologue scene.

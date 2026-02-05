@@ -1,0 +1,9 @@
+index: 76
+sample_id: 0076_street_interview_002_nyc_brooklyn_frame1
+image: /workspace/100_benchmark_v2/street_interview/street_interview_002_nyc_brooklyn_frame1.jpg
+audio: /workspace/100_benchmark_v2/street_interview/street_interview_002_nyc_brooklyn.wav
+seed: 201
+bucket: 720P
+rank: 0
+saved_video: /workspace/SkyReels-V3/results_skyreel2_test/final_with_audio/0076_street_interview_002_nyc_brooklyn_frame1_seed201_2026-02-04_19-22-58_r0.mp4
+prompt: A young man with short dark hair wearing a Brooklyn Nets basketball jersey is shown in close-up. He stands on a New York City street with blurred urban buildings in the background. He speaks energetically to the camera with animated hand gestures and an expressive face. This is a street vlog introduction scene.

@@ -1,0 +1,10 @@
+index: 35
+sample_id: 0035_influencer_11_desi_perkins_frame1
+image: /workspace/100_benchmark_v2/influencer/influencer_11_desi_perkins_frame1.jpg
+audio: /workspace/100_benchmark_v2/influencer/influencer_11_desi_perkins.wav
+seed: 201
+bucket: 720P
+rank: 3
+status: failed
+error: None
+prompt: A woman with long straight brown and blonde highlighted hair, full glam makeup, and brown eyes wearing a brown tank top is shown in close-up. She is against a warm peach-toned backdrop in a studio setting. She speaks to camera with her hands together near her face in an engaging, expressive manner. This is a beauty makeup tutorial scene.

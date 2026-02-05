@@ -1,0 +1,10 @@
+index: 41
+sample_id: 0041_influencer_17_samantha_ravndahl_frame1
+image: /workspace/100_benchmark_v2/influencer/influencer_17_samantha_ravndahl_frame1.jpg
+audio: /workspace/100_benchmark_v2/influencer/influencer_17_samantha_ravndahl.wav
+seed: 201
+bucket: 720P
+rank: 1
+status: failed
+error: None
+prompt: A young woman with long wavy blonde hair, blue eyes, natural skin with some redness, wearing a cream sweater is shown in close-up. She is in a bright white home studio with shelves displaying plants, decor, a camera, and a YouTube play button visible in the background. She speaks directly to camera with a warm smile in a friendly, casual manner. This is a beauty sponsored content scene.

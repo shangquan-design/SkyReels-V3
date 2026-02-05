@@ -1,0 +1,10 @@
+index: 15
+sample_id: 0015_ss_16
+image: /workspace/100_benchmark_v2/fullbody/ss_16.png
+audio: /workspace/100_benchmark_v2/fullbody/ss_16.mp3
+seed: 201
+bucket: 720P
+rank: 7
+status: failed
+error: None
+prompt: Subject: Two young women in a casual street interview—one interviewer holding a phone and mic, the other answering with expressive gestures.\nComposition: Vertical 9:16 medium-to-wide full-body two-shot, mostly eye-level, subjects framed in front of bright shop signage.\nAction: The interviewer holds the mic toward the speaker; the speaker talks, smiles, adjusts her hair, and gestures while holding a phone.\nLocation: Nighttime sidewalk outside a small storefront (coffee/spa signage), with pedestrians, trees, and street wires in the background.\nStyle: Natural, candid social-media street interview vibe; clean but un-stylized realism.\nCamera & Lighting: Smartphone wide lens (~24–28mm equivalent), fairly steady shot; strong storefront/neon LED lighting as the key with softer ambient street fill and a darker background for contrast.

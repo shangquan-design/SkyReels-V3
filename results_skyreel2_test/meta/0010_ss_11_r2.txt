@@ -1,0 +1,10 @@
+index: 10
+sample_id: 0010_ss_11
+image: /workspace/100_benchmark_v2/fullbody/ss_11.png
+audio: /workspace/100_benchmark_v2/fullbody/ss_11.mp3
+seed: 201
+bucket: 720P
+rank: 2
+status: failed
+error: None
+prompt: Subject: A glamorous young woman in a sparkling, pearl-embellished white gown, hair in a sleek ponytail with bangs, giving an excited red-carpet interview.\nComposition: Vertical 9:16 medium close-up to medium shot (chest/waist-up), eye-level, centered framing with the microphone in the foreground.\nAction: Smiling and talking to the interviewer, reacting expressively and gesturing with one hand while answering questions.\nLocation: A press line / red-carpet backdrop with a green step-and-repeat wall (“HBO Original / The White Lotus / Max” logos), with other attendees behind her.\nStyle: Candid celebrity interview clip—social-media edit vibe with bold caption text overlays and a watermark.\nCamera & Lighting: Smartphone-style video, mostly static/handheld; bright event lighting/press lights creating an even key on the face, soft shadows, and a clean, high-exposure look.

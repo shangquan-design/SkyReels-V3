@@ -1,0 +1,9 @@
+index: 87
+sample_id: 0087_ml_8
+image: /workspace/100_benchmark_v2/synthesised/ml_8.png
+audio: /workspace/100_benchmark_v2/synthesised/ml_8.mp3
+seed: 201
+bucket: 720P
+rank: 0
+saved_video: /workspace/SkyReels-V3/results_skyreel2_test/final_with_audio/0087_ml_8_seed201_2026-02-04_21-30-12_r0.mp4
+prompt: Still posture, measured cadence, controlled authority. Starts to cry and wipes away tears.

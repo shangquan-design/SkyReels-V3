@@ -1,0 +1,9 @@
+index: 1
+sample_id: 0001_ss_02
+image: /workspace/100_benchmark_v2/fullbody/ss_02.png
+audio: /workspace/100_benchmark_v2/fullbody/ss_02.mp3
+seed: 201
+bucket: 720P
+rank: 0
+saved_video: /workspace/SkyReels-V3/results_skyreel2_test/final_with_audio/0001_ss_02_seed201_2026-02-04_10-52-00_r0.mp4
+prompt: Subject: A full-body fashion try-on presenter, wearing a black long-sleeve crop top and olive green cargo pants, with on-screen price text and picture-in-picture product close-ups.\nComposition: Wide, full-body shot in 16:9, mostly eye-level with a slightly wide lens feel; subject centered with clean negative space on the left for overlays.\nAction: Speaking directly to camera while holding a small handheld mic, gesturing to highlight fit and features; occasional pose/weight shift, with intermittent inset shots showing pant details.\nLocation: A bright, minimalist indoor room/closet-studio setting—pastel wall, floating shelf with plants/decor, clothing rack, and a door in the background.\nStyle: Clean commercial/e-commerce try-on video, social-media friendly, bright and tidy with an emphasis on product visibility and clarity.\nCamera & Lighting: Static tripod shot (roughly 24–35mm equivalent), high-key soft frontal lighting (ring light/softbox look) with gentle fill and minimal shadows; neutral color balance for accurate fabric color.

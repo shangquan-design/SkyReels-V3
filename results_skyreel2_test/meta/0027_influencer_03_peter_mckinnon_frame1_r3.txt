@@ -1,0 +1,10 @@
+index: 27
+sample_id: 0027_influencer_03_peter_mckinnon_frame1
+image: /workspace/100_benchmark_v2/influencer/influencer_03_peter_mckinnon_frame1.jpg
+audio: /workspace/100_benchmark_v2/influencer/influencer_03_peter_mckinnon.wav
+seed: 201
+bucket: 720P
+rank: 3
+status: failed
+error: None
+prompt: A bearded man wearing a backwards black cap and light grey crewneck sweater is shown in medium shot. He is in a modern home studio with shelving, photography equipment, and a couch visible in the background. He speaks animatedly with extended arm gestures in an energetic, conversational manner. This is a photography creative tutorial vlog scene.
