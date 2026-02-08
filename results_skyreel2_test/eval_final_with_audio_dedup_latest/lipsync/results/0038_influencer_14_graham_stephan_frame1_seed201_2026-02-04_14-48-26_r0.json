@@ -1,0 +1,19 @@
+{
+  "video_id": "0038_influencer_14_graham_stephan_frame1_seed201_2026-02-04_14-48-26_r0",
+  "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0038_influencer_14_graham_stephan_frame1_seed201_2026-02-04_14-48-26_r0.mp4",
+  "status": "success",
+  "sync_confidence": 9.803353309631348,
+  "sync_distance": 6.820385932922363,
+  "offset": -1,
+  "quality": "GOOD",
+  "num_tracks": 1,
+  "all_offsets": [
+    -1
+  ],
+  "all_confidences": [
+    9.803353309631348
+  ],
+  "all_distances": [
+    6.820385932922363
+  ]
+}

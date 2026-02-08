@@ -1,0 +1,19 @@
+{
+  "video_id": "0035_influencer_11_desi_perkins_frame1_seed201_2026-02-04_14-31-04_r0",
+  "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0035_influencer_11_desi_perkins_frame1_seed201_2026-02-04_14-31-04_r0.mp4",
+  "status": "success",
+  "sync_confidence": 6.7329020500183105,
+  "sync_distance": 7.956162929534912,
+  "offset": -3,
+  "quality": "FAIR",
+  "num_tracks": 1,
+  "all_offsets": [
+    -3
+  ],
+  "all_confidences": [
+    6.7329020500183105
+  ],
+  "all_distances": [
+    7.956162929534912
+  ]
+}

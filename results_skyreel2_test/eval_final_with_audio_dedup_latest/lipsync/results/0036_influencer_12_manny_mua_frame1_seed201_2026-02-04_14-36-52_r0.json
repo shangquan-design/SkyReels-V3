@@ -1,0 +1,19 @@
+{
+  "video_id": "0036_influencer_12_manny_mua_frame1_seed201_2026-02-04_14-36-52_r0",
+  "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0036_influencer_12_manny_mua_frame1_seed201_2026-02-04_14-36-52_r0.mp4",
+  "status": "success",
+  "sync_confidence": 7.889808654785156,
+  "sync_distance": 7.339735984802246,
+  "offset": -2,
+  "quality": "FAIR",
+  "num_tracks": 1,
+  "all_offsets": [
+    -2
+  ],
+  "all_confidences": [
+    7.889808654785156
+  ],
+  "all_distances": [
+    7.339735984802246
+  ]
+}

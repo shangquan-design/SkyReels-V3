@@ -1,0 +1,10 @@
+index: 0
+sample_id: 0000_001
+image: /workspace/multi-person/videos_out/001.png
+audio_or_media: /workspace/multi-person/videos_out/001.wav
+seed: 201
+bucket: 720P
+rank: 0
+status: failed
+error: attempt2 IndexError: pop from empty list
+prompt: A professional studio video features two hosts (male with beard, black sweater; female with blonde hair, grey sweater) framed chest-up, with a blurred tech-office background of computer monitors. The male speaks first, then the female, with natural expressions, lip-sync, and active listening gestures, transitioning between medium two-shots and solo close-ups for the female, maintaining 4K cinematic quality and consistent identity, driven by precise audio-to-video synchronization for each speaker.

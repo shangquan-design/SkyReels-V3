@@ -1,0 +1,19 @@
+{
+  "video_id": "0018_ss_19_seed201_2026-02-04_12-51-33_r0",
+  "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0018_ss_19_seed201_2026-02-04_12-51-33_r0.mp4",
+  "status": "success",
+  "sync_confidence": 6.088143348693848,
+  "sync_distance": 7.78458309173584,
+  "offset": -1,
+  "quality": "FAIR",
+  "num_tracks": 1,
+  "all_offsets": [
+    -1
+  ],
+  "all_confidences": [
+    6.088143348693848
+  ],
+  "all_distances": [
+    7.78458309173584
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "0032_influencer_08_lisa_eldridge_frame1_seed201_2026-02-04_14-13-47_r0",
+  "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0032_influencer_08_lisa_eldridge_frame1_seed201_2026-02-04_14-13-47_r0.mp4",
+  "status": "success",
+  "sync_confidence": 9.934355735778809,
+  "sync_distance": 6.922623634338379,
+  "offset": -2,
+  "quality": "GOOD",
+  "num_tracks": 1,
+  "all_offsets": [
+    -2
+  ],
+  "all_confidences": [
+    9.934355735778809
+  ],
+  "all_distances": [
+    6.922623634338379
+  ]
+}

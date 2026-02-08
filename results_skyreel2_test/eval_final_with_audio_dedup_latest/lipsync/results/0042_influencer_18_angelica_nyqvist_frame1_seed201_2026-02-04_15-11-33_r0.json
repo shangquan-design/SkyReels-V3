@@ -1,0 +1,22 @@
+{
+  "video_id": "0042_influencer_18_angelica_nyqvist_frame1_seed201_2026-02-04_15-11-33_r0",
+  "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0042_influencer_18_angelica_nyqvist_frame1_seed201_2026-02-04_15-11-33_r0.mp4",
+  "status": "success",
+  "sync_confidence": 8.933311462402344,
+  "sync_distance": 7.216756820678711,
+  "offset": -2,
+  "quality": "FAIR",
+  "num_tracks": 2,
+  "all_offsets": [
+    -2,
+    11
+  ],
+  "all_confidences": [
+    8.933311462402344,
+    0.27228260040283203
+  ],
+  "all_distances": [
+    7.216756820678711,
+    13.199803352355957
+  ]
+}

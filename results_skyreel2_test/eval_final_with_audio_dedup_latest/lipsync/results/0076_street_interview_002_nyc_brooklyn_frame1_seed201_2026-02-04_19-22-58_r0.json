@@ -1,0 +1,19 @@
+{
+  "video_id": "0076_street_interview_002_nyc_brooklyn_frame1_seed201_2026-02-04_19-22-58_r0",
+  "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0076_street_interview_002_nyc_brooklyn_frame1_seed201_2026-02-04_19-22-58_r0.mp4",
+  "status": "success",
+  "sync_confidence": 5.443843364715576,
+  "sync_distance": 7.973606586456299,
+  "offset": -2,
+  "quality": "FAIR",
+  "num_tracks": 1,
+  "all_offsets": [
+    -2
+  ],
+  "all_confidences": [
+    5.443843364715576
+  ],
+  "all_distances": [
+    7.973606586456299
+  ]
+}

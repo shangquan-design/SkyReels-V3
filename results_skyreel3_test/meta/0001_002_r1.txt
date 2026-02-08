@@ -1,0 +1,10 @@
+index: 1
+sample_id: 0001_002
+image: /workspace/multi-person/videos_out/002.png
+audio: /workspace/multi-person/videos_out/002.wav
+seed: 201
+bucket: 540P
+rank: 1
+status: failed
+error: attempt2 ValueError: Unsupported size bucket: 540P
+prompt: In this animated sequence, two yellow, cylindrical Minions in denim overalls are standing on a red carpet in a well-lit room. The one on the left, who is shorter and has one eye, is looking at the taller, two-eyed Minion on the right with a skeptical and bored expression. The taller Minion is gesturing with his hands as if he's explaining something, and his mouth is moving as if he's speaking. The background features a cream-colored wall with some subtle decorative molding. The lighting is soft and even, highlighting the Minions' bright yellow skin and the texture of their overalls. The camera remains stationary, focusing on the interaction between the two characters.

@@ -1,0 +1,19 @@
+{
+  "video_id": "0024_animation_005_belle_beauty_frame1_seed201_2026-02-04_13-27-32_r0",
+  "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0024_animation_005_belle_beauty_frame1_seed201_2026-02-04_13-27-32_r0.mp4",
+  "status": "success",
+  "sync_confidence": 2.4591550827026367,
+  "sync_distance": 10.258265495300293,
+  "offset": 0,
+  "quality": "POOR",
+  "num_tracks": 1,
+  "all_offsets": [
+    0
+  ],
+  "all_confidences": [
+    2.4591550827026367
+  ],
+  "all_distances": [
+    10.258265495300293
+  ]
+}

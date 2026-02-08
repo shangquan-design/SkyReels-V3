@@ -1,0 +1,17 @@
+{
+  "num_videos": 100,
+  "num_success": 94,
+  "num_no_face": 2,
+  "num_no_tracks": 4,
+  "num_errors": 0,
+  "avg_sync_confidence": 7.103249783211566,
+  "avg_sync_distance": 7.646325466480661,
+  "avg_offset": 1.4787234042553192,
+  "quality_distribution": {
+    "GOOD": 26,
+    "FAIR": 62,
+    "NO_FACE": 2,
+    "POOR": 6,
+    "NO_TRACKS": 4
+  }
+}

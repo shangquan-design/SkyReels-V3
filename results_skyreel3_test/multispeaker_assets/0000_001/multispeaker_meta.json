@@ -1,0 +1,79 @@
+{
+  "cond_audio_wav": {
+    "person1": "/workspace/SkyReels-V3/results_skyreel3_test/multispeaker_assets/0000_001/person1.wav",
+    "person2": "/workspace/SkyReels-V3/results_skyreel3_test/multispeaker_assets/0000_001/person2.wav"
+  },
+  "bbox": {
+    "person1": [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "person2": [
+      0.0,
+      0.0,
+      1.0,
+      1.0
+    ]
+  },
+  "segments": {
+    "person1": [
+      [
+        0.0,
+        4.0
+      ],
+      [
+        8.0,
+        12.0
+      ],
+      [
+        16.0,
+        20.0
+      ],
+      [
+        24.0,
+        28.0
+      ],
+      [
+        32.0,
+        36.0
+      ],
+      [
+        40.0,
+        44.0
+      ]
+    ],
+    "person2": [
+      [
+        4.0,
+        8.0
+      ],
+      [
+        12.0,
+        16.0
+      ],
+      [
+        20.0,
+        24.0
+      ],
+      [
+        28.0,
+        32.0
+      ],
+      [
+        36.0,
+        40.0
+      ],
+      [
+        44.0,
+        45.116375
+      ]
+    ]
+  },
+  "media_path": "/workspace/multi-person/videos_out/001.wav",
+  "extracted_audio_wav": "/workspace/SkyReels-V3/results_skyreel3_test/multispeaker_assets/0000_001/full_audio.wav",
+  "fps": 25.0,
+  "width": 1,
+  "height": 1
+}

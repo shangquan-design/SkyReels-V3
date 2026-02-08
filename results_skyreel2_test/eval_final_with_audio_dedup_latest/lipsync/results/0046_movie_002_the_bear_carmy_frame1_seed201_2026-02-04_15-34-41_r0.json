@@ -1,0 +1,19 @@
+{
+  "video_id": "0046_movie_002_the_bear_carmy_frame1_seed201_2026-02-04_15-34-41_r0",
+  "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0046_movie_002_the_bear_carmy_frame1_seed201_2026-02-04_15-34-41_r0.mp4",
+  "status": "success",
+  "sync_confidence": 5.740727424621582,
+  "sync_distance": 7.297796249389648,
+  "offset": -1,
+  "quality": "FAIR",
+  "num_tracks": 1,
+  "all_offsets": [
+    -1
+  ],
+  "all_confidences": [
+    5.740727424621582
+  ],
+  "all_distances": [
+    7.297796249389648
+  ]
+}

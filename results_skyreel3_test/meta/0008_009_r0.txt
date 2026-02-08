@@ -1,0 +1,10 @@
+index: 8
+sample_id: 0008_009
+image: /workspace/multi-person/videos_out/009.png
+audio_or_media: /workspace/multi-person/videos_out/009.wav
+seed: 201
+bucket: 720P
+rank: 0
+status: failed
+error: attempt2 IndexError: pop from empty list
+prompt: A medium shot of two young women standing in a modern hair salon; the woman on the left with long brunette hair and a dark blue coat speaks animatedly with a sarcastic expression, while the blonde woman on the right in a beige coat and a large pearl necklace responds with an wide-eyed, defensive look; the background features professional salon decor, including posters of models and a sign that reads "Tristan Evans Salon," all captured with bright sitcom-style lighting and sharp focus.

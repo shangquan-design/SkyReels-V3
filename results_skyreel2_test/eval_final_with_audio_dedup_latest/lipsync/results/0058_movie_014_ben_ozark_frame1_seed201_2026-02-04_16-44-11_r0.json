@@ -1,0 +1,19 @@
+{
+  "video_id": "0058_movie_014_ben_ozark_frame1_seed201_2026-02-04_16-44-11_r0",
+  "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0058_movie_014_ben_ozark_frame1_seed201_2026-02-04_16-44-11_r0.mp4",
+  "status": "success",
+  "sync_confidence": 6.296453952789307,
+  "sync_distance": 7.62063455581665,
+  "offset": -2,
+  "quality": "FAIR",
+  "num_tracks": 1,
+  "all_offsets": [
+    -2
+  ],
+  "all_confidences": [
+    6.296453952789307
+  ],
+  "all_distances": [
+    7.62063455581665
+  ]
+}

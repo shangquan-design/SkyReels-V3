@@ -1,0 +1,19 @@
+{
+  "video_id": "0020_animation_001_elsa_frozen_frame1_seed201_2026-02-04_13-04-33_r0",
+  "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0020_animation_001_elsa_frozen_frame1_seed201_2026-02-04_13-04-33_r0.mp4",
+  "status": "success",
+  "sync_confidence": 4.83177375793457,
+  "sync_distance": 8.888404846191406,
+  "offset": -1,
+  "quality": "FAIR",
+  "num_tracks": 1,
+  "all_offsets": [
+    -1
+  ],
+  "all_confidences": [
+    4.83177375793457
+  ],
+  "all_distances": [
+    8.888404846191406
+  ]
+}

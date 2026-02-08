@@ -1,0 +1,10 @@
+index: 2
+sample_id: 0002_003
+image: /workspace/multi-person/videos_out/003.png
+audio_or_media: /workspace/multi-person/videos_out/003.wav
+seed: 201
+bucket: 480P
+rank: 0
+status: failed
+error: attempt2 IndexError: pop from empty list
+prompt: An adorable 3D wool felt animation features a young man and woman with soft, textured hair and expressive features, standing face-to-face and singing into microphones; the characters have a handcrafted, needle-felted appearance with visible fuzzy fibers, set against a simple dark grey background while they gaze happily at each other and perform a duet with synchronized mouth movements.

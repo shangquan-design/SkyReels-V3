@@ -1,0 +1,19 @@
+{
+  "video_id": "0055_movie_011_peter_network_frame1_seed201_2026-02-04_16-26-47_r0",
+  "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0055_movie_011_peter_network_frame1_seed201_2026-02-04_16-26-47_r0.mp4",
+  "status": "success",
+  "sync_confidence": 7.983496189117432,
+  "sync_distance": 7.979051113128662,
+  "offset": -1,
+  "quality": "FAIR",
+  "num_tracks": 1,
+  "all_offsets": [
+    -1
+  ],
+  "all_confidences": [
+    7.983496189117432
+  ],
+  "all_distances": [
+    7.979051113128662
+  ]
+}

@@ -1,0 +1,1217 @@
+{
+    "imaging_quality": [
+        0.683623131782293,
+        [
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0000_ss_01_seed201_2026-02-04_10-44-46_r0.mp4",
+                "video_results": 68.86779602050781
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0001_ss_02_seed201_2026-02-04_10-52-00_r0.mp4",
+                "video_results": 77.71797943115234
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0002_ss_03_seed201_2026-02-04_10-59-11_r0.mp4",
+                "video_results": 75.95946071593742
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0003_ss_04_seed201_2026-02-04_11-06-22_r0.mp4",
+                "video_results": 74.29056921386719
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0004_ss_05_seed201_2026-02-04_11-13-33_r0.mp4",
+                "video_results": 72.46159713745118
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0005_ss_06_seed201_2026-02-04_11-20-47_r0.mp4",
+                "video_results": 73.45036618041992
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0006_ss_07_seed201_2026-02-04_11-26-34_r0.mp4",
+                "video_results": 70.90645191089527
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0007_ss_08_seed201_2026-02-04_11-33-45_r0.mp4",
+                "video_results": 75.98461849975585
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0008_ss_09_seed201_2026-02-04_11-40-57_r0.mp4",
+                "video_results": 72.96979852294922
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0009_ss_10_seed201_2026-02-04_11-45-19_r0.mp4",
+                "video_results": 65.33067490569258
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0010_ss_11_seed201_2026-02-04_11-52-30_r0.mp4",
+                "video_results": 75.35626916234273
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0011_ss_12_seed201_2026-02-04_11-59-41_r0.mp4",
+                "video_results": 63.14009611511231
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0012_ss_13_seed201_2026-02-04_12-08-17_r0.mp4",
+                "video_results": 70.08370494523575
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0013_ss_14_seed201_2026-02-04_12-15-32_r0.mp4",
+                "video_results": 73.5057594909668
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0014_ss_15_seed201_2026-02-04_12-22-43_r0.mp4",
+                "video_results": 75.41943869018554
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0015_ss_16_seed201_2026-02-04_12-29-56_r0.mp4",
+                "video_results": 73.11008921896274
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0016_ss_17_seed201_2026-02-04_12-37-09_r0.mp4",
+                "video_results": 72.59048370361329
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0017_ss_18_seed201_2026-02-04_12-44-20_r0.mp4",
+                "video_results": 71.17483517456054
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0018_ss_19_seed201_2026-02-04_12-51-33_r0.mp4",
+                "video_results": 74.17882385253907
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0019_ss_20_seed201_2026-02-04_12-58-46_r0.mp4",
+                "video_results": 73.15017846679687
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0020_animation_001_elsa_frozen_frame1_seed201_2026-02-04_13-04-33_r0.mp4",
+                "video_results": 61.10248369216919
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0021_animation_002_franck_cosmos_frame1_seed201_2026-02-04_13-10-09_r0.mp4",
+                "video_results": 60.75036962509155
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0022_animation_003_rapunzel_tangled_frame1_seed201_2026-02-04_13-15-57_r0.mp4",
+                "video_results": 75.49073684692382
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0023_animation_004_ariel_mermaid_frame1_seed201_2026-02-04_13-21-45_r0.mp4",
+                "video_results": 77.18348682229289
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0024_animation_005_belle_beauty_frame1_seed201_2026-02-04_13-27-32_r0.mp4",
+                "video_results": 79.44747402191162
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0025_influencer_01_ali_abdaal_frame1_seed201_2026-02-04_13-33-19_r0.mp4",
+                "video_results": 74.88331245422363
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0026_influencer_02_pick_up_limes_frame1_seed201_2026-02-04_13-39-07_r0.mp4",
+                "video_results": 73.64170013427734
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0027_influencer_03_peter_mckinnon_frame1_seed201_2026-02-04_13-44-56_r0.mp4",
+                "video_results": 72.887954788208
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0028_influencer_04_thomas_frank_frame1_seed201_2026-02-04_13-50-41_r0.mp4",
+                "video_results": 74.85385570526122
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0029_influencer_05_lex_fridman_frame1_seed201_2026-02-04_13-56-27_r0.mp4",
+                "video_results": 58.55497667312622
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0030_influencer_06_emma_chamberlain_frame1_seed201_2026-02-04_14-02-12_r0.mp4",
+                "video_results": 78.55385280609131
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0031_influencer_07_jackie_aina_frame1_seed201_2026-02-04_14-07-58_r0.mp4",
+                "video_results": 71.25026035308838
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0032_influencer_08_lisa_eldridge_frame1_seed201_2026-02-04_14-13-47_r0.mp4",
+                "video_results": 74.89039901733399
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0033_influencer_09_tati_westbrook_frame1_seed201_2026-02-04_14-19-33_r0.mp4",
+                "video_results": 71.5200163269043
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0034_influencer_10_kathleenlights_frame1_seed201_2026-02-04_14-25-20_r0.mp4",
+                "video_results": 76.97389701843262
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0035_influencer_11_desi_perkins_frame1_seed201_2026-02-04_14-31-04_r0.mp4",
+                "video_results": 77.6059351348877
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0036_influencer_12_manny_mua_frame1_seed201_2026-02-04_14-36-52_r0.mp4",
+                "video_results": 69.4785131072998
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0037_influencer_13_allie_glines_frame1_seed201_2026-02-04_14-42-40_r0.mp4",
+                "video_results": 76.7164049911499
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0038_influencer_14_graham_stephan_frame1_seed201_2026-02-04_14-48-26_r0.mp4",
+                "video_results": 59.437194747924806
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0039_influencer_15_christen_dominique_frame1_seed201_2026-02-04_14-54-13_r0.mp4",
+                "video_results": 74.55760227203369
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0040_influencer_16_shani_grimmond_frame1_seed201_2026-02-04_15-00-00_r0.mp4",
+                "video_results": 73.05074501037598
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0041_influencer_17_samantha_ravndahl_frame1_seed201_2026-02-04_15-05-46_r0.mp4",
+                "video_results": 74.5714028930664
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0042_influencer_18_angelica_nyqvist_frame1_seed201_2026-02-04_15-11-33_r0.mp4",
+                "video_results": 68.9256781387329
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0043_influencer_19_rawbeautykristi_frame1_seed201_2026-02-04_15-17-21_r0.mp4",
+                "video_results": 73.35343444824218
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0044_influencer_20_jamie_genevieve_frame1_seed201_2026-02-04_15-23-07_r0.mp4",
+                "video_results": 74.78848289489746
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0045_movie_001_andor_luthen_frame1_seed201_2026-02-04_15-28-53_r0.mp4",
+                "video_results": 37.25958129960268
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0046_movie_002_the_bear_carmy_frame1_seed201_2026-02-04_15-34-41_r0.mp4",
+                "video_results": 66.3460505335464
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0047_movie_003_skyler_bb_frame1_seed201_2026-02-04_15-40-32_r0.mp4",
+                "video_results": 71.03914448694529
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0048_movie_004_pacino_scent_frame1_seed201_2026-02-04_15-46-22_r0.mp4",
+                "video_results": 73.2045889917364
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0049_movie_005_robin_goodwill_frame1_seed201_2026-02-04_15-52-11_r0.mp4",
+                "video_results": 74.66981262361942
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0050_movie_006_phoebe_fleabag_frame1_seed201_2026-02-04_15-57-56_r0.mp4",
+                "video_results": 23.149761693731783
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0051_movie_007_villanelle_killingeve_frame1_seed201_2026-02-04_16-03-41_r0.mp4",
+                "video_results": 65.86812945912938
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0052_movie_008_denzel_trainingday_frame1_seed201_2026-02-04_16-09-28_r0.mp4",
+                "video_results": 43.2473765726622
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0053_movie_009_mia_pearl_frame1_seed201_2026-02-04_16-15-13_r0.mp4",
+                "video_results": 47.705875822735315
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0054_movie_010_rutger_bladerunner_frame1_seed201_2026-02-04_16-21-00_r0.mp4",
+                "video_results": 53.151996824476456
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0055_movie_011_peter_network_frame1_seed201_2026-02-04_16-26-47_r0.mp4",
+                "video_results": 74.91843360087593
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0056_movie_012_rdj_oppenheimer_frame1_seed201_2026-02-04_16-32-34_r0.mp4",
+                "video_results": 64.44036158450363
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0057_movie_013_frances_macbeth_frame1_seed201_2026-02-04_16-38-22_r0.mp4",
+                "video_results": 55.21522558764153
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0058_movie_014_ben_ozark_frame1_seed201_2026-02-04_16-44-11_r0.mp4",
+                "video_results": 53.142374668024516
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0059_movie_015_britt_severance_frame1_seed201_2026-02-04_16-50-02_r0.mp4",
+                "video_results": 73.01982825693457
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0060_movie_016_gihun_squidgame_frame1_seed201_2026-02-04_16-55-50_r0.mp4",
+                "video_results": 71.25288205219404
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0061_movie_017_viola_htgawm_frame1_seed201_2026-02-04_17-01-40_r0.mp4",
+                "video_results": 65.35363359015605
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0062_movie_018_jenna_snl_frame1_seed201_2026-02-04_17-07-30_r0.mp4",
+                "video_results": 55.36877195484142
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0063_movie_019_stephanie_eeaao_frame1_seed201_2026-02-04_17-13-19_r0.mp4",
+                "video_results": 25.0867916726824
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0064_movie_020_emma_lalaland_frame1_seed201_2026-02-04_17-19-08_r0.mp4",
+                "video_results": 36.60198640823364
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0065_news_001_carla_harris_frame1_seed201_2026-02-04_17-25-00_r0.mp4",
+                "video_results": 70.47475576642806
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0066_news_002_chris_anderson_frame1_seed201_2026-02-04_17-36-12_r0.mp4",
+                "video_results": 66.33640329970926
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0067_news_003_jay_johnson_frame1_seed201_2026-02-04_17-43-07_r0.mp4",
+                "video_results": 44.952677750950535
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0068_news_004_trump_un_frame1_seed201_2026-02-04_17-53-19_r0.mp4",
+                "video_results": 76.63495457838029
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0069_news_005_jackma_wef_frame1_seed201_2026-02-04_18-04-22_r0.mp4",
+                "video_results": 58.34422704696655
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0070_news_006_tim_cook_frame1_seed201_2026-02-04_18-15-40_r0.mp4",
+                "video_results": 73.84160939327957
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0071_news_007_biden_wef_frame1_seed201_2026-02-04_18-26-38_r0.mp4",
+                "video_results": 74.0267096582403
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0072_news_008_sundar_pichai_frame1_seed201_2026-02-04_18-37-56_r0.mp4",
+                "video_results": 74.86004050007932
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0073_news_009_elon_musk_frame1_seed201_2026-02-04_18-49-14_r0.mp4",
+                "video_results": 75.27888903157965
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0074_news_010_bill_gates_frame1_seed201_2026-02-04_19-00-28_r0.mp4",
+                "video_results": 77.08283462137135
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0075_street_interview_001_london_host_frame1_seed201_2026-02-04_19-11-16_r0.mp4",
+                "video_results": 60.268410711577445
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0076_street_interview_002_nyc_brooklyn_frame1_seed201_2026-02-04_19-22-58_r0.mp4",
+                "video_results": 63.74255266189575
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0077_street_interview_003_nyc_host_frame1_seed201_2026-02-04_19-33-46_r0.mp4",
+                "video_results": 73.51544070003008
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0078_street_interview_004_sprouts_host_frame1_seed201_2026-02-04_19-45-07_r0.mp4",
+                "video_results": 70.40559502223029
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0079_street_interview_005_f1_gasly_frame1_seed201_2026-02-04_19-56-13_r0.mp4",
+                "video_results": 73.80965538599982
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0080_ap_01_seed201_2026-02-04_20-09-59_r0.mp4",
+                "video_results": 76.55749750751282
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0081_ap_02_seed201_2026-02-04_20-24-10_r0.mp4",
+                "video_results": 74.63898837619358
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0082_ap_03_seed201_2026-02-04_20-37-57_r0.mp4",
+                "video_results": 73.96218574553383
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0083_ap_04_seed201_2026-02-04_20-51-46_r0.mp4",
+                "video_results": 74.62837076601775
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0084_ml_5_seed201_2026-02-04_21-03-14_r0.mp4",
+                "video_results": 71.96928711909398
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0085_ml_6_seed201_2026-02-04_21-14-03_r0.mp4",
+                "video_results": 73.07780768887308
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0086_ml_7_seed201_2026-02-04_21-25-32_r0.mp4",
+                "video_results": 77.52890419560438
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0087_ml_8_seed201_2026-02-04_21-30-12_r0.mp4",
+                "video_results": 64.60129486887078
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0088_rj_29_seed201_2026-02-04_21-35-59_r0.mp4",
+                "video_results": 75.38319846488334
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0089_rj_30_seed201_2026-02-04_21-41-46_r0.mp4",
+                "video_results": 63.275511114636835
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0090_rj_31_seed201_2026-02-04_21-47-32_r0.mp4",
+                "video_results": 75.67375574666987
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0091_rj_32_seed201_2026-02-04_21-54-46_r0.mp4",
+                "video_results": 74.93252417116749
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0092_tw_53_seed201_2026-02-04_22-01-59_r0.mp4",
+                "video_results": 62.357964004916646
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0093_tw_54_seed201_2026-02-04_22-09-13_r0.mp4",
+                "video_results": 72.39252364289216
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0094_tw_55_seed201_2026-02-04_22-19-19_r0.mp4",
+                "video_results": 69.48614561095718
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0095_tw_56_seed201_2026-02-04_22-26-34_r0.mp4",
+                "video_results": 76.53030398726966
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0096_wenbo_97_seed201_2026-02-04_22-35-12_r0.mp4",
+                "video_results": 62.630679114606465
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0097_wenbo_98_seed201_2026-02-04_22-43-52_r0.mp4",
+                "video_results": 64.42620485854961
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0098_wenbo_99_seed201_2026-02-04_22-52-31_r0.mp4",
+                "video_results": 63.97211628727869
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0099_wenbo_100_seed201_2026-02-04_22-59-46_r0.mp4",
+                "video_results": 70.46952945552069
+            }
+        ]
+    ],
+    "dynamic_degree": [
+        0.38,
+        [
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0000_ss_01_seed201_2026-02-04_10-44-46_r0.mp4",
+                "video_results": false
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0001_ss_02_seed201_2026-02-04_10-52-00_r0.mp4",
+                "video_results": false
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0002_ss_03_seed201_2026-02-04_10-59-11_r0.mp4",
+                "video_results": false
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0003_ss_04_seed201_2026-02-04_11-06-22_r0.mp4",
+                "video_results": true
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0004_ss_05_seed201_2026-02-04_11-13-33_r0.mp4",
+                "video_results": false
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0005_ss_06_seed201_2026-02-04_11-20-47_r0.mp4",
+                "video_results": true
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0006_ss_07_seed201_2026-02-04_11-26-34_r0.mp4",
+                "video_results": true
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0007_ss_08_seed201_2026-02-04_11-33-45_r0.mp4",
+                "video_results": false
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0008_ss_09_seed201_2026-02-04_11-40-57_r0.mp4",
+                "video_results": true
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0009_ss_10_seed201_2026-02-04_11-45-19_r0.mp4",
+                "video_results": false
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0010_ss_11_seed201_2026-02-04_11-52-30_r0.mp4",
+                "video_results": true
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0011_ss_12_seed201_2026-02-04_11-59-41_r0.mp4",
+                "video_results": false
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0012_ss_13_seed201_2026-02-04_12-08-17_r0.mp4",
+                "video_results": true
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0013_ss_14_seed201_2026-02-04_12-15-32_r0.mp4",
+                "video_results": true
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0014_ss_15_seed201_2026-02-04_12-22-43_r0.mp4",
+                "video_results": true
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0015_ss_16_seed201_2026-02-04_12-29-56_r0.mp4",
+                "video_results": false
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0016_ss_17_seed201_2026-02-04_12-37-09_r0.mp4",
+                "video_results": true
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0017_ss_18_seed201_2026-02-04_12-44-20_r0.mp4",
+                "video_results": false
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0018_ss_19_seed201_2026-02-04_12-51-33_r0.mp4",
+                "video_results": true
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0019_ss_20_seed201_2026-02-04_12-58-46_r0.mp4",
+                "video_results": false
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0020_animation_001_elsa_frozen_frame1_seed201_2026-02-04_13-04-33_r0.mp4",
+                "video_results": false
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0021_animation_002_franck_cosmos_frame1_seed201_2026-02-04_13-10-09_r0.mp4",
+                "video_results": true
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0022_animation_003_rapunzel_tangled_frame1_seed201_2026-02-04_13-15-57_r0.mp4",
+                "video_results": false
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0023_animation_004_ariel_mermaid_frame1_seed201_2026-02-04_13-21-45_r0.mp4",
+                "video_results": false
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0024_animation_005_belle_beauty_frame1_seed201_2026-02-04_13-27-32_r0.mp4",
+                "video_results": true
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0025_influencer_01_ali_abdaal_frame1_seed201_2026-02-04_13-33-19_r0.mp4",
+                "video_results": true
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0026_influencer_02_pick_up_limes_frame1_seed201_2026-02-04_13-39-07_r0.mp4",
+                "video_results": true
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0027_influencer_03_peter_mckinnon_frame1_seed201_2026-02-04_13-44-56_r0.mp4",
+                "video_results": true
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0028_influencer_04_thomas_frank_frame1_seed201_2026-02-04_13-50-41_r0.mp4",
+                "video_results": false
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0029_influencer_05_lex_fridman_frame1_seed201_2026-02-04_13-56-27_r0.mp4",
+                "video_results": false
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0030_influencer_06_emma_chamberlain_frame1_seed201_2026-02-04_14-02-12_r0.mp4",
+                "video_results": false
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0031_influencer_07_jackie_aina_frame1_seed201_2026-02-04_14-07-58_r0.mp4",
+                "video_results": true
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0032_influencer_08_lisa_eldridge_frame1_seed201_2026-02-04_14-13-47_r0.mp4",
+                "video_results": true
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0033_influencer_09_tati_westbrook_frame1_seed201_2026-02-04_14-19-33_r0.mp4",
+                "video_results": true
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0034_influencer_10_kathleenlights_frame1_seed201_2026-02-04_14-25-20_r0.mp4",
+                "video_results": false
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0035_influencer_11_desi_perkins_frame1_seed201_2026-02-04_14-31-04_r0.mp4",
+                "video_results": true
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0036_influencer_12_manny_mua_frame1_seed201_2026-02-04_14-36-52_r0.mp4",
+                "video_results": true
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0037_influencer_13_allie_glines_frame1_seed201_2026-02-04_14-42-40_r0.mp4",
+                "video_results": false
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0038_influencer_14_graham_stephan_frame1_seed201_2026-02-04_14-48-26_r0.mp4",
+                "video_results": true
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0039_influencer_15_christen_dominique_frame1_seed201_2026-02-04_14-54-13_r0.mp4",
+                "video_results": true
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0040_influencer_16_shani_grimmond_frame1_seed201_2026-02-04_15-00-00_r0.mp4",
+                "video_results": true
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0041_influencer_17_samantha_ravndahl_frame1_seed201_2026-02-04_15-05-46_r0.mp4",
+                "video_results": false
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0042_influencer_18_angelica_nyqvist_frame1_seed201_2026-02-04_15-11-33_r0.mp4",
+                "video_results": true
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0043_influencer_19_rawbeautykristi_frame1_seed201_2026-02-04_15-17-21_r0.mp4",
+                "video_results": true
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0044_influencer_20_jamie_genevieve_frame1_seed201_2026-02-04_15-23-07_r0.mp4",
+                "video_results": false
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0045_movie_001_andor_luthen_frame1_seed201_2026-02-04_15-28-53_r0.mp4",
+                "video_results": false
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0046_movie_002_the_bear_carmy_frame1_seed201_2026-02-04_15-34-41_r0.mp4",
+                "video_results": false
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0047_movie_003_skyler_bb_frame1_seed201_2026-02-04_15-40-32_r0.mp4",
+                "video_results": false
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0048_movie_004_pacino_scent_frame1_seed201_2026-02-04_15-46-22_r0.mp4",
+                "video_results": true
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0049_movie_005_robin_goodwill_frame1_seed201_2026-02-04_15-52-11_r0.mp4",
+                "video_results": false
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0050_movie_006_phoebe_fleabag_frame1_seed201_2026-02-04_15-57-56_r0.mp4",
+                "video_results": false
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0051_movie_007_villanelle_killingeve_frame1_seed201_2026-02-04_16-03-41_r0.mp4",
+                "video_results": false
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0052_movie_008_denzel_trainingday_frame1_seed201_2026-02-04_16-09-28_r0.mp4",
+                "video_results": true
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0053_movie_009_mia_pearl_frame1_seed201_2026-02-04_16-15-13_r0.mp4",
+                "video_results": false
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0054_movie_010_rutger_bladerunner_frame1_seed201_2026-02-04_16-21-00_r0.mp4",
+                "video_results": true
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0055_movie_011_peter_network_frame1_seed201_2026-02-04_16-26-47_r0.mp4",
+                "video_results": false
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0056_movie_012_rdj_oppenheimer_frame1_seed201_2026-02-04_16-32-34_r0.mp4",
+                "video_results": true
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0057_movie_013_frances_macbeth_frame1_seed201_2026-02-04_16-38-22_r0.mp4",
+                "video_results": false
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0058_movie_014_ben_ozark_frame1_seed201_2026-02-04_16-44-11_r0.mp4",
+                "video_results": true
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0059_movie_015_britt_severance_frame1_seed201_2026-02-04_16-50-02_r0.mp4",
+                "video_results": false
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0060_movie_016_gihun_squidgame_frame1_seed201_2026-02-04_16-55-50_r0.mp4",
+                "video_results": false
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0061_movie_017_viola_htgawm_frame1_seed201_2026-02-04_17-01-40_r0.mp4",
+                "video_results": true
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0062_movie_018_jenna_snl_frame1_seed201_2026-02-04_17-07-30_r0.mp4",
+                "video_results": false
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0063_movie_019_stephanie_eeaao_frame1_seed201_2026-02-04_17-13-19_r0.mp4",
+                "video_results": false
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0064_movie_020_emma_lalaland_frame1_seed201_2026-02-04_17-19-08_r0.mp4",
+                "video_results": false
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0065_news_001_carla_harris_frame1_seed201_2026-02-04_17-25-00_r0.mp4",
+                "video_results": true
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0066_news_002_chris_anderson_frame1_seed201_2026-02-04_17-36-12_r0.mp4",
+                "video_results": false
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0067_news_003_jay_johnson_frame1_seed201_2026-02-04_17-43-07_r0.mp4",
+                "video_results": true
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0068_news_004_trump_un_frame1_seed201_2026-02-04_17-53-19_r0.mp4",
+                "video_results": false
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0069_news_005_jackma_wef_frame1_seed201_2026-02-04_18-04-22_r0.mp4",
+                "video_results": true
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0070_news_006_tim_cook_frame1_seed201_2026-02-04_18-15-40_r0.mp4",
+                "video_results": false
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0071_news_007_biden_wef_frame1_seed201_2026-02-04_18-26-38_r0.mp4",
+                "video_results": false
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0072_news_008_sundar_pichai_frame1_seed201_2026-02-04_18-37-56_r0.mp4",
+                "video_results": false
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0073_news_009_elon_musk_frame1_seed201_2026-02-04_18-49-14_r0.mp4",
+                "video_results": false
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0074_news_010_bill_gates_frame1_seed201_2026-02-04_19-00-28_r0.mp4",
+                "video_results": true
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0075_street_interview_001_london_host_frame1_seed201_2026-02-04_19-11-16_r0.mp4",
+                "video_results": true
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0076_street_interview_002_nyc_brooklyn_frame1_seed201_2026-02-04_19-22-58_r0.mp4",
+                "video_results": true
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0077_street_interview_003_nyc_host_frame1_seed201_2026-02-04_19-33-46_r0.mp4",
+                "video_results": false
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0078_street_interview_004_sprouts_host_frame1_seed201_2026-02-04_19-45-07_r0.mp4",
+                "video_results": false
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0079_street_interview_005_f1_gasly_frame1_seed201_2026-02-04_19-56-13_r0.mp4",
+                "video_results": true
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0080_ap_01_seed201_2026-02-04_20-09-59_r0.mp4",
+                "video_results": false
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0081_ap_02_seed201_2026-02-04_20-24-10_r0.mp4",
+                "video_results": false
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0082_ap_03_seed201_2026-02-04_20-37-57_r0.mp4",
+                "video_results": false
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0083_ap_04_seed201_2026-02-04_20-51-46_r0.mp4",
+                "video_results": false
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0084_ml_5_seed201_2026-02-04_21-03-14_r0.mp4",
+                "video_results": false
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0085_ml_6_seed201_2026-02-04_21-14-03_r0.mp4",
+                "video_results": false
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0086_ml_7_seed201_2026-02-04_21-25-32_r0.mp4",
+                "video_results": false
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0087_ml_8_seed201_2026-02-04_21-30-12_r0.mp4",
+                "video_results": false
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0088_rj_29_seed201_2026-02-04_21-35-59_r0.mp4",
+                "video_results": false
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0089_rj_30_seed201_2026-02-04_21-41-46_r0.mp4",
+                "video_results": false
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0090_rj_31_seed201_2026-02-04_21-47-32_r0.mp4",
+                "video_results": false
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0091_rj_32_seed201_2026-02-04_21-54-46_r0.mp4",
+                "video_results": false
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0092_tw_53_seed201_2026-02-04_22-01-59_r0.mp4",
+                "video_results": false
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0093_tw_54_seed201_2026-02-04_22-09-13_r0.mp4",
+                "video_results": false
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0094_tw_55_seed201_2026-02-04_22-19-19_r0.mp4",
+                "video_results": false
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0095_tw_56_seed201_2026-02-04_22-26-34_r0.mp4",
+                "video_results": false
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0096_wenbo_97_seed201_2026-02-04_22-35-12_r0.mp4",
+                "video_results": false
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0097_wenbo_98_seed201_2026-02-04_22-43-52_r0.mp4",
+                "video_results": false
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0098_wenbo_99_seed201_2026-02-04_22-52-31_r0.mp4",
+                "video_results": false
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0099_wenbo_100_seed201_2026-02-04_22-59-46_r0.mp4",
+                "video_results": false
+            }
+        ]
+    ],
+    "overall_consistency": [
+        0.1279233911354095,
+        [
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0000_ss_01_seed201_2026-02-04_10-44-46_r0.mp4",
+                "video_results": 0.10045783966779709
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0001_ss_02_seed201_2026-02-04_10-52-00_r0.mp4",
+                "video_results": 0.051936615258455276
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0002_ss_03_seed201_2026-02-04_10-59-11_r0.mp4",
+                "video_results": 0.03257567062973976
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0003_ss_04_seed201_2026-02-04_11-06-22_r0.mp4",
+                "video_results": 0.07302440702915192
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0004_ss_05_seed201_2026-02-04_11-13-33_r0.mp4",
+                "video_results": 0.06682563573122025
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0005_ss_06_seed201_2026-02-04_11-20-47_r0.mp4",
+                "video_results": 0.05992113798856735
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0006_ss_07_seed201_2026-02-04_11-26-34_r0.mp4",
+                "video_results": 0.08682895451784134
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0007_ss_08_seed201_2026-02-04_11-33-45_r0.mp4",
+                "video_results": 0.0402909517288208
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0008_ss_09_seed201_2026-02-04_11-40-57_r0.mp4",
+                "video_results": 0.029993563890457153
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0009_ss_10_seed201_2026-02-04_11-45-19_r0.mp4",
+                "video_results": 0.0594155490398407
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0010_ss_11_seed201_2026-02-04_11-52-30_r0.mp4",
+                "video_results": 0.0800604373216629
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0011_ss_12_seed201_2026-02-04_11-59-41_r0.mp4",
+                "video_results": 0.09361089020967484
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0012_ss_13_seed201_2026-02-04_12-08-17_r0.mp4",
+                "video_results": 0.09429536014795303
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0013_ss_14_seed201_2026-02-04_12-15-32_r0.mp4",
+                "video_results": 0.09554855525493622
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0014_ss_15_seed201_2026-02-04_12-22-43_r0.mp4",
+                "video_results": 0.038027893751859665
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0015_ss_16_seed201_2026-02-04_12-29-56_r0.mp4",
+                "video_results": 0.07720544934272766
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0016_ss_17_seed201_2026-02-04_12-37-09_r0.mp4",
+                "video_results": 0.06369439512491226
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0017_ss_18_seed201_2026-02-04_12-44-20_r0.mp4",
+                "video_results": 0.038429342210292816
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0018_ss_19_seed201_2026-02-04_12-51-33_r0.mp4",
+                "video_results": 0.06610656529664993
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0019_ss_20_seed201_2026-02-04_12-58-46_r0.mp4",
+                "video_results": 0.09155628085136414
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0020_animation_001_elsa_frozen_frame1_seed201_2026-02-04_13-04-33_r0.mp4",
+                "video_results": 0.22641445696353912
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0021_animation_002_franck_cosmos_frame1_seed201_2026-02-04_13-10-09_r0.mp4",
+                "video_results": 0.09401459246873856
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0022_animation_003_rapunzel_tangled_frame1_seed201_2026-02-04_13-15-57_r0.mp4",
+                "video_results": 0.2555971145629883
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0023_animation_004_ariel_mermaid_frame1_seed201_2026-02-04_13-21-45_r0.mp4",
+                "video_results": 0.2703043520450592
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0024_animation_005_belle_beauty_frame1_seed201_2026-02-04_13-27-32_r0.mp4",
+                "video_results": 0.20592325925827026
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0025_influencer_01_ali_abdaal_frame1_seed201_2026-02-04_13-33-19_r0.mp4",
+                "video_results": 0.21110321581363678
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0026_influencer_02_pick_up_limes_frame1_seed201_2026-02-04_13-39-07_r0.mp4",
+                "video_results": 0.13098391890525818
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0027_influencer_03_peter_mckinnon_frame1_seed201_2026-02-04_13-44-56_r0.mp4",
+                "video_results": 0.18062014877796173
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0028_influencer_04_thomas_frank_frame1_seed201_2026-02-04_13-50-41_r0.mp4",
+                "video_results": 0.05619934946298599
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0029_influencer_05_lex_fridman_frame1_seed201_2026-02-04_13-56-27_r0.mp4",
+                "video_results": 0.08705568313598633
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0030_influencer_06_emma_chamberlain_frame1_seed201_2026-02-04_14-02-12_r0.mp4",
+                "video_results": 0.13511428236961365
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0031_influencer_07_jackie_aina_frame1_seed201_2026-02-04_14-07-58_r0.mp4",
+                "video_results": 0.20808136463165283
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0032_influencer_08_lisa_eldridge_frame1_seed201_2026-02-04_14-13-47_r0.mp4",
+                "video_results": 0.22620484232902527
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0033_influencer_09_tati_westbrook_frame1_seed201_2026-02-04_14-19-33_r0.mp4",
+                "video_results": 0.1637028306722641
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0034_influencer_10_kathleenlights_frame1_seed201_2026-02-04_14-25-20_r0.mp4",
+                "video_results": 0.2415778636932373
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0035_influencer_11_desi_perkins_frame1_seed201_2026-02-04_14-31-04_r0.mp4",
+                "video_results": 0.18519622087478638
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0036_influencer_12_manny_mua_frame1_seed201_2026-02-04_14-36-52_r0.mp4",
+                "video_results": 0.2456851303577423
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0037_influencer_13_allie_glines_frame1_seed201_2026-02-04_14-42-40_r0.mp4",
+                "video_results": 0.1381584256887436
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0038_influencer_14_graham_stephan_frame1_seed201_2026-02-04_14-48-26_r0.mp4",
+                "video_results": 0.19647538661956787
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0039_influencer_15_christen_dominique_frame1_seed201_2026-02-04_14-54-13_r0.mp4",
+                "video_results": 0.14724673330783844
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0040_influencer_16_shani_grimmond_frame1_seed201_2026-02-04_15-00-00_r0.mp4",
+                "video_results": 0.1814064085483551
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0041_influencer_17_samantha_ravndahl_frame1_seed201_2026-02-04_15-05-46_r0.mp4",
+                "video_results": 0.1807754933834076
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0042_influencer_18_angelica_nyqvist_frame1_seed201_2026-02-04_15-11-33_r0.mp4",
+                "video_results": 0.1477702260017395
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0043_influencer_19_rawbeautykristi_frame1_seed201_2026-02-04_15-17-21_r0.mp4",
+                "video_results": 0.1786925345659256
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0044_influencer_20_jamie_genevieve_frame1_seed201_2026-02-04_15-23-07_r0.mp4",
+                "video_results": 0.1963212937116623
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0045_movie_001_andor_luthen_frame1_seed201_2026-02-04_15-28-53_r0.mp4",
+                "video_results": 0.1723415106534958
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0046_movie_002_the_bear_carmy_frame1_seed201_2026-02-04_15-34-41_r0.mp4",
+                "video_results": 0.10568942129611969
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0047_movie_003_skyler_bb_frame1_seed201_2026-02-04_15-40-32_r0.mp4",
+                "video_results": 0.119044728577137
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0048_movie_004_pacino_scent_frame1_seed201_2026-02-04_15-46-22_r0.mp4",
+                "video_results": 0.19824396073818207
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0049_movie_005_robin_goodwill_frame1_seed201_2026-02-04_15-52-11_r0.mp4",
+                "video_results": 0.13010355830192566
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0050_movie_006_phoebe_fleabag_frame1_seed201_2026-02-04_15-57-56_r0.mp4",
+                "video_results": 0.2599523663520813
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0051_movie_007_villanelle_killingeve_frame1_seed201_2026-02-04_16-03-41_r0.mp4",
+                "video_results": 0.16688448190689087
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0052_movie_008_denzel_trainingday_frame1_seed201_2026-02-04_16-09-28_r0.mp4",
+                "video_results": 0.2129898965358734
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0053_movie_009_mia_pearl_frame1_seed201_2026-02-04_16-15-13_r0.mp4",
+                "video_results": 0.09785129129886627
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0054_movie_010_rutger_bladerunner_frame1_seed201_2026-02-04_16-21-00_r0.mp4",
+                "video_results": 0.21008729934692383
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0055_movie_011_peter_network_frame1_seed201_2026-02-04_16-26-47_r0.mp4",
+                "video_results": 0.05741363763809204
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0056_movie_012_rdj_oppenheimer_frame1_seed201_2026-02-04_16-32-34_r0.mp4",
+                "video_results": 0.1353314071893692
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0057_movie_013_frances_macbeth_frame1_seed201_2026-02-04_16-38-22_r0.mp4",
+                "video_results": 0.20278212428092957
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0058_movie_014_ben_ozark_frame1_seed201_2026-02-04_16-44-11_r0.mp4",
+                "video_results": 0.18223589658737183
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0059_movie_015_britt_severance_frame1_seed201_2026-02-04_16-50-02_r0.mp4",
+                "video_results": 0.0430525541305542
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0060_movie_016_gihun_squidgame_frame1_seed201_2026-02-04_16-55-50_r0.mp4",
+                "video_results": 0.08016496896743774
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0061_movie_017_viola_htgawm_frame1_seed201_2026-02-04_17-01-40_r0.mp4",
+                "video_results": 0.18640173971652985
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0062_movie_018_jenna_snl_frame1_seed201_2026-02-04_17-07-30_r0.mp4",
+                "video_results": 0.17318738996982574
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0063_movie_019_stephanie_eeaao_frame1_seed201_2026-02-04_17-13-19_r0.mp4",
+                "video_results": 0.11662992835044861
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0064_movie_020_emma_lalaland_frame1_seed201_2026-02-04_17-19-08_r0.mp4",
+                "video_results": 0.21348579227924347
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0065_news_001_carla_harris_frame1_seed201_2026-02-04_17-25-00_r0.mp4",
+                "video_results": 0.2011437863111496
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0066_news_002_chris_anderson_frame1_seed201_2026-02-04_17-36-12_r0.mp4",
+                "video_results": 0.08789583295583725
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0067_news_003_jay_johnson_frame1_seed201_2026-02-04_17-43-07_r0.mp4",
+                "video_results": 0.09468115121126175
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0068_news_004_trump_un_frame1_seed201_2026-02-04_17-53-19_r0.mp4",
+                "video_results": 0.19010978937149048
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0069_news_005_jackma_wef_frame1_seed201_2026-02-04_18-04-22_r0.mp4",
+                "video_results": 0.1888134926557541
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0070_news_006_tim_cook_frame1_seed201_2026-02-04_18-15-40_r0.mp4",
+                "video_results": 0.17102615535259247
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0071_news_007_biden_wef_frame1_seed201_2026-02-04_18-26-38_r0.mp4",
+                "video_results": 0.2273969054222107
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0072_news_008_sundar_pichai_frame1_seed201_2026-02-04_18-37-56_r0.mp4",
+                "video_results": 0.16940805315971375
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0073_news_009_elon_musk_frame1_seed201_2026-02-04_18-49-14_r0.mp4",
+                "video_results": 0.18160416185855865
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0074_news_010_bill_gates_frame1_seed201_2026-02-04_19-00-28_r0.mp4",
+                "video_results": 0.20727834105491638
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0075_street_interview_001_london_host_frame1_seed201_2026-02-04_19-11-16_r0.mp4",
+                "video_results": 0.214726522564888
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0076_street_interview_002_nyc_brooklyn_frame1_seed201_2026-02-04_19-22-58_r0.mp4",
+                "video_results": 0.17484557628631592
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0077_street_interview_003_nyc_host_frame1_seed201_2026-02-04_19-33-46_r0.mp4",
+                "video_results": 0.23815055191516876
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0078_street_interview_004_sprouts_host_frame1_seed201_2026-02-04_19-45-07_r0.mp4",
+                "video_results": 0.1727239489555359
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0079_street_interview_005_f1_gasly_frame1_seed201_2026-02-04_19-56-13_r0.mp4",
+                "video_results": 0.17976753413677216
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0080_ap_01_seed201_2026-02-04_20-09-59_r0.mp4",
+                "video_results": 0.03315119072794914
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0081_ap_02_seed201_2026-02-04_20-24-10_r0.mp4",
+                "video_results": 0.07148361951112747
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0082_ap_03_seed201_2026-02-04_20-37-57_r0.mp4",
+                "video_results": 0.01247643493115902
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0083_ap_04_seed201_2026-02-04_20-51-46_r0.mp4",
+                "video_results": 0.07246654480695724
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0084_ml_5_seed201_2026-02-04_21-03-14_r0.mp4",
+                "video_results": 0.08769091963768005
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0085_ml_6_seed201_2026-02-04_21-14-03_r0.mp4",
+                "video_results": 0.06631816178560257
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0086_ml_7_seed201_2026-02-04_21-25-32_r0.mp4",
+                "video_results": 0.07513928413391113
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0087_ml_8_seed201_2026-02-04_21-30-12_r0.mp4",
+                "video_results": -0.014311051927506924
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0088_rj_29_seed201_2026-02-04_21-35-59_r0.mp4",
+                "video_results": 0.060734283179044724
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0089_rj_30_seed201_2026-02-04_21-41-46_r0.mp4",
+                "video_results": 0.098953478038311
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0090_rj_31_seed201_2026-02-04_21-47-32_r0.mp4",
+                "video_results": 0.04810568690299988
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0091_rj_32_seed201_2026-02-04_21-54-46_r0.mp4",
+                "video_results": 0.08053785562515259
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0092_tw_53_seed201_2026-02-04_22-01-59_r0.mp4",
+                "video_results": 0.1057964339852333
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0093_tw_54_seed201_2026-02-04_22-09-13_r0.mp4",
+                "video_results": 0.08847366273403168
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0094_tw_55_seed201_2026-02-04_22-19-19_r0.mp4",
+                "video_results": 0.07058519124984741
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0095_tw_56_seed201_2026-02-04_22-26-34_r0.mp4",
+                "video_results": 0.058625780045986176
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0096_wenbo_97_seed201_2026-02-04_22-35-12_r0.mp4",
+                "video_results": 0.056832849979400635
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0097_wenbo_98_seed201_2026-02-04_22-43-52_r0.mp4",
+                "video_results": 0.04922305420041084
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0098_wenbo_99_seed201_2026-02-04_22-52-31_r0.mp4",
+                "video_results": 0.04615874961018562
+            },
+            {
+                "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/eval_final_with_audio_dedup_latest/vbench/temp_videos/0099_wenbo_100_seed201_2026-02-04_22-59-46_r0.mp4",
+                "video_results": 0.03002060391008854
+            }
+        ]
+    ]
+}

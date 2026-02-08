@@ -1,0 +1,19 @@
+{
+  "video_id": "0065_news_001_carla_harris_frame1_seed201_2026-02-04_17-25-00_r0",
+  "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0065_news_001_carla_harris_frame1_seed201_2026-02-04_17-25-00_r0.mp4",
+  "status": "success",
+  "sync_confidence": 8.157587051391602,
+  "sync_distance": 8.275793075561523,
+  "offset": -2,
+  "quality": "FAIR",
+  "num_tracks": 1,
+  "all_offsets": [
+    -2
+  ],
+  "all_confidences": [
+    8.157587051391602
+  ],
+  "all_distances": [
+    8.275793075561523
+  ]
+}

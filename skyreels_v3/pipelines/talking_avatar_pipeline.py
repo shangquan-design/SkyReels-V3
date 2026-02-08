@@ -6,7 +6,7 @@ import random
 import types
 from contextlib import contextmanager
 from functools import partial
-from typing import Dict
+from typing import Dict, List, Tuple, Optional
 
 import numpy as np
 import torch
@@ -82,6 +82,62 @@ def timestep_transform(
     new_t = shift * t / (1 + (shift - 1) * t)
     new_t = new_t * num_timesteps
     return new_t
+
+
+def _person_key_sort(k: str) -> int:
+    # stable order: person1, person2, ...
+    if k.startswith("person"):
+        try:
+            return int(k.replace("person", ""))
+        except Exception:
+            return 10**9
+    return 10**9
+
+
+def _build_masks_from_bbox_or_stripes(
+    src_h: int,
+    src_w: int,
+    person_keys: List[str],
+    bbox: Optional[Dict[str, List[float]]] = None,
+) -> List[torch.Tensor]:
+    """
+    Return list of masks: [person1_mask, person2_mask, ..., background_mask]
+    mask shape: [H,W], float32 0/1
+    bbox format: {personK: [x_min, y_min, x_max, y_max]}  (x=width axis, y=height axis)
+    """
+    n = len(person_keys)
+    human_masks: List[torch.Tensor] = []
+    union = torch.zeros([src_h, src_w], dtype=torch.float32)
+
+    if bbox is not None:
+        for k in person_keys:
+            if k not in bbox:
+                raise ValueError(f"bbox missing key={k}, bbox keys={list(bbox.keys())}")
+            x_min, y_min, x_max, y_max = bbox[k]
+            x_min = int(max(0, min(src_w - 1, round(x_min))))
+            x_max = int(max(0, min(src_w, round(x_max))))
+            y_min = int(max(0, min(src_h - 1, round(y_min))))
+            y_max = int(max(0, min(src_h, round(y_max))))
+
+            m = torch.zeros([src_h, src_w], dtype=torch.float32)
+            # IMPORTANT: y is height axis, x is width axis
+            m[y_min:y_max, x_min:x_max] = 1.0
+            human_masks.append(m)
+            union += m
+    else:
+        # fallback: split into N vertical stripes
+        stripe_w = max(1, src_w // n)
+        for i in range(n):
+            x0 = i * stripe_w
+            x1 = src_w if i == n - 1 else (i + 1) * stripe_w
+            m = torch.zeros([src_h, src_w], dtype=torch.float32)
+            m[:, x0:x1] = 1.0
+            human_masks.append(m)
+            union += m
+
+    background_mask = torch.where(union > 0, torch.tensor(0.0), torch.tensor(1.0))
+    human_masks.append(background_mask)
+    return human_masks
 
 
 class TalkingAvatarPipeline:
@@ -168,7 +224,6 @@ class TalkingAvatarPipeline:
 
         if use_usp:
             from xfuser.core.distributed import get_sequence_parallel_world_size
-
             from ..distributed.context_parallel_for_avatar import (
                 usp_attn_forward_avatar,
                 usp_crossattn_multi_forward_avatar,
@@ -190,9 +245,6 @@ class TalkingAvatarPipeline:
             self.sp_size = 1
             self.device = "cuda"
 
-        if dist.is_initialized():
-            dist.barrier()
-
         self.sample_neg_prompt = config.sample_neg_prompt
         self.num_timesteps = num_timesteps
         self.use_timestep_transform = use_timestep_transform
@@ -209,7 +261,8 @@ class TalkingAvatarPipeline:
             self.clip.model.to(self.device)
         self.vae.to(self.device)
 
-        if use_usp:
+        # NOTE: 不再在 init / generate 里无条件 barrier（容易 NCCL timeout）
+        if self.use_usp and dist.is_initialized():
             dist.barrier()
 
     def add_noise(
@@ -223,7 +276,6 @@ class TalkingAvatarPipeline:
         """
         timesteps = timesteps.float() / self.num_timesteps
         timesteps = timesteps.view(timesteps.shape + (1,) * (len(noise.shape) - 1))
-
         return (1 - timesteps) * original_samples + timesteps * noise
 
     def generate(
@@ -267,27 +319,28 @@ class TalkingAvatarPipeline:
 
         original_color_reference = cond_image.clone()
 
-        # read audio embeddings
-        audio_embedding_path_1 = input_data["cond_audio"]["person1"]
-        print(input_data["cond_audio"], audio_embedding_path_1)
-        if len(input_data["cond_audio"]) == 1:
-            HUMAN_NUMBER = 1
-            audio_embedding_path_2 = None
-        else:
-            raise ValueError("Human number larger than 1 is not supported")
+        # -------------------------
+        # read audio embeddings (NOW supports multi-person)
+        # input_data["cond_audio"] should be dict: {"person1": "...pt", "person2": "...pt", ...}
+        # -------------------------
+        cond_audio = input_data.get("cond_audio", {})
+        if not isinstance(cond_audio, dict) or len(cond_audio) == 0:
+            raise ValueError("input_data['cond_audio'] must be a dict like {'person1': '...pt', 'person2': '...pt'}")
+
+        person_keys = sorted(list(cond_audio.keys()), key=_person_key_sort)
+        HUMAN_NUMBER = len(person_keys)
+        audio_embedding_paths = [cond_audio[k] for k in person_keys]
 
         full_audio_embs = []
-        audio_embedding_paths = [audio_embedding_path_1, audio_embedding_path_2]
-        for human_idx in range(HUMAN_NUMBER):
-            audio_embedding_path = audio_embedding_paths[human_idx]
+        for pkey, audio_embedding_path in zip(person_keys, audio_embedding_paths):
             if not os.path.exists(audio_embedding_path):
-                continue
-            full_audio_emb = torch.load(audio_embedding_path)
+                raise FileNotFoundError(audio_embedding_path)
+            full_audio_emb = torch.load(audio_embedding_path, map_location="cpu")
             if torch.isnan(full_audio_emb).any():
-                continue
+                raise ValueError(f"NaNs in audio embedding: {pkey} -> {audio_embedding_path}")
             full_audio_embs.append(full_audio_emb)
 
-        assert len(full_audio_embs) == HUMAN_NUMBER, f"Aduio file not exists or length not satisfies frame nums."
+        assert len(full_audio_embs) == HUMAN_NUMBER, "audio embedding count mismatch"
 
         # preprocess text embedding
         if n_prompt == "":
@@ -331,8 +384,6 @@ class TalkingAvatarPipeline:
                 assert len(full_audio_embs[0]) == video_length, f"audio_length not equals to video_length"
             else:
                 video_length = video_length_real
-        print(f"video_length_real: {video_length_real}")
-        print(f"video_length: {video_length}")
 
         # set random seed and init noise
         seed = seed if seed >= 0 else random.randint(0, 99999999)
@@ -342,21 +393,20 @@ class TalkingAvatarPipeline:
         random.seed(seed)
         torch.backends.cudnn.deterministic = True
 
+        # -------------------------
+        # build initial audio_embs [HUMAN_NUMBER, ...]
+        # -------------------------
         audio_embs = []
-        # split audio with window size
         for human_idx in range(HUMAN_NUMBER):
-            center_indices = torch.arange(
-                audio_start_idx,
-                audio_end_idx,
-                1,
-            ).unsqueeze(
-                1
-            ) + indices.unsqueeze(0)
+            center_indices = torch.arange(audio_start_idx, audio_end_idx, 1).unsqueeze(1) + indices.unsqueeze(0)
             center_indices = torch.clamp(center_indices, min=0, max=full_audio_embs[human_idx].shape[0] - 1).cpu()
             audio_emb = full_audio_embs[human_idx][center_indices][None, ...].to(self.device)
             audio_embs.append(audio_emb)
         audio_embs = torch.concat(audio_embs, dim=0).to(self.param_dtype)
 
+        bg_audio = torch.zeros_like(audio_embs[:1])
+        audio_embs = torch.cat([audio_embs, bg_audio], dim=0)  # [HUMAN_NUMBER+1, T, K, D]
+        
         h, w = cond_image.shape[-2], cond_image.shape[-1]
         lat_h, lat_w = h // self.vae_stride[1], w // self.vae_stride[2]
         max_seq_len = (
@@ -383,7 +433,6 @@ class TalkingAvatarPipeline:
         with torch.no_grad():
             if self.offload:
                 self.clip.model.to(self.device)
-            # get clip embedding
             clip_context = self.clip.visual(cond_image[:, :, :1, :, :]).to(self.param_dtype)
             if self.offload:
                 self.clip.model.to("cpu")
@@ -404,24 +453,25 @@ class TalkingAvatarPipeline:
             y = torch.concat([msk, y], dim=1)  # B 4+C T H W
             del video_frames, padding_frames_pixels_values
 
-        # construct human mask
-        human_masks = []
-        if HUMAN_NUMBER == 1:
-            background_mask = torch.ones([src_h, src_w])
-            human_mask1 = torch.ones([src_h, src_w])
-            human_mask2 = torch.ones([src_h, src_w])
-            human_masks = [human_mask1, human_mask2, background_mask]
-        else:
-            raise ValueError("Human number larger than 1 is not supported")
+        # -------------------------
+        # construct human masks (NOW supports multi-person)
+        # prefer input_data["bbox"], else stripes
+        # -------------------------
+        bbox = input_data.get("bbox", None)
+        human_masks = _build_masks_from_bbox_or_stripes(
+            src_h=src_h,
+            src_w=src_w,
+            person_keys=person_keys,
+            bbox=bbox,
+        )
+        ref_target_masks = torch.stack(human_masks, dim=0).to(self.device)  # [HUMAN_NUMBER+1, H, W]
 
-        ref_target_masks = torch.stack(human_masks, dim=0).to(self.device)
         # resize and centercrop for ref_target_masks
         ref_target_masks = resize_and_centercrop(ref_target_masks, (target_h, target_w))
 
         _, _, _, lat_h, lat_w = y.shape
-        ref_target_masks = F.interpolate(ref_target_masks.unsqueeze(0), size=(lat_h, lat_w), mode="nearest").squeeze()
-        ref_target_masks = ref_target_masks > 0
-        ref_target_masks = ref_target_masks.float().to(self.device)
+        ref_target_masks = F.interpolate(ref_target_masks.unsqueeze(0), size=(lat_h, lat_w), mode="nearest").squeeze(0)
+        ref_target_masks = (ref_target_masks > 0).float().to(self.device)
 
         @contextmanager
         def noop_no_sync():
@@ -431,7 +481,6 @@ class TalkingAvatarPipeline:
 
         # evaluation mode
         with torch.no_grad(), no_sync():
-
             # prepare timesteps
             timesteps = list(np.linspace(self.num_timesteps, 1, sampling_steps, dtype=np.float32))
             timesteps.append(0.0)
@@ -439,10 +488,8 @@ class TalkingAvatarPipeline:
             if self.use_timestep_transform:
                 timesteps = [timestep_transform(t, shift=shift, num_timesteps=self.num_timesteps) for t in timesteps]
 
-            # sample videos
             latent = noise
 
-            # prepare condition and uncondition configs
             arg_c = {
                 "context": [context],
                 "clip_fea": clip_context,
@@ -490,43 +537,19 @@ class TalkingAvatarPipeline:
             for i in progress_wrap(range(len(timesteps) - 1)):
                 timestep = timesteps[i]
                 latent_model_input = [latent.to(self.device)]
-                (
-                    noise_pred_drop_text,
-                    noise_pred_uncond,
-                    noise_pred_drop_audio,
-                ) = (None, None, None)
 
-                # inference with CFG strategy
-                noise_pred_cond = self.model(
-                    latent_model_input,
-                    t=timestep,
-                    **arg_c,
-                )[0]
+                noise_pred_drop_text, noise_pred_uncond, noise_pred_drop_audio = (None, None, None)
+
+                noise_pred_cond = self.model(latent_model_input, t=timestep, **arg_c)[0]
                 if text_guide_scale > 1.0 and audio_guide_scale > 1.0:
-                    noise_pred_drop_text = self.model(
-                        latent_model_input,
-                        t=timestep,
-                        **arg_null_text,
-                    )[0]
-                    noise_pred_uncond = self.model(
-                        latent_model_input,
-                        t=timestep,
-                        **arg_null,
-                    )[0]
+                    noise_pred_drop_text = self.model(latent_model_input, t=timestep, **arg_null_text)[0]
+                    noise_pred_uncond = self.model(latent_model_input, t=timestep, **arg_null)[0]
                 elif text_guide_scale > 1.0:
-                    noise_pred_drop_text = self.model(
-                        latent_model_input,
-                        t=timestep,
-                        **arg_null_text,
-                    )[0]
+                    noise_pred_drop_text = self.model(latent_model_input, t=timestep, **arg_null_text)[0]
                 elif audio_guide_scale > 1.0:
-                    noise_pred_drop_audio = self.model(
-                        latent_model_input,
-                        t=timestep,
-                        **arg_null_audio,
-                    )[0]
+                    noise_pred_drop_audio = self.model(latent_model_input, t=timestep, **arg_null_audio)[0]
 
-                # vanilla CFG strategy
+                # vanilla CFG
                 if text_guide_scale > 1.0 and audio_guide_scale > 1.0:
                     noise_pred = (
                         noise_pred_uncond
@@ -541,7 +564,6 @@ class TalkingAvatarPipeline:
                     noise_pred = noise_pred_cond
                 noise_pred = -noise_pred
 
-                # update latent
                 dt = timesteps[i] - timesteps[i + 1]
                 dt = dt / self.num_timesteps
                 latent = latent + noise_pred * dt[:, None, None, None]
@@ -556,14 +578,10 @@ class TalkingAvatarPipeline:
             videos = self.vae.decode(x0[0])
             torch.cuda.empty_cache()
 
-        # cache generated samples
         generated_ref_videos = videos
-
         generated_ref_videos = match_and_blend_colors(generated_ref_videos, original_color_reference, 1.0)
-        if self.rank == 0:
-            processed_generated_ref_videos = process_video_samples(generated_ref_videos)
-        else:
-            processed_generated_ref_videos = None
+
+        processed_generated_ref_videos = process_video_samples(generated_ref_videos)
         generated_ref_videos = generated_ref_videos.cpu()
         del videos
 
@@ -591,32 +609,24 @@ class TalkingAvatarPipeline:
 
             generate_idx = generate_idx[1:]
             generated_ref_videos_final = generated_ref_videos[:, :, generate_idx]
-            print(f"generated_ref_videos_final:{generated_ref_videos_final.shape}")
 
             tmp_indx = 0
-            # start video generation iteratively
             while True:
                 if audio_end_idx == video_length:
                     arrive_last_frame = True
 
+                # rebuild audio_embs for this window (multi-person)
                 audio_embs = []
-                # split audio with window size
                 for human_idx in range(HUMAN_NUMBER):
-                    center_indices = torch.arange(
-                        audio_start_idx,
-                        audio_end_idx,
-                        1,
-                    ).unsqueeze(
-                        1
-                    ) + indices.unsqueeze(0)
+                    center_indices = torch.arange(audio_start_idx, audio_end_idx, 1).unsqueeze(1) + indices.unsqueeze(0)
                     center_indices = torch.clamp(
-                        center_indices,
-                        min=0,
-                        max=full_audio_embs[human_idx].shape[0] - 1,
+                        center_indices, min=0, max=full_audio_embs[human_idx].shape[0] - 1
                     ).cpu()
                     audio_emb = full_audio_embs[human_idx][center_indices][None, ...].to(self.device)
                     audio_embs.append(audio_emb)
                 audio_embs = torch.concat(audio_embs, dim=0).to(self.param_dtype)
+                bg_audio = torch.zeros_like(audio_embs[:1])
+                audio_embs = torch.cat([audio_embs, bg_audio], dim=0)
 
                 h, w = cond_image.shape[-2], cond_image.shape[-1]
                 lat_h, lat_w = h // self.vae_stride[1], w // self.vae_stride[2]
@@ -638,33 +648,21 @@ class TalkingAvatarPipeline:
                 )
 
                 tmp_indx = min(tmp_indx, generated_ref_videos_final.shape[2] - 1)
-                print(f"use tmp_indx:{tmp_indx}, final:{generated_ref_videos_final.shape[2]-1}")
                 pseudo_frames = (
                     generated_ref_videos_final[:, :, tmp_indx : tmp_indx + 1].repeat(1, 1, 5, 1, 1).to(self.device)
                 )
                 tmp_indx += 1
 
-                # get mask
                 msk = torch.ones(1, frame_num, lat_h, lat_w, device=self.device)
                 msk[:, cur_motion_frames_num : -pseudo_frames.shape[2]] = 0
                 msk = torch.concat(
-                    [
-                        torch.repeat_interleave(msk[:, 0:1], repeats=4, dim=1),
-                        msk[:, 1:],
-                    ],
+                    [torch.repeat_interleave(msk[:, 0:1], repeats=4, dim=1), msk[:, 1:]],
                     dim=1,
                 )
                 msk = msk.view(1, msk.shape[1] // 4, 4, lat_h, lat_w)
-                msk = msk.transpose(1, 2).to(self.param_dtype)  # B 4 T H W
+                msk = msk.transpose(1, 2).to(self.param_dtype)
 
                 with torch.no_grad():
-                    # get clip embedding
-                    print(
-                        "cond image:",
-                        cond_image.size(),
-                        "audio_start_idx:",
-                        audio_start_idx,
-                    )
                     if self.offload:
                         self.clip.model.to(self.device)
                     clip_context = self.clip.visual(cond_image[:, :, :1, :, :]).to(self.param_dtype)
@@ -683,30 +681,18 @@ class TalkingAvatarPipeline:
 
                     y = self.vae.encode(padding_frames_pixels_values).to(self.param_dtype)
                     cur_motion_frames_latent_num = int(1 + (cur_motion_frames_num - 1) // 4)
-                    latent_motion_frames = y[:, :, :cur_motion_frames_latent_num][0]  # C T H W
-                    y = torch.concat([msk, y], dim=1)  # B 4+C T H W
+                    latent_motion_frames = y[:, :, :cur_motion_frames_latent_num][0]
+                    y = torch.concat([msk, y], dim=1)
                     del video_frames, padding_frames_pixels_values
 
-                # construct human mask
-                human_masks = []
-                if HUMAN_NUMBER == 1:
-                    background_mask = torch.ones([src_h, src_w])
-                    human_mask1 = torch.ones([src_h, src_w])
-                    human_mask2 = torch.ones([src_h, src_w])
-                    human_masks = [human_mask1, human_mask2, background_mask]
-                else:
-                    raise ValueError("Human number larger than 1 is not supported")
-
+                # reuse the same masks (bbox is static); rebuild to match y's lat_h/lat_w
                 ref_target_masks = torch.stack(human_masks, dim=0).to(self.device)
-                # resize and centercrop for ref_target_masks
                 ref_target_masks = resize_and_centercrop(ref_target_masks, (target_h, target_w))
-
                 _, _, _, lat_h, lat_w = y.shape
                 ref_target_masks = F.interpolate(
                     ref_target_masks.unsqueeze(0), size=(lat_h, lat_w), mode="nearest"
-                ).squeeze()
-                ref_target_masks = ref_target_masks > 0
-                ref_target_masks = ref_target_masks.float().to(self.device)
+                ).squeeze(0)
+                ref_target_masks = (ref_target_masks > 0).float().to(self.device)
 
                 @contextmanager
                 def noop_no_sync():
@@ -714,10 +700,7 @@ class TalkingAvatarPipeline:
 
                 no_sync = getattr(self.model, "no_sync", noop_no_sync)
 
-                # evaluation mode
                 with torch.no_grad(), no_sync():
-
-                    # prepare timesteps
                     timesteps = list(np.linspace(self.num_timesteps, 1, sampling_steps, dtype=np.float32))
                     timesteps.append(0.0)
                     timesteps = [torch.tensor([t], device=self.device) for t in timesteps]
@@ -726,12 +709,10 @@ class TalkingAvatarPipeline:
                             timestep_transform(t, shift=shift, num_timesteps=self.num_timesteps) for t in timesteps
                         ]
 
-                    # sample videos
                     latent = noise
 
-                    # prepare condition and uncondition configs
                     arg_c = {
-                        "context": [connection_embedding],  # [context],
+                        "context": [connection_embedding],
                         "clip_fea": clip_context,
                         "seq_len": max_seq_len,
                         "y": y,
@@ -739,7 +720,6 @@ class TalkingAvatarPipeline:
                         "ref_target_masks": ref_target_masks,
                         "block_offload": self.low_vram,
                     }
-
                     arg_null_text = {
                         "context": [context_null],
                         "clip_fea": clip_context,
@@ -749,7 +729,6 @@ class TalkingAvatarPipeline:
                         "ref_target_masks": ref_target_masks,
                         "block_offload": self.low_vram,
                     }
-
                     arg_null_audio = {
                         "context": [connection_embedding],
                         "clip_fea": clip_context,
@@ -759,7 +738,6 @@ class TalkingAvatarPipeline:
                         "ref_target_masks": ref_target_masks,
                         "block_offload": self.low_vram,
                     }
-
                     arg_null = {
                         "context": [context_null],
                         "clip_fea": clip_context,
@@ -773,7 +751,6 @@ class TalkingAvatarPipeline:
                     if self.offload and not self.low_vram:
                         self.model.to(self.device)
 
-                    # injecting motion frames
                     if not is_first_clip:
                         latent_motion_frames = latent_motion_frames.to(latent.dtype).to(self.device)
                         motion_add_noise = torch.randn_like(latent_motion_frames).contiguous()
@@ -783,53 +760,21 @@ class TalkingAvatarPipeline:
 
                     progress_wrap = partial(tqdm, total=len(timesteps) - 1) if progress else (lambda x: x)
                     for i in progress_wrap(range(len(timesteps) - 1)):
-
-                        # print(timesteps)
                         timestep = timesteps[i]
                         latent_model_input = [latent.to(self.device)]
 
-                        # inference with CFG strategy
-                        (
-                            noise_pred_drop_text,
-                            noise_pred_uncond,
-                            noise_pred_drop_audio,
-                        ) = (None, None, None)
+                        noise_pred_drop_text, noise_pred_uncond, noise_pred_drop_audio = (None, None, None)
 
-                        # inference with CFG strategy
-                        noise_pred_cond = self.model(
-                            latent_model_input,
-                            t=timestep,
-                            **arg_c,
-                        )[0]
+                        noise_pred_cond = self.model(latent_model_input, t=timestep, **arg_c)[0]
 
                         if text_guide_scale > 1.0 and audio_guide_scale > 1.0:
-                            noise_pred_drop_text = self.model(
-                                latent_model_input,
-                                t=timestep,
-                                **arg_null_text,
-                            )[0]
-
-                            noise_pred_uncond = self.model(
-                                latent_model_input,
-                                t=timestep,
-                                **arg_null,
-                            )[0]
-
+                            noise_pred_drop_text = self.model(latent_model_input, t=timestep, **arg_null_text)[0]
+                            noise_pred_uncond = self.model(latent_model_input, t=timestep, **arg_null)[0]
                         elif text_guide_scale > 1.0:
-                            noise_pred_drop_text = self.model(
-                                latent_model_input,
-                                t=timestep,
-                                **arg_null_text,
-                            )[0]
-
+                            noise_pred_drop_text = self.model(latent_model_input, t=timestep, **arg_null_text)[0]
                         elif audio_guide_scale > 1.0:
-                            noise_pred_drop_audio = self.model(
-                                latent_model_input,
-                                t=timestep,
-                                **arg_null_audio,
-                            )[0]
+                            noise_pred_drop_audio = self.model(latent_model_input, t=timestep, **arg_null_audio)[0]
 
-                        # vanilla CFG strategy
                         if text_guide_scale > 1.0 and audio_guide_scale > 1.0:
                             noise_pred = (
                                 noise_pred_uncond
@@ -848,12 +793,10 @@ class TalkingAvatarPipeline:
                             noise_pred = noise_pred_cond
                         noise_pred = -noise_pred
 
-                        # update latent
                         dt = timesteps[i] - timesteps[i + 1]
                         dt = dt / self.num_timesteps
                         latent = latent + noise_pred * dt[:, None, None, None]
 
-                        # injecting motion frames
                         if not is_first_clip:
                             latent_motion_frames = latent_motion_frames.to(latent.dtype).to(self.device)
                             motion_add_noise = torch.randn_like(latent_motion_frames).contiguous()
@@ -871,59 +814,40 @@ class TalkingAvatarPipeline:
                     videos = self.vae.decode(x0[0])
                     torch.cuda.empty_cache()
 
-                # cache generated samples
                 if not arrive_last_frame:
                     videos = videos[:, :, :-drop_frame]
 
                 videos = match_and_blend_colors(videos, original_color_reference, 1.0)
-                if self.rank == 0:
-                    processed_videos = process_video_samples(videos)
-                else:
-                    processed_videos = None
+                processed_videos = process_video_samples(videos)
                 videos = videos.cpu()
 
-                if self.rank == 0:
-                    if not is_first_clip:
-                        gen_video_list.append(processed_videos[:, :, cur_motion_frames_num:])
-                    else:
-                        gen_video_list.append(processed_videos)
+                if not is_first_clip:
+                    gen_video_list.append(processed_videos[:, :, cur_motion_frames_num:])
+                else:
+                    gen_video_list.append(processed_videos)
 
-                # decide whether is done
                 if arrive_last_frame:
                     break
 
-                # update next condition frames
                 cur_motion_frames_num = motion_frame
                 cond_image = videos[:, :, -cur_motion_frames_num:].to(torch.float32).to(self.device)
 
                 audio_start_idx += frame_num - cur_motion_frames_num - drop_frame
-
                 audio_end_idx = audio_start_idx + clip_length
-
                 is_first_clip = False
 
                 if max_frames_num <= frame_num:
                     break
 
-                if dist.is_initialized():
-                    dist.barrier()
-
         if is_clip:
-            if self.rank == 0:
-                gen_video_list.append(processed_generated_ref_videos)
+            gen_video_list.append(processed_generated_ref_videos)
 
-        if self.rank == 0:
-            gen_video_samples = torch.cat(gen_video_list, dim=2)[:, :, : int(max_frames_num)]
-            print(f"gen_video_samples: {gen_video_samples.size()}, video_length_real: {video_length_real}")
-            gen_video_samples = gen_video_samples[:, :, :video_length_real]
-            print(f"gen_video_samples: {gen_video_samples.size()}")
-            gen_video_samples = (
-                gen_video_samples[0].permute(1, 2, 3, 0).contiguous().cpu().numpy()  # (C, T, H, W)  # (T, H, W, C)
-            )
+        gen_video_samples = torch.cat(gen_video_list, dim=2)[:, :, : int(max_frames_num)]
+        gen_video_samples = gen_video_samples[:, :, :video_length_real]
+        gen_video_samples = (
+            gen_video_samples[0].permute(1, 2, 3, 0).contiguous().cpu().numpy()
+        )  # (T,H,W,C)
 
-        if dist.is_initialized():
-            dist.barrier()
+        del noise
+        return gen_video_samples
 
-        del noise, latent
-
-        return gen_video_samples if self.rank == 0 else None

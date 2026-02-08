@@ -1,0 +1,19 @@
+{
+  "video_id": "0063_movie_019_stephanie_eeaao_frame1_seed201_2026-02-04_17-13-19_r0",
+  "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0063_movie_019_stephanie_eeaao_frame1_seed201_2026-02-04_17-13-19_r0.mp4",
+  "status": "success",
+  "sync_confidence": 7.324113368988037,
+  "sync_distance": 7.408384799957275,
+  "offset": -1,
+  "quality": "FAIR",
+  "num_tracks": 1,
+  "all_offsets": [
+    -1
+  ],
+  "all_confidences": [
+    7.324113368988037
+  ],
+  "all_distances": [
+    7.408384799957275
+  ]
+}

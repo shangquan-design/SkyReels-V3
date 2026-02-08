@@ -1,0 +1,19 @@
+{
+  "video_id": "0029_influencer_05_lex_fridman_frame1_seed201_2026-02-04_13-56-27_r0",
+  "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0029_influencer_05_lex_fridman_frame1_seed201_2026-02-04_13-56-27_r0.mp4",
+  "status": "success",
+  "sync_confidence": 9.327804565429688,
+  "sync_distance": 6.989685535430908,
+  "offset": -1,
+  "quality": "GOOD",
+  "num_tracks": 1,
+  "all_offsets": [
+    -1
+  ],
+  "all_confidences": [
+    9.327804565429688
+  ],
+  "all_distances": [
+    6.989685535430908
+  ]
+}

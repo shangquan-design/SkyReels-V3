@@ -1,0 +1,19 @@
+{
+  "video_id": "0054_movie_010_rutger_bladerunner_frame1_seed201_2026-02-04_16-21-00_r0",
+  "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0054_movie_010_rutger_bladerunner_frame1_seed201_2026-02-04_16-21-00_r0.mp4",
+  "status": "success",
+  "sync_confidence": 4.846738815307617,
+  "sync_distance": 8.004003524780273,
+  "offset": -1,
+  "quality": "FAIR",
+  "num_tracks": 1,
+  "all_offsets": [
+    -1
+  ],
+  "all_confidences": [
+    4.846738815307617
+  ],
+  "all_distances": [
+    8.004003524780273
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "0059_movie_015_britt_severance_frame1_seed201_2026-02-04_16-50-02_r0",
+  "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0059_movie_015_britt_severance_frame1_seed201_2026-02-04_16-50-02_r0.mp4",
+  "status": "success",
+  "sync_confidence": 0.37597131729125977,
+  "sync_distance": 5.902740955352783,
+  "offset": 0,
+  "quality": "POOR",
+  "num_tracks": 1,
+  "all_offsets": [
+    0
+  ],
+  "all_confidences": [
+    0.37597131729125977
+  ],
+  "all_distances": [
+    5.902740955352783
+  ]
+}

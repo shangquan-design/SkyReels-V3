@@ -1,0 +1,19 @@
+{
+  "video_id": "0030_influencer_06_emma_chamberlain_frame1_seed201_2026-02-04_14-02-12_r0",
+  "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0030_influencer_06_emma_chamberlain_frame1_seed201_2026-02-04_14-02-12_r0.mp4",
+  "status": "success",
+  "sync_confidence": 5.7944746017456055,
+  "sync_distance": 7.570310592651367,
+  "offset": -2,
+  "quality": "FAIR",
+  "num_tracks": 1,
+  "all_offsets": [
+    -2
+  ],
+  "all_confidences": [
+    5.7944746017456055
+  ],
+  "all_distances": [
+    7.570310592651367
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "video_id": "0034_influencer_10_kathleenlights_frame1_seed201_2026-02-04_14-25-20_r0",
+  "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0034_influencer_10_kathleenlights_frame1_seed201_2026-02-04_14-25-20_r0.mp4",
+  "status": "success",
+  "sync_confidence": 7.568170070648193,
+  "sync_distance": 7.999714374542236,
+  "offset": -2,
+  "quality": "FAIR",
+  "num_tracks": 1,
+  "all_offsets": [
+    -2
+  ],
+  "all_confidences": [
+    7.568170070648193
+  ],
+  "all_distances": [
+    7.999714374542236
+  ]
+}

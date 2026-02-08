@@ -1,0 +1,28 @@
+{
+  "video_id": "0062_movie_018_jenna_snl_frame1_seed201_2026-02-04_17-07-30_r0",
+  "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0062_movie_018_jenna_snl_frame1_seed201_2026-02-04_17-07-30_r0.mp4",
+  "status": "success",
+  "sync_confidence": 9.466836929321289,
+  "sync_distance": 6.712741374969482,
+  "offset": -2,
+  "quality": "GOOD",
+  "num_tracks": 4,
+  "all_offsets": [
+    -2,
+    -2,
+    -15,
+    -2
+  ],
+  "all_confidences": [
+    9.466836929321289,
+    2.6461124420166016,
+    0.2627601623535156,
+    1.3905487060546875
+  ],
+  "all_distances": [
+    6.712741374969482,
+    11.966731071472168,
+    14.797709465026855,
+    13.743114471435547
+  ]
+}

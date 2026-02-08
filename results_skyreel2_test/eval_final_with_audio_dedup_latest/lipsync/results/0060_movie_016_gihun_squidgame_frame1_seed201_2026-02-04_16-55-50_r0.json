@@ -1,0 +1,19 @@
+{
+  "video_id": "0060_movie_016_gihun_squidgame_frame1_seed201_2026-02-04_16-55-50_r0",
+  "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0060_movie_016_gihun_squidgame_frame1_seed201_2026-02-04_16-55-50_r0.mp4",
+  "status": "success",
+  "sync_confidence": 1.7236323356628418,
+  "sync_distance": 6.749871730804443,
+  "offset": -2,
+  "quality": "POOR",
+  "num_tracks": 1,
+  "all_offsets": [
+    -2
+  ],
+  "all_confidences": [
+    1.7236323356628418
+  ],
+  "all_distances": [
+    6.749871730804443
+  ]
+}

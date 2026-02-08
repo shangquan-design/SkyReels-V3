@@ -1,0 +1,19 @@
+{
+  "video_id": "0099_wenbo_100_seed201_2026-02-04_22-59-46_r0",
+  "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0099_wenbo_100_seed201_2026-02-04_22-59-46_r0.mp4",
+  "status": "success",
+  "sync_confidence": 5.257953643798828,
+  "sync_distance": 10.45764446258545,
+  "offset": -1,
+  "quality": "POOR",
+  "num_tracks": 1,
+  "all_offsets": [
+    -1
+  ],
+  "all_confidences": [
+    5.257953643798828
+  ],
+  "all_distances": [
+    10.45764446258545
+  ]
+}

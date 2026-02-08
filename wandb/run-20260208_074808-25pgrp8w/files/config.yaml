@@ -1,0 +1,150 @@
+_wandb:
+    value:
+        cli_version: 0.24.1
+        e:
+            huzm33fi3ug6vodh5xm3jiivovjc6ozg:
+                args:
+                    - --yaml_path
+                    - multi_person_avatar.yaml
+                    - --model_path
+                    - /workspace/SkyReels-V3/SkyReels-V3-A2V-19B/
+                    - --save_dir
+                    - /workspace/SkyReels-V3/results_skyreel3_test
+                    - --wandb_entity
+                    - hedra-Hedra
+                    - --wandb_project
+                    - skyreel3-multi-person-test
+                    - --exp_name
+                    - skyreel3-multi-person-test
+                    - --multispeaker
+                codePath: batch_talking_avatar_yaml.py
+                codePathLocal: batch_talking_avatar_yaml.py
+                cpu_count: 96
+                cpu_count_logical: 192
+                cudaVersion: "12.6"
+                disk:
+                    /:
+                        total: "375809638400"
+                        used: "111373447168"
+                email: shangquan@hedra.com
+                executable: /venv/skyreels/bin/python
+                git:
+                    commit: f6de618474c508c1c921d20f0f965d7299c43485
+                    remote: git@github.com:shangquan-design/SkyReels-V3.git
+                gpu: NVIDIA H200
+                gpu_count: 8
+                gpu_nvidia:
+                    - architecture: Hopper
+                      cudaCores: 16896
+                      memoryTotal: "150754820096"
+                      name: NVIDIA H200
+                      uuid: GPU-75c80be4-f057-2b07-f483-518b758d0599
+                    - architecture: Hopper
+                      cudaCores: 16896
+                      memoryTotal: "150754820096"
+                      name: NVIDIA H200
+                      uuid: GPU-721acc54-8be4-37d5-a2d8-90031ed53415
+                    - architecture: Hopper
+                      cudaCores: 16896
+                      memoryTotal: "150754820096"
+                      name: NVIDIA H200
+                      uuid: GPU-6abe41b1-5672-fa19-c4da-ffbeb8eefc30
+                    - architecture: Hopper
+                      cudaCores: 16896
+                      memoryTotal: "150754820096"
+                      name: NVIDIA H200
+                      uuid: GPU-3ff849a0-d89d-12de-edf5-8d2a02b41006
+                    - architecture: Hopper
+                      cudaCores: 16896
+                      memoryTotal: "150754820096"
+                      name: NVIDIA H200
+                      uuid: GPU-f3431f9a-64be-c4d2-f16c-f8453b857197
+                    - architecture: Hopper
+                      cudaCores: 16896
+                      memoryTotal: "150754820096"
+                      name: NVIDIA H200
+                      uuid: GPU-f16931c9-a4e8-5b8b-342f-ab8d10485b2c
+                    - architecture: Hopper
+                      cudaCores: 16896
+                      memoryTotal: "150754820096"
+                      name: NVIDIA H200
+                      uuid: GPU-6d869d51-ebac-fb15-33c6-1fde592889d2
+                    - architecture: Hopper
+                      cudaCores: 16896
+                      memoryTotal: "150754820096"
+                      name: NVIDIA H200
+                      uuid: GPU-af950a39-4b9f-340a-8825-08ba47d66a90
+                host: d8207b85b3c2
+                memory:
+                    total: "2164161372160"
+                os: Linux-5.15.0-136-generic-x86_64-with-glibc2.39
+                program: /workspace/SkyReels-V3/batch_talking_avatar_yaml.py
+                python: CPython 3.12.12
+                root: /workspace/SkyReels-V3
+                startedAt: "2026-02-08T07:48:08.578296Z"
+                writerId: huzm33fi3ug6vodh5xm3jiivovjc6ozg
+        m: []
+        python_version: 3.12.12
+        t:
+            "1":
+                - 1
+                - 5
+                - 11
+                - 41
+                - 49
+                - 53
+                - 71
+                - 79
+                - 83
+            "2":
+                - 1
+                - 5
+                - 11
+                - 41
+                - 49
+                - 53
+                - 71
+                - 79
+                - 83
+            "3":
+                - 13
+                - 16
+            "4": 3.12.12
+            "5": 0.24.1
+            "6": 4.53.2
+            "12": 0.24.1
+            "13": linux-x86_64
+audio_guide_scale:
+    value: 1
+default_seed:
+    value: 42
+drop_frame:
+    value: 12
+frame_num:
+    value: 81
+low_vram:
+    value: false
+max_frames_num:
+    value: 5000
+max_speakers:
+    value: 2
+model_path:
+    value: /workspace/SkyReels-V3/SkyReels-V3-A2V-19B/
+motion_frame:
+    value: 5
+multispeaker:
+    value: true
+offload:
+    value: false
+sampling_steps:
+    value: 4
+shift:
+    value: 11
+text_guide_scale:
+    value: 1
+use_usp:
+    value: false
+world_size:
+    value: 1
+yaml_path:
+    value: multi_person_avatar.yaml

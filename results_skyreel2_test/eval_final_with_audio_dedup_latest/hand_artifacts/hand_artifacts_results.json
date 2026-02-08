@@ -1,0 +1,917 @@
+{
+  "summary": {
+    "total_videos": 100,
+    "metrics": {
+      "hand_detection_rate": {
+        "mean": 0.39161424601859385,
+        "note": "1.0 = hands always detected, 0.0 = never detected"
+      },
+      "hand_geometry_score": {
+        "mean": 0.9986045579055596,
+        "note": "1.0 = normal geometry, lower = potential artifacts"
+      }
+    }
+  },
+  "results": [
+    {
+      "name": "0075_street_interview_001_london_host_frame1_seed201_2026-02-04_19-11-16_r0",
+      "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0075_street_interview_001_london_host_frame1_seed201_2026-02-04_19-11-16_r0.mp4",
+      "frames_sampled": 40,
+      "detection_rate": 1.0,
+      "avg_confidence": 0.9677434757698414,
+      "geometry_score": 0.9772357723577236,
+      "hands_detected_frames": 40
+    },
+    {
+      "name": "0001_ss_02_seed201_2026-02-04_10-52-00_r0",
+      "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0001_ss_02_seed201_2026-02-04_10-52-00_r0.mp4",
+      "frames_sampled": 50,
+      "detection_rate": 0.3,
+      "avg_confidence": 0.8718071023623148,
+      "geometry_score": 0.9777777777777779,
+      "hands_detected_frames": 15
+    },
+    {
+      "name": "0083_ap_04_seed201_2026-02-04_20-51-46_r0",
+      "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0083_ap_04_seed201_2026-02-04_20-51-46_r0.mp4",
+      "frames_sampled": 46,
+      "detection_rate": 1.0,
+      "avg_confidence": 0.7850846414980681,
+      "geometry_score": 0.9782608695652174,
+      "hands_detected_frames": 46
+    },
+    {
+      "name": "0065_news_001_carla_harris_frame1_seed201_2026-02-04_17-25-00_r0",
+      "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0065_news_001_carla_harris_frame1_seed201_2026-02-04_17-25-00_r0.mp4",
+      "frames_sampled": 40,
+      "detection_rate": 1.0,
+      "avg_confidence": 0.8538877016348805,
+      "geometry_score": 0.9899543378995433,
+      "hands_detected_frames": 40
+    },
+    {
+      "name": "0026_influencer_02_pick_up_limes_frame1_seed201_2026-02-04_13-39-07_r0",
+      "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0026_influencer_02_pick_up_limes_frame1_seed201_2026-02-04_13-39-07_r0.mp4",
+      "frames_sampled": 40,
+      "detection_rate": 0.225,
+      "avg_confidence": 0.9861614792435257,
+      "geometry_score": 0.9911111111111112,
+      "hands_detected_frames": 9
+    },
+    {
+      "name": "0019_ss_20_seed201_2026-02-04_12-58-46_r0",
+      "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0019_ss_20_seed201_2026-02-04_12-58-46_r0.mp4",
+      "frames_sampled": 50,
+      "detection_rate": 0.9,
+      "avg_confidence": 0.8371370543133129,
+      "geometry_score": 0.9923076923076923,
+      "hands_detected_frames": 45
+    },
+    {
+      "name": "0011_ss_12_seed201_2026-02-04_11-59-41_r0",
+      "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0011_ss_12_seed201_2026-02-04_11-59-41_r0.mp4",
+      "frames_sampled": 50,
+      "detection_rate": 0.8,
+      "avg_confidence": 0.9107550759360475,
+      "geometry_score": 0.9935483870967742,
+      "hands_detected_frames": 40
+    },
+    {
+      "name": "0067_news_003_jay_johnson_frame1_seed201_2026-02-04_17-43-07_r0",
+      "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0067_news_003_jay_johnson_frame1_seed201_2026-02-04_17-43-07_r0.mp4",
+      "frames_sampled": 40,
+      "detection_rate": 1.0,
+      "avg_confidence": 0.9615860956829864,
+      "geometry_score": 0.994871794871795,
+      "hands_detected_frames": 40
+    },
+    {
+      "name": "0002_ss_03_seed201_2026-02-04_10-59-11_r0",
+      "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0002_ss_03_seed201_2026-02-04_10-59-11_r0.mp4",
+      "frames_sampled": 50,
+      "detection_rate": 0.94,
+      "avg_confidence": 0.8437956378057405,
+      "geometry_score": 0.9953216374269006,
+      "hands_detected_frames": 47
+    },
+    {
+      "name": "0038_influencer_14_graham_stephan_frame1_seed201_2026-02-04_14-48-26_r0",
+      "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0038_influencer_14_graham_stephan_frame1_seed201_2026-02-04_14-48-26_r0.mp4",
+      "frames_sampled": 40,
+      "detection_rate": 1.0,
+      "avg_confidence": 0.9477943029285463,
+      "geometry_score": 0.9960199004975124,
+      "hands_detected_frames": 40
+    },
+    {
+      "name": "0000_ss_01_seed201_2026-02-04_10-44-46_r0",
+      "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0000_ss_01_seed201_2026-02-04_10-44-46_r0.mp4",
+      "frames_sampled": 45,
+      "detection_rate": 0.35555555555555557,
+      "avg_confidence": 0.8850060732741105,
+      "geometry_score": 0.996078431372549,
+      "hands_detected_frames": 16
+    },
+    {
+      "name": "0073_news_009_elon_musk_frame1_seed201_2026-02-04_18-49-14_r0",
+      "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0073_news_009_elon_musk_frame1_seed201_2026-02-04_18-49-14_r0.mp4",
+      "frames_sampled": 40,
+      "detection_rate": 0.925,
+      "avg_confidence": 0.9504620883915875,
+      "geometry_score": 0.9963963963963964,
+      "hands_detected_frames": 37
+    },
+    {
+      "name": "0074_news_010_bill_gates_frame1_seed201_2026-02-04_19-00-28_r0",
+      "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0074_news_010_bill_gates_frame1_seed201_2026-02-04_19-00-28_r0.mp4",
+      "frames_sampled": 40,
+      "detection_rate": 1.0,
+      "avg_confidence": 0.9106042891740799,
+      "geometry_score": 0.9966666666666667,
+      "hands_detected_frames": 40
+    },
+    {
+      "name": "0030_influencer_06_emma_chamberlain_frame1_seed201_2026-02-04_14-02-12_r0",
+      "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0030_influencer_06_emma_chamberlain_frame1_seed201_2026-02-04_14-02-12_r0.mp4",
+      "frames_sampled": 40,
+      "detection_rate": 1.0,
+      "avg_confidence": 0.9802793761876625,
+      "geometry_score": 0.9971014492753623,
+      "hands_detected_frames": 40
+    },
+    {
+      "name": "0035_influencer_11_desi_perkins_frame1_seed201_2026-02-04_14-31-04_r0",
+      "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0035_influencer_11_desi_perkins_frame1_seed201_2026-02-04_14-31-04_r0.mp4",
+      "frames_sampled": 40,
+      "detection_rate": 0.525,
+      "avg_confidence": 0.8139075195347821,
+      "geometry_score": 0.9971014492753624,
+      "hands_detected_frames": 21
+    },
+    {
+      "name": "0009_ss_10_seed201_2026-02-04_11-45-19_r0",
+      "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0009_ss_10_seed201_2026-02-04_11-45-19_r0.mp4",
+      "frames_sampled": 23,
+      "detection_rate": 0.8260869565217391,
+      "avg_confidence": 0.9088426919087119,
+      "geometry_score": 0.9976190476190476,
+      "hands_detected_frames": 19
+    },
+    {
+      "name": "0022_animation_003_rapunzel_tangled_frame1_seed201_2026-02-04_13-15-57_r0",
+      "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0022_animation_003_rapunzel_tangled_frame1_seed201_2026-02-04_13-15-57_r0.mp4",
+      "frames_sampled": 40,
+      "detection_rate": 0.725,
+      "avg_confidence": 0.8827928203217527,
+      "geometry_score": 0.9980952380952383,
+      "hands_detected_frames": 29
+    },
+    {
+      "name": "0072_news_008_sundar_pichai_frame1_seed201_2026-02-04_18-37-56_r0",
+      "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0072_news_008_sundar_pichai_frame1_seed201_2026-02-04_18-37-56_r0.mp4",
+      "frames_sampled": 40,
+      "detection_rate": 1.0,
+      "avg_confidence": 0.9702980190515518,
+      "geometry_score": 0.9983333333333334,
+      "hands_detected_frames": 40
+    },
+    {
+      "name": "0017_ss_18_seed201_2026-02-04_12-44-20_r0",
+      "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0017_ss_18_seed201_2026-02-04_12-44-20_r0.mp4",
+      "frames_sampled": 50,
+      "detection_rate": 0.9,
+      "avg_confidence": 0.9508316479623318,
+      "geometry_score": 0.9985507246376812,
+      "hands_detected_frames": 45
+    },
+    {
+      "name": "0082_ap_03_seed201_2026-02-04_20-37-57_r0",
+      "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0082_ap_03_seed201_2026-02-04_20-37-57_r0.mp4",
+      "frames_sampled": 52,
+      "detection_rate": 0.8653846153846154,
+      "avg_confidence": 0.9231489287025627,
+      "geometry_score": 0.9988700564971752,
+      "hands_detected_frames": 45
+    },
+    {
+      "name": "0008_ss_09_seed201_2026-02-04_11-40-57_r0",
+      "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0008_ss_09_seed201_2026-02-04_11-40-57_r0.mp4",
+      "frames_sampled": 50,
+      "detection_rate": 0.98,
+      "avg_confidence": 0.9211975880927104,
+      "geometry_score": 0.9992337164750958,
+      "hands_detected_frames": 49
+    },
+    {
+      "name": "0003_ss_04_seed201_2026-02-04_11-06-22_r0",
+      "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0003_ss_04_seed201_2026-02-04_11-06-22_r0.mp4",
+      "frames_sampled": 50,
+      "detection_rate": 0.16,
+      "avg_confidence": 0.9390124380588531,
+      "geometry_score": 1.0,
+      "hands_detected_frames": 8
+    },
+    {
+      "name": "0004_ss_05_seed201_2026-02-04_11-13-33_r0",
+      "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0004_ss_05_seed201_2026-02-04_11-13-33_r0.mp4",
+      "frames_sampled": 50,
+      "detection_rate": 0.08,
+      "avg_confidence": 0.8933693468570709,
+      "geometry_score": 1.0,
+      "hands_detected_frames": 4
+    },
+    {
+      "name": "0005_ss_06_seed201_2026-02-04_11-20-47_r0",
+      "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0005_ss_06_seed201_2026-02-04_11-20-47_r0.mp4",
+      "frames_sampled": 50,
+      "detection_rate": 1.0,
+      "avg_confidence": 0.9839280182123185,
+      "geometry_score": 1.0,
+      "hands_detected_frames": 50
+    },
+    {
+      "name": "0006_ss_07_seed201_2026-02-04_11-26-34_r0",
+      "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0006_ss_07_seed201_2026-02-04_11-26-34_r0.mp4",
+      "frames_sampled": 37,
+      "detection_rate": 0.972972972972973,
+      "avg_confidence": 0.9208036280692892,
+      "geometry_score": 1.0,
+      "hands_detected_frames": 36
+    },
+    {
+      "name": "0007_ss_08_seed201_2026-02-04_11-33-45_r0",
+      "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0007_ss_08_seed201_2026-02-04_11-33-45_r0.mp4",
+      "frames_sampled": 50,
+      "detection_rate": 0.8,
+      "avg_confidence": 0.8987840294837952,
+      "geometry_score": 1.0,
+      "hands_detected_frames": 40
+    },
+    {
+      "name": "0010_ss_11_seed201_2026-02-04_11-52-30_r0",
+      "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0010_ss_11_seed201_2026-02-04_11-52-30_r0.mp4",
+      "frames_sampled": 50,
+      "detection_rate": 0.0,
+      "avg_confidence": 0.0,
+      "geometry_score": 1.0,
+      "hands_detected_frames": 0
+    },
+    {
+      "name": "0012_ss_13_seed201_2026-02-04_12-08-17_r0",
+      "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0012_ss_13_seed201_2026-02-04_12-08-17_r0.mp4",
+      "frames_sampled": 60,
+      "detection_rate": 1.0,
+      "avg_confidence": 0.9770476599534352,
+      "geometry_score": 1.0,
+      "hands_detected_frames": 60
+    },
+    {
+      "name": "0013_ss_14_seed201_2026-02-04_12-15-32_r0",
+      "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0013_ss_14_seed201_2026-02-04_12-15-32_r0.mp4",
+      "frames_sampled": 50,
+      "detection_rate": 0.98,
+      "avg_confidence": 0.9357040201095824,
+      "geometry_score": 1.0,
+      "hands_detected_frames": 49
+    },
+    {
+      "name": "0014_ss_15_seed201_2026-02-04_12-22-43_r0",
+      "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0014_ss_15_seed201_2026-02-04_12-22-43_r0.mp4",
+      "frames_sampled": 50,
+      "detection_rate": 1.0,
+      "avg_confidence": 0.9399014050813065,
+      "geometry_score": 1.0,
+      "hands_detected_frames": 50
+    },
+    {
+      "name": "0015_ss_16_seed201_2026-02-04_12-29-56_r0",
+      "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0015_ss_16_seed201_2026-02-04_12-29-56_r0.mp4",
+      "frames_sampled": 49,
+      "detection_rate": 1.0,
+      "avg_confidence": 0.8989929809475576,
+      "geometry_score": 1.0,
+      "hands_detected_frames": 49
+    },
+    {
+      "name": "0016_ss_17_seed201_2026-02-04_12-37-09_r0",
+      "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0016_ss_17_seed201_2026-02-04_12-37-09_r0.mp4",
+      "frames_sampled": 50,
+      "detection_rate": 1.0,
+      "avg_confidence": 0.9826426911354065,
+      "geometry_score": 1.0,
+      "hands_detected_frames": 50
+    },
+    {
+      "name": "0018_ss_19_seed201_2026-02-04_12-51-33_r0",
+      "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0018_ss_19_seed201_2026-02-04_12-51-33_r0.mp4",
+      "frames_sampled": 50,
+      "detection_rate": 0.5,
+      "avg_confidence": 0.9550058967792071,
+      "geometry_score": 1.0,
+      "hands_detected_frames": 25
+    },
+    {
+      "name": "0020_animation_001_elsa_frozen_frame1_seed201_2026-02-04_13-04-33_r0",
+      "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0020_animation_001_elsa_frozen_frame1_seed201_2026-02-04_13-04-33_r0.mp4",
+      "frames_sampled": 40,
+      "detection_rate": 0.05,
+      "avg_confidence": 0.8853369653224945,
+      "geometry_score": 1.0,
+      "hands_detected_frames": 2
+    },
+    {
+      "name": "0021_animation_002_franck_cosmos_frame1_seed201_2026-02-04_13-10-09_r0",
+      "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0021_animation_002_franck_cosmos_frame1_seed201_2026-02-04_13-10-09_r0.mp4",
+      "frames_sampled": 40,
+      "detection_rate": 0.0,
+      "avg_confidence": 0.0,
+      "geometry_score": 1.0,
+      "hands_detected_frames": 0
+    },
+    {
+      "name": "0023_animation_004_ariel_mermaid_frame1_seed201_2026-02-04_13-21-45_r0",
+      "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0023_animation_004_ariel_mermaid_frame1_seed201_2026-02-04_13-21-45_r0.mp4",
+      "frames_sampled": 40,
+      "detection_rate": 0.0,
+      "avg_confidence": 0.0,
+      "geometry_score": 1.0,
+      "hands_detected_frames": 0
+    },
+    {
+      "name": "0024_animation_005_belle_beauty_frame1_seed201_2026-02-04_13-27-32_r0",
+      "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0024_animation_005_belle_beauty_frame1_seed201_2026-02-04_13-27-32_r0.mp4",
+      "frames_sampled": 40,
+      "detection_rate": 1.0,
+      "avg_confidence": 0.9601071102674618,
+      "geometry_score": 1.0,
+      "hands_detected_frames": 40
+    },
+    {
+      "name": "0025_influencer_01_ali_abdaal_frame1_seed201_2026-02-04_13-33-19_r0",
+      "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0025_influencer_01_ali_abdaal_frame1_seed201_2026-02-04_13-33-19_r0.mp4",
+      "frames_sampled": 40,
+      "detection_rate": 1.0,
+      "avg_confidence": 0.9739921569824219,
+      "geometry_score": 1.0,
+      "hands_detected_frames": 40
+    },
+    {
+      "name": "0027_influencer_03_peter_mckinnon_frame1_seed201_2026-02-04_13-44-56_r0",
+      "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0027_influencer_03_peter_mckinnon_frame1_seed201_2026-02-04_13-44-56_r0.mp4",
+      "frames_sampled": 40,
+      "detection_rate": 0.4,
+      "avg_confidence": 0.9924603290855885,
+      "geometry_score": 1.0,
+      "hands_detected_frames": 16
+    },
+    {
+      "name": "0028_influencer_04_thomas_frank_frame1_seed201_2026-02-04_13-50-41_r0",
+      "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0028_influencer_04_thomas_frank_frame1_seed201_2026-02-04_13-50-41_r0.mp4",
+      "frames_sampled": 40,
+      "detection_rate": 0.0,
+      "avg_confidence": 0.0,
+      "geometry_score": 1.0,
+      "hands_detected_frames": 0
+    },
+    {
+      "name": "0029_influencer_05_lex_fridman_frame1_seed201_2026-02-04_13-56-27_r0",
+      "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0029_influencer_05_lex_fridman_frame1_seed201_2026-02-04_13-56-27_r0.mp4",
+      "frames_sampled": 40,
+      "detection_rate": 0.3,
+      "avg_confidence": 0.7557838956514994,
+      "geometry_score": 1.0,
+      "hands_detected_frames": 12
+    },
+    {
+      "name": "0031_influencer_07_jackie_aina_frame1_seed201_2026-02-04_14-07-58_r0",
+      "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0031_influencer_07_jackie_aina_frame1_seed201_2026-02-04_14-07-58_r0.mp4",
+      "frames_sampled": 40,
+      "detection_rate": 0.25,
+      "avg_confidence": 0.9799953413009643,
+      "geometry_score": 1.0,
+      "hands_detected_frames": 10
+    },
+    {
+      "name": "0032_influencer_08_lisa_eldridge_frame1_seed201_2026-02-04_14-13-47_r0",
+      "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0032_influencer_08_lisa_eldridge_frame1_seed201_2026-02-04_14-13-47_r0.mp4",
+      "frames_sampled": 40,
+      "detection_rate": 0.0,
+      "avg_confidence": 0.0,
+      "geometry_score": 1.0,
+      "hands_detected_frames": 0
+    },
+    {
+      "name": "0033_influencer_09_tati_westbrook_frame1_seed201_2026-02-04_14-19-33_r0",
+      "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0033_influencer_09_tati_westbrook_frame1_seed201_2026-02-04_14-19-33_r0.mp4",
+      "frames_sampled": 40,
+      "detection_rate": 0.025,
+      "avg_confidence": 0.9250509738922119,
+      "geometry_score": 1.0,
+      "hands_detected_frames": 1
+    },
+    {
+      "name": "0034_influencer_10_kathleenlights_frame1_seed201_2026-02-04_14-25-20_r0",
+      "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0034_influencer_10_kathleenlights_frame1_seed201_2026-02-04_14-25-20_r0.mp4",
+      "frames_sampled": 40,
+      "detection_rate": 0.025,
+      "avg_confidence": 0.9885551929473877,
+      "geometry_score": 1.0,
+      "hands_detected_frames": 1
+    },
+    {
+      "name": "0036_influencer_12_manny_mua_frame1_seed201_2026-02-04_14-36-52_r0",
+      "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0036_influencer_12_manny_mua_frame1_seed201_2026-02-04_14-36-52_r0.mp4",
+      "frames_sampled": 40,
+      "detection_rate": 0.0,
+      "avg_confidence": 0.0,
+      "geometry_score": 1.0,
+      "hands_detected_frames": 0
+    },
+    {
+      "name": "0037_influencer_13_allie_glines_frame1_seed201_2026-02-04_14-42-40_r0",
+      "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0037_influencer_13_allie_glines_frame1_seed201_2026-02-04_14-42-40_r0.mp4",
+      "frames_sampled": 40,
+      "detection_rate": 0.2,
+      "avg_confidence": 0.9776929872376579,
+      "geometry_score": 1.0,
+      "hands_detected_frames": 8
+    },
+    {
+      "name": "0039_influencer_15_christen_dominique_frame1_seed201_2026-02-04_14-54-13_r0",
+      "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0039_influencer_15_christen_dominique_frame1_seed201_2026-02-04_14-54-13_r0.mp4",
+      "frames_sampled": 40,
+      "detection_rate": 0.075,
+      "avg_confidence": 0.9888058304786682,
+      "geometry_score": 1.0,
+      "hands_detected_frames": 3
+    },
+    {
+      "name": "0040_influencer_16_shani_grimmond_frame1_seed201_2026-02-04_15-00-00_r0",
+      "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0040_influencer_16_shani_grimmond_frame1_seed201_2026-02-04_15-00-00_r0.mp4",
+      "frames_sampled": 40,
+      "detection_rate": 0.6,
+      "avg_confidence": 0.9165833294391632,
+      "geometry_score": 1.0,
+      "hands_detected_frames": 24
+    },
+    {
+      "name": "0041_influencer_17_samantha_ravndahl_frame1_seed201_2026-02-04_15-05-46_r0",
+      "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0041_influencer_17_samantha_ravndahl_frame1_seed201_2026-02-04_15-05-46_r0.mp4",
+      "frames_sampled": 40,
+      "detection_rate": 0.0,
+      "avg_confidence": 0.0,
+      "geometry_score": 1.0,
+      "hands_detected_frames": 0
+    },
+    {
+      "name": "0042_influencer_18_angelica_nyqvist_frame1_seed201_2026-02-04_15-11-33_r0",
+      "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0042_influencer_18_angelica_nyqvist_frame1_seed201_2026-02-04_15-11-33_r0.mp4",
+      "frames_sampled": 40,
+      "detection_rate": 0.4,
+      "avg_confidence": 0.9667661948637529,
+      "geometry_score": 1.0,
+      "hands_detected_frames": 16
+    },
+    {
+      "name": "0043_influencer_19_rawbeautykristi_frame1_seed201_2026-02-04_15-17-21_r0",
+      "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0043_influencer_19_rawbeautykristi_frame1_seed201_2026-02-04_15-17-21_r0.mp4",
+      "frames_sampled": 40,
+      "detection_rate": 0.575,
+      "avg_confidence": 0.9721101053217625,
+      "geometry_score": 1.0,
+      "hands_detected_frames": 23
+    },
+    {
+      "name": "0044_influencer_20_jamie_genevieve_frame1_seed201_2026-02-04_15-23-07_r0",
+      "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0044_influencer_20_jamie_genevieve_frame1_seed201_2026-02-04_15-23-07_r0.mp4",
+      "frames_sampled": 40,
+      "detection_rate": 0.05,
+      "avg_confidence": 0.9912794530391693,
+      "geometry_score": 1.0,
+      "hands_detected_frames": 2
+    },
+    {
+      "name": "0045_movie_001_andor_luthen_frame1_seed201_2026-02-04_15-28-53_r0",
+      "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0045_movie_001_andor_luthen_frame1_seed201_2026-02-04_15-28-53_r0.mp4",
+      "frames_sampled": 40,
+      "detection_rate": 0.0,
+      "avg_confidence": 0.0,
+      "geometry_score": 1.0,
+      "hands_detected_frames": 0
+    },
+    {
+      "name": "0046_movie_002_the_bear_carmy_frame1_seed201_2026-02-04_15-34-41_r0",
+      "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0046_movie_002_the_bear_carmy_frame1_seed201_2026-02-04_15-34-41_r0.mp4",
+      "frames_sampled": 40,
+      "detection_rate": 0.0,
+      "avg_confidence": 0.0,
+      "geometry_score": 1.0,
+      "hands_detected_frames": 0
+    },
+    {
+      "name": "0047_movie_003_skyler_bb_frame1_seed201_2026-02-04_15-40-32_r0",
+      "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0047_movie_003_skyler_bb_frame1_seed201_2026-02-04_15-40-32_r0.mp4",
+      "frames_sampled": 40,
+      "detection_rate": 0.025,
+      "avg_confidence": 0.9013338088989258,
+      "geometry_score": 1.0,
+      "hands_detected_frames": 1
+    },
+    {
+      "name": "0048_movie_004_pacino_scent_frame1_seed201_2026-02-04_15-46-22_r0",
+      "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0048_movie_004_pacino_scent_frame1_seed201_2026-02-04_15-46-22_r0.mp4",
+      "frames_sampled": 40,
+      "detection_rate": 0.0,
+      "avg_confidence": 0.0,
+      "geometry_score": 1.0,
+      "hands_detected_frames": 0
+    },
+    {
+      "name": "0049_movie_005_robin_goodwill_frame1_seed201_2026-02-04_15-52-11_r0",
+      "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0049_movie_005_robin_goodwill_frame1_seed201_2026-02-04_15-52-11_r0.mp4",
+      "frames_sampled": 40,
+      "detection_rate": 0.025,
+      "avg_confidence": 0.9522420167922974,
+      "geometry_score": 1.0,
+      "hands_detected_frames": 1
+    },
+    {
+      "name": "0050_movie_006_phoebe_fleabag_frame1_seed201_2026-02-04_15-57-56_r0",
+      "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0050_movie_006_phoebe_fleabag_frame1_seed201_2026-02-04_15-57-56_r0.mp4",
+      "frames_sampled": 40,
+      "detection_rate": 0.025,
+      "avg_confidence": 0.9797243475914001,
+      "geometry_score": 1.0,
+      "hands_detected_frames": 1
+    },
+    {
+      "name": "0051_movie_007_villanelle_killingeve_frame1_seed201_2026-02-04_16-03-41_r0",
+      "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0051_movie_007_villanelle_killingeve_frame1_seed201_2026-02-04_16-03-41_r0.mp4",
+      "frames_sampled": 40,
+      "detection_rate": 0.0,
+      "avg_confidence": 0.0,
+      "geometry_score": 1.0,
+      "hands_detected_frames": 0
+    },
+    {
+      "name": "0052_movie_008_denzel_trainingday_frame1_seed201_2026-02-04_16-09-28_r0",
+      "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0052_movie_008_denzel_trainingday_frame1_seed201_2026-02-04_16-09-28_r0.mp4",
+      "frames_sampled": 40,
+      "detection_rate": 0.0,
+      "avg_confidence": 0.0,
+      "geometry_score": 1.0,
+      "hands_detected_frames": 0
+    },
+    {
+      "name": "0053_movie_009_mia_pearl_frame1_seed201_2026-02-04_16-15-13_r0",
+      "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0053_movie_009_mia_pearl_frame1_seed201_2026-02-04_16-15-13_r0.mp4",
+      "frames_sampled": 40,
+      "detection_rate": 0.075,
+      "avg_confidence": 0.9031508167584738,
+      "geometry_score": 1.0,
+      "hands_detected_frames": 3
+    },
+    {
+      "name": "0054_movie_010_rutger_bladerunner_frame1_seed201_2026-02-04_16-21-00_r0",
+      "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0054_movie_010_rutger_bladerunner_frame1_seed201_2026-02-04_16-21-00_r0.mp4",
+      "frames_sampled": 40,
+      "detection_rate": 0.0,
+      "avg_confidence": 0.0,
+      "geometry_score": 1.0,
+      "hands_detected_frames": 0
+    },
+    {
+      "name": "0055_movie_011_peter_network_frame1_seed201_2026-02-04_16-26-47_r0",
+      "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0055_movie_011_peter_network_frame1_seed201_2026-02-04_16-26-47_r0.mp4",
+      "frames_sampled": 40,
+      "detection_rate": 0.0,
+      "avg_confidence": 0.0,
+      "geometry_score": 1.0,
+      "hands_detected_frames": 0
+    },
+    {
+      "name": "0056_movie_012_rdj_oppenheimer_frame1_seed201_2026-02-04_16-32-34_r0",
+      "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0056_movie_012_rdj_oppenheimer_frame1_seed201_2026-02-04_16-32-34_r0.mp4",
+      "frames_sampled": 40,
+      "detection_rate": 0.075,
+      "avg_confidence": 0.6298098166783651,
+      "geometry_score": 1.0,
+      "hands_detected_frames": 3
+    },
+    {
+      "name": "0057_movie_013_frances_macbeth_frame1_seed201_2026-02-04_16-38-22_r0",
+      "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0057_movie_013_frances_macbeth_frame1_seed201_2026-02-04_16-38-22_r0.mp4",
+      "frames_sampled": 40,
+      "detection_rate": 0.0,
+      "avg_confidence": 0.0,
+      "geometry_score": 1.0,
+      "hands_detected_frames": 0
+    },
+    {
+      "name": "0058_movie_014_ben_ozark_frame1_seed201_2026-02-04_16-44-11_r0",
+      "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0058_movie_014_ben_ozark_frame1_seed201_2026-02-04_16-44-11_r0.mp4",
+      "frames_sampled": 40,
+      "detection_rate": 0.0,
+      "avg_confidence": 0.0,
+      "geometry_score": 1.0,
+      "hands_detected_frames": 0
+    },
+    {
+      "name": "0059_movie_015_britt_severance_frame1_seed201_2026-02-04_16-50-02_r0",
+      "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0059_movie_015_britt_severance_frame1_seed201_2026-02-04_16-50-02_r0.mp4",
+      "frames_sampled": 40,
+      "detection_rate": 0.0,
+      "avg_confidence": 0.0,
+      "geometry_score": 1.0,
+      "hands_detected_frames": 0
+    },
+    {
+      "name": "0060_movie_016_gihun_squidgame_frame1_seed201_2026-02-04_16-55-50_r0",
+      "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0060_movie_016_gihun_squidgame_frame1_seed201_2026-02-04_16-55-50_r0.mp4",
+      "frames_sampled": 40,
+      "detection_rate": 0.0,
+      "avg_confidence": 0.0,
+      "geometry_score": 1.0,
+      "hands_detected_frames": 0
+    },
+    {
+      "name": "0061_movie_017_viola_htgawm_frame1_seed201_2026-02-04_17-01-40_r0",
+      "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0061_movie_017_viola_htgawm_frame1_seed201_2026-02-04_17-01-40_r0.mp4",
+      "frames_sampled": 40,
+      "detection_rate": 0.025,
+      "avg_confidence": 0.9597512483596802,
+      "geometry_score": 1.0,
+      "hands_detected_frames": 1
+    },
+    {
+      "name": "0062_movie_018_jenna_snl_frame1_seed201_2026-02-04_17-07-30_r0",
+      "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0062_movie_018_jenna_snl_frame1_seed201_2026-02-04_17-07-30_r0.mp4",
+      "frames_sampled": 40,
+      "detection_rate": 0.075,
+      "avg_confidence": 0.9163333574930826,
+      "geometry_score": 1.0,
+      "hands_detected_frames": 3
+    },
+    {
+      "name": "0063_movie_019_stephanie_eeaao_frame1_seed201_2026-02-04_17-13-19_r0",
+      "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0063_movie_019_stephanie_eeaao_frame1_seed201_2026-02-04_17-13-19_r0.mp4",
+      "frames_sampled": 40,
+      "detection_rate": 0.0,
+      "avg_confidence": 0.0,
+      "geometry_score": 1.0,
+      "hands_detected_frames": 0
+    },
+    {
+      "name": "0064_movie_020_emma_lalaland_frame1_seed201_2026-02-04_17-19-08_r0",
+      "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0064_movie_020_emma_lalaland_frame1_seed201_2026-02-04_17-19-08_r0.mp4",
+      "frames_sampled": 40,
+      "detection_rate": 0.0,
+      "avg_confidence": 0.0,
+      "geometry_score": 1.0,
+      "hands_detected_frames": 0
+    },
+    {
+      "name": "0066_news_002_chris_anderson_frame1_seed201_2026-02-04_17-36-12_r0",
+      "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0066_news_002_chris_anderson_frame1_seed201_2026-02-04_17-36-12_r0.mp4",
+      "frames_sampled": 40,
+      "detection_rate": 0.75,
+      "avg_confidence": 0.9257079873766217,
+      "geometry_score": 1.0,
+      "hands_detected_frames": 30
+    },
+    {
+      "name": "0068_news_004_trump_un_frame1_seed201_2026-02-04_17-53-19_r0",
+      "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0068_news_004_trump_un_frame1_seed201_2026-02-04_17-53-19_r0.mp4",
+      "frames_sampled": 40,
+      "detection_rate": 0.45,
+      "avg_confidence": 0.950050648715761,
+      "geometry_score": 1.0,
+      "hands_detected_frames": 18
+    },
+    {
+      "name": "0069_news_005_jackma_wef_frame1_seed201_2026-02-04_18-04-22_r0",
+      "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0069_news_005_jackma_wef_frame1_seed201_2026-02-04_18-04-22_r0.mp4",
+      "frames_sampled": 40,
+      "detection_rate": 0.625,
+      "avg_confidence": 0.9429628443717957,
+      "geometry_score": 1.0,
+      "hands_detected_frames": 25
+    },
+    {
+      "name": "0070_news_006_tim_cook_frame1_seed201_2026-02-04_18-15-40_r0",
+      "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0070_news_006_tim_cook_frame1_seed201_2026-02-04_18-15-40_r0.mp4",
+      "frames_sampled": 40,
+      "detection_rate": 0.0,
+      "avg_confidence": 0.0,
+      "geometry_score": 1.0,
+      "hands_detected_frames": 0
+    },
+    {
+      "name": "0071_news_007_biden_wef_frame1_seed201_2026-02-04_18-26-38_r0",
+      "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0071_news_007_biden_wef_frame1_seed201_2026-02-04_18-26-38_r0.mp4",
+      "frames_sampled": 40,
+      "detection_rate": 0.0,
+      "avg_confidence": 0.0,
+      "geometry_score": 1.0,
+      "hands_detected_frames": 0
+    },
+    {
+      "name": "0076_street_interview_002_nyc_brooklyn_frame1_seed201_2026-02-04_19-22-58_r0",
+      "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0076_street_interview_002_nyc_brooklyn_frame1_seed201_2026-02-04_19-22-58_r0.mp4",
+      "frames_sampled": 40,
+      "detection_rate": 0.1,
+      "avg_confidence": 0.9734208243233817,
+      "geometry_score": 1.0,
+      "hands_detected_frames": 4
+    },
+    {
+      "name": "0077_street_interview_003_nyc_host_frame1_seed201_2026-02-04_19-33-46_r0",
+      "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0077_street_interview_003_nyc_host_frame1_seed201_2026-02-04_19-33-46_r0.mp4",
+      "frames_sampled": 40,
+      "detection_rate": 0.375,
+      "avg_confidence": 0.8934182167053223,
+      "geometry_score": 1.0,
+      "hands_detected_frames": 15
+    },
+    {
+      "name": "0078_street_interview_004_sprouts_host_frame1_seed201_2026-02-04_19-45-07_r0",
+      "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0078_street_interview_004_sprouts_host_frame1_seed201_2026-02-04_19-45-07_r0.mp4",
+      "frames_sampled": 40,
+      "detection_rate": 0.025,
+      "avg_confidence": 0.9930127859115601,
+      "geometry_score": 1.0,
+      "hands_detected_frames": 1
+    },
+    {
+      "name": "0079_street_interview_005_f1_gasly_frame1_seed201_2026-02-04_19-56-13_r0",
+      "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0079_street_interview_005_f1_gasly_frame1_seed201_2026-02-04_19-56-13_r0.mp4",
+      "frames_sampled": 40,
+      "detection_rate": 0.0,
+      "avg_confidence": 0.0,
+      "geometry_score": 1.0,
+      "hands_detected_frames": 0
+    },
+    {
+      "name": "0080_ap_01_seed201_2026-02-04_20-09-59_r0",
+      "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0080_ap_01_seed201_2026-02-04_20-09-59_r0.mp4",
+      "frames_sampled": 47,
+      "detection_rate": 0.0,
+      "avg_confidence": 0.0,
+      "geometry_score": 1.0,
+      "hands_detected_frames": 0
+    },
+    {
+      "name": "0081_ap_02_seed201_2026-02-04_20-24-10_r0",
+      "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0081_ap_02_seed201_2026-02-04_20-24-10_r0.mp4",
+      "frames_sampled": 45,
+      "detection_rate": 0.3111111111111111,
+      "avg_confidence": 0.9405741819313594,
+      "geometry_score": 1.0,
+      "hands_detected_frames": 14
+    },
+    {
+      "name": "0084_ml_5_seed201_2026-02-04_21-03-14_r0",
+      "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0084_ml_5_seed201_2026-02-04_21-03-14_r0.mp4",
+      "frames_sampled": 32,
+      "detection_rate": 1.0,
+      "avg_confidence": 0.928707292303443,
+      "geometry_score": 1.0,
+      "hands_detected_frames": 32
+    },
+    {
+      "name": "0085_ml_6_seed201_2026-02-04_21-14-03_r0",
+      "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0085_ml_6_seed201_2026-02-04_21-14-03_r0.mp4",
+      "frames_sampled": 30,
+      "detection_rate": 0.0,
+      "avg_confidence": 0.0,
+      "geometry_score": 1.0,
+      "hands_detected_frames": 0
+    },
+    {
+      "name": "0086_ml_7_seed201_2026-02-04_21-25-32_r0",
+      "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0086_ml_7_seed201_2026-02-04_21-25-32_r0.mp4",
+      "frames_sampled": 36,
+      "detection_rate": 0.1111111111111111,
+      "avg_confidence": 0.7619036138057709,
+      "geometry_score": 1.0,
+      "hands_detected_frames": 4
+    },
+    {
+      "name": "0087_ml_8_seed201_2026-02-04_21-30-12_r0",
+      "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0087_ml_8_seed201_2026-02-04_21-30-12_r0.mp4",
+      "frames_sampled": 27,
+      "detection_rate": 0.6296296296296297,
+      "avg_confidence": 0.8743928846190957,
+      "geometry_score": 1.0,
+      "hands_detected_frames": 17
+    },
+    {
+      "name": "0088_rj_29_seed201_2026-02-04_21-35-59_r0",
+      "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0088_rj_29_seed201_2026-02-04_21-35-59_r0.mp4",
+      "frames_sampled": 37,
+      "detection_rate": 0.0,
+      "avg_confidence": 0.0,
+      "geometry_score": 1.0,
+      "hands_detected_frames": 0
+    },
+    {
+      "name": "0089_rj_30_seed201_2026-02-04_21-41-46_r0",
+      "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0089_rj_30_seed201_2026-02-04_21-41-46_r0.mp4",
+      "frames_sampled": 37,
+      "detection_rate": 0.0,
+      "avg_confidence": 0.0,
+      "geometry_score": 1.0,
+      "hands_detected_frames": 0
+    },
+    {
+      "name": "0090_rj_31_seed201_2026-02-04_21-47-32_r0",
+      "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0090_rj_31_seed201_2026-02-04_21-47-32_r0.mp4",
+      "frames_sampled": 38,
+      "detection_rate": 1.0,
+      "avg_confidence": 0.9475879480964259,
+      "geometry_score": 1.0,
+      "hands_detected_frames": 38
+    },
+    {
+      "name": "0091_rj_32_seed201_2026-02-04_21-54-46_r0",
+      "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0091_rj_32_seed201_2026-02-04_21-54-46_r0.mp4",
+      "frames_sampled": 49,
+      "detection_rate": 0.0,
+      "avg_confidence": 0.0,
+      "geometry_score": 1.0,
+      "hands_detected_frames": 0
+    },
+    {
+      "name": "0092_tw_53_seed201_2026-02-04_22-01-59_r0",
+      "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0092_tw_53_seed201_2026-02-04_22-01-59_r0.mp4",
+      "frames_sampled": 54,
+      "detection_rate": 0.037037037037037035,
+      "avg_confidence": 0.9508422017097473,
+      "geometry_score": 1.0,
+      "hands_detected_frames": 2
+    },
+    {
+      "name": "0093_tw_54_seed201_2026-02-04_22-09-13_r0",
+      "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0093_tw_54_seed201_2026-02-04_22-09-13_r0.mp4",
+      "frames_sampled": 49,
+      "detection_rate": 1.0,
+      "avg_confidence": 0.9740656047332578,
+      "geometry_score": 1.0,
+      "hands_detected_frames": 49
+    },
+    {
+      "name": "0094_tw_55_seed201_2026-02-04_22-19-19_r0",
+      "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0094_tw_55_seed201_2026-02-04_22-19-19_r0.mp4",
+      "frames_sampled": 78,
+      "detection_rate": 0.5,
+      "avg_confidence": 0.7820060891764504,
+      "geometry_score": 1.0,
+      "hands_detected_frames": 39
+    },
+    {
+      "name": "0095_tw_56_seed201_2026-02-04_22-26-34_r0",
+      "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0095_tw_56_seed201_2026-02-04_22-26-34_r0.mp4",
+      "frames_sampled": 48,
+      "detection_rate": 1.0,
+      "avg_confidence": 0.9809713671604793,
+      "geometry_score": 1.0,
+      "hands_detected_frames": 48
+    },
+    {
+      "name": "0096_wenbo_97_seed201_2026-02-04_22-35-12_r0",
+      "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0096_wenbo_97_seed201_2026-02-04_22-35-12_r0.mp4",
+      "frames_sampled": 60,
+      "detection_rate": 0.0,
+      "avg_confidence": 0.0,
+      "geometry_score": 1.0,
+      "hands_detected_frames": 0
+    },
+    {
+      "name": "0097_wenbo_98_seed201_2026-02-04_22-43-52_r0",
+      "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0097_wenbo_98_seed201_2026-02-04_22-43-52_r0.mp4",
+      "frames_sampled": 65,
+      "detection_rate": 0.13846153846153847,
+      "avg_confidence": 0.9126656121677823,
+      "geometry_score": 1.0,
+      "hands_detected_frames": 9
+    },
+    {
+      "name": "0098_wenbo_99_seed201_2026-02-04_22-52-31_r0",
+      "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0098_wenbo_99_seed201_2026-02-04_22-52-31_r0.mp4",
+      "frames_sampled": 65,
+      "detection_rate": 0.0,
+      "avg_confidence": 0.0,
+      "geometry_score": 1.0,
+      "hands_detected_frames": 0
+    },
+    {
+      "name": "0099_wenbo_100_seed201_2026-02-04_22-59-46_r0",
+      "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0099_wenbo_100_seed201_2026-02-04_22-59-46_r0.mp4",
+      "frames_sampled": 54,
+      "detection_rate": 0.07407407407407407,
+      "avg_confidence": 0.8425023704767227,
+      "geometry_score": 1.0,
+      "hands_detected_frames": 4
+    }
+  ]
+}

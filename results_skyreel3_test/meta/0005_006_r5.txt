@@ -1,0 +1,10 @@
+index: 5
+sample_id: 0005_006
+image: /workspace/multi-person/videos_out/006.png
+audio: /workspace/multi-person/videos_out/006.wav
+seed: 201
+bucket: 540P
+rank: 5
+status: failed
+error: attempt2 ValueError: Unsupported size bucket: 540P
+prompt: A medium close-up shot of a young man and a young woman in a recording studio, standing opposite each other and singing into a large condenser microphone; the man is wearing a light-colored button-down shirt and the woman is in a dark, patterned sleeveless dress, both expressing deep emotion and joy as they harmonize; the studio background is filled with warm, soft lighting, professional audio equipment, and wood-paneled walls, creating an intimate and professional musical atmosphere.

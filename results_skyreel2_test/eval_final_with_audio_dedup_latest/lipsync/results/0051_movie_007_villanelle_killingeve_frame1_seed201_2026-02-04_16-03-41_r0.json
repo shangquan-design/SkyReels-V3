@@ -1,0 +1,19 @@
+{
+  "video_id": "0051_movie_007_villanelle_killingeve_frame1_seed201_2026-02-04_16-03-41_r0",
+  "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0051_movie_007_villanelle_killingeve_frame1_seed201_2026-02-04_16-03-41_r0.mp4",
+  "status": "success",
+  "sync_confidence": 2.614281177520752,
+  "sync_distance": 7.303499698638916,
+  "offset": -1,
+  "quality": "FAIR",
+  "num_tracks": 1,
+  "all_offsets": [
+    -1
+  ],
+  "all_confidences": [
+    2.614281177520752
+  ],
+  "all_distances": [
+    7.303499698638916
+  ]
+}

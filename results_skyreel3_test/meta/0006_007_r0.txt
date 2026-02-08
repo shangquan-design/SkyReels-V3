@@ -1,0 +1,10 @@
+index: 6
+sample_id: 0006_007
+image: /workspace/multi-person/videos_out/007.png
+audio_or_media: /workspace/multi-person/videos_out/007.wav
+seed: 201
+bucket: 720P
+rank: 0
+status: failed
+error: attempt2 IndexError: pop from empty list
+prompt: A medium shot of a young man and a woman sitting at a white desk in a modern studio; the man, with reddish-blonde hair and a green t-shirt, gestures expressively while holding a cup of latte, while the woman, wearing a patterned earth-tone top, listens intently before picking up a pair of black over-ear headphones and placing them over her dark, wavy hair; the background features blue and white sound-absorbing foam panels and a TV screen displaying a logo, all under bright, professional studio lighting.

@@ -1,0 +1,31 @@
+{
+  "video_id": "0069_news_005_jackma_wef_frame1_seed201_2026-02-04_18-04-22_r0",
+  "video_path": "/workspace/SkyReels-V3/results_skyreel2_test/final_with_audio_dedup_latest/0069_news_005_jackma_wef_frame1_seed201_2026-02-04_18-04-22_r0.mp4",
+  "status": "success",
+  "sync_confidence": 9.155158996582031,
+  "sync_distance": 6.551537036895752,
+  "offset": -1,
+  "quality": "GOOD",
+  "num_tracks": 5,
+  "all_offsets": [
+    -1,
+    -15,
+    -2,
+    -12,
+    -15
+  ],
+  "all_confidences": [
+    9.155158996582031,
+    0.29460906982421875,
+    0.3881855010986328,
+    0.8734235763549805,
+    0.37889862060546875
+  ],
+  "all_distances": [
+    6.551537036895752,
+    15.15976333618164,
+    15.211052894592285,
+    12.026578903198242,
+    13.35374641418457
+  ]
+}
