@@ -1,0 +1,8 @@
+audio=/workspace/multi-person/videos_out/006.wav
+sr=16000
+segments=4
+speakers=4
+meta={'chosen_thr': 2e-06, 'num_speakers': 4, 'mode': 'fixed_thr'}
+speaker_order=high_pitch
+dist_w={'cos': 1.0, 'pitch': 2.5, 'spec': 0.5}
+bgm_reduce=True mode=auto

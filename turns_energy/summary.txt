@@ -1,0 +1,5 @@
+audio=/workspace/multi-person/videos_out/001.wav
+sr=16000
+segments=10
+speakers=6
+meta={'chosen_thr': 2.0413010120391846, 'num_speakers': 6, 'score': 0.8418944431507681, 'mode': 'auto'}

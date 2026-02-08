@@ -1,0 +1,24 @@
+{
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 2.33,
+      "speaker": "speaker_01"
+    },
+    {
+      "start": 2.59,
+      "end": 2.82,
+      "speaker": "speaker_02"
+    },
+    {
+      "start": 3.64,
+      "end": 3.95,
+      "speaker": "speaker_03"
+    },
+    {
+      "start": 4.66,
+      "end": 7.77,
+      "speaker": "speaker_00"
+    }
+  ]
+}
