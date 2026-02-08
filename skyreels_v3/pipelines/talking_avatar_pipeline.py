@@ -30,6 +30,10 @@ from ..utils.avatar_util import (
     process_video_samples,
 )
 
+def _chk(name, t):
+    if not torch.isfinite(t).all():
+        bad = (~torch.isfinite(t)).sum().item()
+        raise RuntimeError(f"[NaN/Inf] {name}: dtype={t.dtype} shape={tuple(t.shape)} bad_count={bad}")
 
 def resize_and_centercrop(cond_image, target_size):
     """
@@ -98,29 +102,59 @@ def _build_masks_from_bbox_or_stripes(
     src_h: int,
     src_w: int,
     person_keys: List[str],
-    bbox: Optional[Dict[str, List[float]]] = None,
+    bbox: Optional[object] = None,  # dict or list
 ) -> List[torch.Tensor]:
     """
     Return list of masks: [person1_mask, person2_mask, ..., background_mask]
     mask shape: [H,W], float32 0/1
-    bbox format: {personK: [x_min, y_min, x_max, y_max]}  (x=width axis, y=height axis)
+
+    bbox can be:
+      - dict: {personK: [x_min, y_min, x_max, y_max]}
+      - list/tuple: [[x_min, y_min, x_max, y_max], ...] aligned with person_keys order
+    bbox coords can be:
+      - pixel coords
+      - normalized coords in [0,1]
     """
     n = len(person_keys)
     human_masks: List[torch.Tensor] = []
     union = torch.zeros([src_h, src_w], dtype=torch.float32)
 
+    # normalize bbox to dict format
+    bbox_dict = None
     if bbox is not None:
+        if isinstance(bbox, dict):
+            bbox_dict = bbox
+        elif isinstance(bbox, (list, tuple)):
+            if len(bbox) < n:
+                raise ValueError(f"bbox list too short: len(bbox)={len(bbox)} < n_person={n}")
+            bbox_dict = {k: bbox[i] for i, k in enumerate(person_keys)}
+        else:
+            raise TypeError(f"bbox must be dict or list/tuple, got {type(bbox)}")
+
+    if bbox_dict is not None:
         for k in person_keys:
-            if k not in bbox:
-                raise ValueError(f"bbox missing key={k}, bbox keys={list(bbox.keys())}")
-            x_min, y_min, x_max, y_max = bbox[k]
+            if k not in bbox_dict:
+                raise ValueError(f"bbox missing key={k}, bbox keys={list(bbox_dict.keys())}")
+
+            x_min, y_min, x_max, y_max = bbox_dict[k]
+            x_min = float(x_min); y_min = float(y_min); x_max = float(x_max); y_max = float(y_max)
+
+            # detect normalized bbox (all within [0,1] roughly)
+            if max(abs(x_min), abs(x_max)) <= 1.5 and max(abs(y_min), abs(y_max)) <= 1.5:
+                x_min *= src_w; x_max *= src_w
+                y_min *= src_h; y_max *= src_h
+
+            # clamp + int
             x_min = int(max(0, min(src_w - 1, round(x_min))))
-            x_max = int(max(0, min(src_w, round(x_max))))
+            x_max = int(max(0, min(src_w,     round(x_max))))
             y_min = int(max(0, min(src_h - 1, round(y_min))))
-            y_max = int(max(0, min(src_h, round(y_max))))
+            y_max = int(max(0, min(src_h,     round(y_max))))
+
+            # ensure non-empty box (at least 1 px)
+            if x_max <= x_min: x_max = min(src_w, x_min + 1)
+            if y_max <= y_min: y_max = min(src_h, y_min + 1)
 
             m = torch.zeros([src_h, src_w], dtype=torch.float32)
-            # IMPORTANT: y is height axis, x is width axis
             m[y_min:y_max, x_min:x_max] = 1.0
             human_masks.append(m)
             union += m
@@ -472,6 +506,8 @@ class TalkingAvatarPipeline:
         _, _, _, lat_h, lat_w = y.shape
         ref_target_masks = F.interpolate(ref_target_masks.unsqueeze(0), size=(lat_h, lat_w), mode="nearest").squeeze(0)
         ref_target_masks = (ref_target_masks > 0).float().to(self.device)
+        print("[dbg] ref_target_masks sum per channel:",
+            ref_target_masks.sum(dim=(1,2)).detach().cpu().tolist())
 
         @contextmanager
         def noop_no_sync():
@@ -541,6 +577,7 @@ class TalkingAvatarPipeline:
                 noise_pred_drop_text, noise_pred_uncond, noise_pred_drop_audio = (None, None, None)
 
                 noise_pred_cond = self.model(latent_model_input, t=timestep, **arg_c)[0]
+                _chk("noise_pred_cond", noise_pred_cond)
                 if text_guide_scale > 1.0 and audio_guide_scale > 1.0:
                     noise_pred_drop_text = self.model(latent_model_input, t=timestep, **arg_null_text)[0]
                     noise_pred_uncond = self.model(latent_model_input, t=timestep, **arg_null)[0]
@@ -566,8 +603,9 @@ class TalkingAvatarPipeline:
 
                 dt = timesteps[i] - timesteps[i + 1]
                 dt = dt / self.num_timesteps
+                _chk("latent_before", latent)
                 latent = latent + noise_pred * dt[:, None, None, None]
-
+                _chk("latent_after", latent)
                 x0 = [latent.to(self.device)]
                 del latent_model_input, timestep
 
@@ -576,6 +614,9 @@ class TalkingAvatarPipeline:
                 torch.cuda.empty_cache()
 
             videos = self.vae.decode(x0[0])
+            print("[dbg] vae.decode videos:",
+                videos.dtype, videos.shape,
+                "min/max/mean=", float(videos.min()), float(videos.max()), float(videos.mean()))
             torch.cuda.empty_cache()
 
         generated_ref_videos = videos
@@ -693,6 +734,8 @@ class TalkingAvatarPipeline:
                     ref_target_masks.unsqueeze(0), size=(lat_h, lat_w), mode="nearest"
                 ).squeeze(0)
                 ref_target_masks = (ref_target_masks > 0).float().to(self.device)
+                print("[dbg] ref_target_masks sum per channel:",
+                    ref_target_masks.sum(dim=(1,2)).detach().cpu().tolist())
 
                 @contextmanager
                 def noop_no_sync():
@@ -766,7 +809,7 @@ class TalkingAvatarPipeline:
                         noise_pred_drop_text, noise_pred_uncond, noise_pred_drop_audio = (None, None, None)
 
                         noise_pred_cond = self.model(latent_model_input, t=timestep, **arg_c)[0]
-
+                        _chk("noise_pred_cond", noise_pred_cond)
                         if text_guide_scale > 1.0 and audio_guide_scale > 1.0:
                             noise_pred_drop_text = self.model(latent_model_input, t=timestep, **arg_null_text)[0]
                             noise_pred_uncond = self.model(latent_model_input, t=timestep, **arg_null)[0]
@@ -795,8 +838,9 @@ class TalkingAvatarPipeline:
 
                         dt = timesteps[i] - timesteps[i + 1]
                         dt = dt / self.num_timesteps
+                        _chk("latent_before", latent)
                         latent = latent + noise_pred * dt[:, None, None, None]
-
+                        _chk("latent_after", latent)
                         if not is_first_clip:
                             latent_motion_frames = latent_motion_frames.to(latent.dtype).to(self.device)
                             motion_add_noise = torch.randn_like(latent_motion_frames).contiguous()
@@ -818,7 +862,15 @@ class TalkingAvatarPipeline:
                     videos = videos[:, :, :-drop_frame]
 
                 videos = match_and_blend_colors(videos, original_color_reference, 1.0)
+                print("[dbg] after match_and_blend_colors:",
+                    videos.dtype, videos.shape,
+                    "min/max/mean=", float(videos.min()), float(videos.max()), float(videos.mean()))
+
                 processed_videos = process_video_samples(videos)
+                print("[dbg] after process_video_samples:",
+                    processed_videos.dtype, processed_videos.shape,
+                    "min/max/mean=", float(processed_videos.min()), float(processed_videos.max()), float(processed_videos.float().mean()))
+
                 videos = videos.cpu()
 
                 if not is_first_clip:

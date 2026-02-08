@@ -11,6 +11,7 @@ import torch
 import torch.distributed as dist
 import wandb
 import yaml
+import numpy as np
 
 from skyreels_v3.configs import WAN_CONFIGS
 from skyreels_v3.pipelines import TalkingAvatarPipeline
@@ -321,7 +322,10 @@ def main():
                 except TypeError:
                     # video_out 可能是 numpy array，没有 __len__? 一般有，这里兜底
                     pass
-
+                print("video_out:", type(video_out), getattr(video_out, "shape", None), getattr(video_out, "dtype", None))
+                if isinstance(video_out, np.ndarray):
+                    print("min/max/mean:", float(video_out.min()), float(video_out.max()), float(video_out.mean()))
+                    print("first frame mean:", float(video_out[0].mean()))
                 break  # 成功就跳出重试循环
 
             except Exception:

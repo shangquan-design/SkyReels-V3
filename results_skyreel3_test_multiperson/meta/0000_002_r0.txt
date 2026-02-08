@@ -1,0 +1,9 @@
+index: 0
+sample_id: 0000_002
+image: /workspace/multi-person/videos_out/002.png
+audio_or_media: /workspace/multi-person/videos_out/002.wav
+seed: 201
+bucket: 720P
+rank: 0
+saved_video: /workspace/SkyReels-V3/results_skyreel3_test_multiperson/final_with_audio/0000_002_seed201_2026-02-08_14-43-13_r0.mp4
+prompt: In this animated sequence, two yellow, cylindrical Minions in denim overalls are standing on a red carpet in a well-lit room. The one on the left, who is shorter and has one eye, is looking at the taller, two-eyed Minion on the right with a skeptical and bored expression. The taller Minion is gesturing with his hands as if he's explaining something, and his mouth is moving as if he's speaking. The background features a cream-colored wall with some subtle decorative molding. The lighting is soft and even, highlighting the Minions' bright yellow skin and the texture of their overalls. The camera remains stationary, focusing on the interaction between the two characters.
